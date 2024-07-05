@@ -10,8 +10,8 @@
       "dataSource": {
         "kind": "folder",
         "config": {
-          "path": "",
-          "recursive": false
+          "path": "work",
+          "recursive": true
         }
       },
       "newNotesFolder": "",
@@ -23,7 +23,24 @@
             "conditions": []
           },
           "colors": {
-            "conditions": []
+            "conditions": [
+              {
+                "color": "#a882ff",
+                "condition": {
+                  "field": "name",
+                  "operator": "is-not-empty",
+                  "enabled": true
+                }
+              },
+              {
+                "color": "#a882ff",
+                "condition": {
+                  "field": "path",
+                  "operator": "is-not",
+                  "enabled": true
+                }
+              }
+            ]
           },
           "sort": {
             "criteria": []
