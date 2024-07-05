@@ -20,17 +20,19 @@
             }
           },
           {
-            "id": "668d5c4a01476b29",
+            "id": "20d44ccf388cdb58",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2024-07-05 11.37.15.excalidraw.md"
+                "file": "work/CV.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
           {
-            "id": "20d44ccf388cdb58",
+            "id": "434847732ffb98b6",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -168,18 +170,18 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "20d44ccf388cdb58",
+  "active": "434847732ffb98b6",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2024-07-05 11.37.15.excalidraw.md",
+    "work/CV.md",
     "Excalidraw/Drawing 2024-07-05 11.37.15_0.excalidraw.md",
     "README.md",
+    "Excalidraw/Drawing 2024-07-05 11.37.15.excalidraw.md",
     "Excalidraw/Drawing 2024-07-05 11.31.53.excalidraw.md",
     "Pasted image 20240705113026.png",
     "Excalidraw/Drawing 2024-07-05 11.29.52.excalidraw.md",
     "Excalidraw",
     "da",
     "r",
-    "work/CV.md",
     "work",
     "work/go",
     "work/network",
