@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "97e3d28c5e9c3748",
+            "id": "8437e4bda90eeb7d",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2024-07-05 11.29.52.excalidraw.md"
+                "file": "Excalidraw/Drawing 2024-07-05 11.31.53.excalidraw.md"
               }
             }
           }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-07-05 11.29.52.excalidraw.md",
+                "file": "Excalidraw/Drawing 2024-07-05 11.31.53.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-07-05 11.29.52.excalidraw.md",
+                "file": "Excalidraw/Drawing 2024-07-05 11.31.53.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-07-05 11.29.52.excalidraw.md"
+                "file": "Excalidraw/Drawing 2024-07-05 11.31.53.excalidraw.md"
               }
             }
           }
@@ -158,9 +158,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "97e3d28c5e9c3748",
+  "active": "8437e4bda90eeb7d",
   "lastOpenFiles": [
     "README.md",
+    "Excalidraw/Drawing 2024-07-05 11.31.53.excalidraw.md",
     "Pasted image 20240705113026.png",
     "Excalidraw/Drawing 2024-07-05 11.29.52.excalidraw.md",
     "Excalidraw",
