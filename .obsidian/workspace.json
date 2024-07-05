@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "97a096d50575055a",
+        "id": "ac39104375264ea1",
         "type": "tabs",
         "children": [
           {
-            "id": "804943656d950fea",
+            "id": "d5495347d0d31c94",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -147,10 +147,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "804943656d950fea",
+  "active": "d5495347d0d31c94",
   "lastOpenFiles": [
-    "work/CV.md",
     "work/k8s/karmada.md",
+    "work/CV.md",
     "README.md",
     "Excalidraw/Drawing 2024-07-05 11.37.15.excalidraw.md",
     "Pasted image 20240705114246.png",
