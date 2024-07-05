@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CV.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CV.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CV.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CV.md"
+                "file": "README.md"
               }
             }
           }
@@ -149,13 +149,14 @@
   },
   "active": "6e4ba0b0df50a3b1",
   "lastOpenFiles": [
+    "r",
+    "work/CV.md",
     "work",
     "README.md",
-    "go",
-    "network",
-    "linux",
-    "k8s",
-    "CV.md",
+    "work/go",
+    "work/network",
+    "work/linux",
+    "work/k8s",
     "欢迎.md"
   ]
 }
