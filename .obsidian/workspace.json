@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "97e3d28c5e9c3748",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-07-05 11.29.52.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Excalidraw/Drawing 2024-07-05 11.29.52.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Excalidraw/Drawing 2024-07-05 11.29.52.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Excalidraw/Drawing 2024-07-05 11.29.52.excalidraw.md"
               }
             }
           }
@@ -147,13 +158,15 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "6e4ba0b0df50a3b1",
+  "active": "97e3d28c5e9c3748",
   "lastOpenFiles": [
+    "README.md",
+    "Excalidraw/Drawing 2024-07-05 11.29.52.excalidraw.md",
+    "Excalidraw",
     "da",
     "r",
     "work/CV.md",
     "work",
-    "README.md",
     "work/go",
     "work/network",
     "work/linux",
