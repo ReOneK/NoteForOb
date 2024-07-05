@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/go/GC.md",
-                "mode": "source",
+                "file": "work/network/容器网络/Calico.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/go/GC.md",
+                "file": "work/network/容器网络/Calico.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "work/go/GC.md",
+                "file": "work/network/容器网络/Calico.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/go/GC.md"
+                "file": "work/network/容器网络/Calico.md"
               }
             }
           }
@@ -149,21 +149,21 @@
   },
   "active": "d5495347d0d31c94",
   "lastOpenFiles": [
-    "work/go/并发/sync.Map.md",
-    "work/go/GC.md",
-    "work/go/并发/Mutex.md",
-    "work/go/并发/sync.Pool.md",
-    "work/go/并发",
-    "work/go/channel.md",
-    "work/go/context.md",
     "work/network/容器网络/基础概念.md",
-    "work/k8s/多集群管理与调度/基础概念.md",
     "work/k8s/多集群管理与调度/Vocano.md",
+    "work/k8s/多集群管理与调度/karmada.md",
+    "work/k8s/多集群管理与调度/基础概念.md",
+    "work/go/GC.md",
+    "work/go/context.md",
+    "work/go/channel.md",
+    "work/go/并发/sync.Pool.md",
+    "work/go/并发/sync.Map.md",
+    "work/go/并发/Mutex.md",
+    "work/go/并发",
     "work/k8s/多集群管理与调度",
     "work/network/容器网络/Cilium.md",
     "work/network/容器网络/Calico.md",
     "work/network/容器网络/Flannel.md",
-    "work/k8s/多集群管理与调度/karmada.md",
     "work/CV.md",
     "work/network/容器网络",
     "work/network/未命名.md",
