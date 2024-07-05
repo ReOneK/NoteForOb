@@ -18,8 +18,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0b66da43fead2008",
+            "type": "leaf",
+            "state": {
+              "type": "obsidian-projects",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/network/容器网络/Flannel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "work/network/容器网络/Flannel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "work/network/容器网络/Flannel.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -144,11 +149,15 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "templater-obsidian:Templater": false,
+      "obsidian42-brat:BRAT": false,
+      "obsidian-projects:Open projects": false
     }
   },
-  "active": "d5495347d0d31c94",
+  "active": "0b66da43fead2008",
   "lastOpenFiles": [
+    "work/network/容器网络/Flannel.md",
     "work/network/容器网络/Cilium.md",
     "work/network/容器网络/Calico.md",
     "work/network/容器网络/基础概念.md",
@@ -163,7 +172,6 @@
     "work/go/并发/Mutex.md",
     "work/go/并发",
     "work/k8s/多集群管理与调度",
-    "work/network/容器网络/Flannel.md",
     "work/CV.md",
     "work/network/容器网络",
     "work/network/未命名.md",
