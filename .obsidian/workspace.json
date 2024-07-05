@@ -147,8 +147,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "d5495347d0d31c94",
+  "active": "6e4ba0b0df50a3b1",
   "lastOpenFiles": [
+    "work/go/并发",
     "work/go/channel.md",
     "work/go/sync.Pool.md",
     "work/go/context.md",
