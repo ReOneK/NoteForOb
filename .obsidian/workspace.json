@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/go/Channel.md",
+                "file": "work/go/sync.Pool.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/go/Channel.md",
+                "file": "work/go/sync.Pool.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "work/go/Channel.md",
+                "file": "work/go/sync.Pool.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/go/Channel.md"
+                "file": "work/go/sync.Pool.md"
               }
             }
           }
@@ -149,8 +149,9 @@
   },
   "active": "d5495347d0d31c94",
   "lastOpenFiles": [
+    "work/go/channel.md",
+    "work/go/sync.Pool.md",
     "work/go/context.md",
-    "work/go/Channel.md",
     "work/network/容器网络/基础概念.md",
     "work/k8s/多集群管理与调度/基础概念.md",
     "work/k8s/多集群管理与调度/Vocano.md",
