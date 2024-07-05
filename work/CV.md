@@ -32,5 +32,3 @@
         
 2. 增强容器，支持业务给自己的容器扩展io limit,swapniss,pid limit等参数
 
-
-[[Drawing 2024-07-05 11.37.15_0.excalidraw]]
