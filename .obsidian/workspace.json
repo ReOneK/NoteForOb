@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/CV.md",
+                "file": "work/k8s/未命名.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/CV.md",
+                "file": "work/k8s/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "work/CV.md",
+                "file": "work/k8s/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/CV.md"
+                "file": "work/k8s/未命名.md"
               }
             }
           }
@@ -149,8 +149,9 @@
   },
   "active": "804943656d950fea",
   "lastOpenFiles": [
-    "README.md",
     "work/CV.md",
+    "work/k8s/未命名.md",
+    "README.md",
     "Excalidraw/Drawing 2024-07-05 11.37.15.excalidraw.md",
     "Pasted image 20240705114246.png",
     "Excalidraw/Drawing 2024-07-05 11.37.15_0.excalidraw.md",
