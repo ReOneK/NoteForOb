@@ -23,8 +23,12 @@
             "id": "0b66da43fead2008",
             "type": "leaf",
             "state": {
-              "type": "obsidian-projects",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -94,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "README.md"
+              }
             }
           }
         ]
@@ -157,6 +165,7 @@
   },
   "active": "0b66da43fead2008",
   "lastOpenFiles": [
+    "test.md",
     "work/network/容器网络/Flannel.md",
     "work/network/容器网络/Cilium.md",
     "work/network/容器网络/Calico.md",

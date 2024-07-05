@@ -1,6 +1,42 @@
 {
   "version": 2,
-  "projects": [],
+  "projects": [
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "d86c4372-fec1-4f16-a3b1-eb22d45e036a",
+          "name": "表格",
+          "type": "table"
+        }
+      ],
+      "id": "3c70b608-c1e4-4fe8-a555-a3fdea2043b7",
+      "name": "test"
+    }
+  ],
   "archives": [],
   "preferences": {
     "projectSizeLimit": 1000,
