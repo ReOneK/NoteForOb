@@ -1,5 +1,4 @@
-#### Sync.Map（适合多读少写）
-
+```
 type Map struct {  
   mu Mutex // 排他锁，用于对dirty map操作时候加锁处理  
 ​  
@@ -11,7 +10,7 @@ type Map struct {
   // 用来记录从read map中读取key时miss的次数  
   misses int  
 }
-
+```
 1. 适合多读少写，用空间换时间
     
 2. 底层两个map，优先从read map中读取，更新，删除，无需加锁
