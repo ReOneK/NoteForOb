@@ -4,7 +4,7 @@
         
     2. goland的channel通过添加一个qcount来记录
         
-2. channel规则
+#### channel规则
     
     1. Close(ch)
         
@@ -22,7 +22,7 @@
             
         2. 关闭的channel会panic
             
-3. 发送流程（val --> chan）
+#### 发送流程（val --> chan）
     
     1. 快速路径 - 非阻塞发送:
         
@@ -59,7 +59,8 @@
         
     - `panic`: 向已关闭的 channel 发送数据会引发 panic，因为这通常是一个编程错误，需要开发者排查代码逻辑。
         
-4. 接收流程 (val <-- chan)
+	 
+#### 接收流程 (val <-- chan)
     
     1. 快速路径 - 非阻塞接收:
         
