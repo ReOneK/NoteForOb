@@ -11,7 +11,7 @@
         "kind": "folder",
         "config": {
           "path": "work/go",
-          "recursive": false
+          "recursive": true
         }
       },
       "newNotesFolder": "",
@@ -35,6 +35,41 @@
       ],
       "id": "a346bf44-a44d-45b2-913a-389672944b4f",
       "name": "go"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "work/k8s",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "4f796c59-b1e5-445f-8bf9-c4f1e795ef30",
+          "name": "表格",
+          "type": "table"
+        }
+      ],
+      "id": "51c80688-cfa8-4edc-a772-451f9fa0c04c",
+      "name": "k8s"
     }
   ],
   "archives": [],
