@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/go/sync.Pool.md",
+                "file": "work/go/并发/sync.Map.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/go/sync.Pool.md",
+                "file": "work/go/并发/sync.Map.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "work/go/sync.Pool.md",
+                "file": "work/go/并发/sync.Map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/go/sync.Pool.md"
+                "file": "work/go/并发/sync.Map.md"
               }
             }
           }
@@ -147,11 +147,13 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "6e4ba0b0df50a3b1",
+  "active": "d5495347d0d31c94",
   "lastOpenFiles": [
+    "work/go/并发/Mutex.md",
+    "work/go/并发/sync.Map.md",
+    "work/go/并发/sync.Pool.md",
     "work/go/并发",
     "work/go/channel.md",
-    "work/go/sync.Pool.md",
     "work/go/context.md",
     "work/network/容器网络/基础概念.md",
     "work/k8s/多集群管理与调度/基础概念.md",
@@ -178,7 +180,6 @@
     "work",
     "work/go",
     "work/network",
-    "work/linux",
     "欢迎.md"
   ]
 }
