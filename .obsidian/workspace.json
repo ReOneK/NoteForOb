@@ -30,17 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "d343427a6f2d9c79",
-            "type": "leaf",
-            "state": {
-              "type": "obsidian-projects",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/network/容器网络/Flannel.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "work/network/容器网络/Flannel.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/network/容器网络/Flannel.md"
+                "file": "README.md"
               }
             }
           }
@@ -171,7 +163,7 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "d343427a6f2d9c79",
+  "active": "0b66da43fead2008",
   "lastOpenFiles": [
     "README.md",
     "test.md",
