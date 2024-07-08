@@ -9,10 +9,14 @@ kanban-plugin: board
 - [ ] hello
 
 
+## test1
+
+
+
 
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false]}
+{"kanban-plugin":"board","list-collapse":[false,false]}
 ```
 %%

@@ -11,15 +11,11 @@
             "id": "07eae307dffe3a4b",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
                 "file": "daily life.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false
-                  ]
-                }
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -172,8 +168,9 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "65229f450f2d968a",
+  "active": "07eae307dffe3a4b",
   "lastOpenFiles": [
+    "未命名看板.md",
     "daily life.md",
     "Excalidraw/Drawing 2024-07-05 14.48.42.excalidraw.md",
     "work/network/容器网络/Flannel.md",
