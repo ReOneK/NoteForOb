@@ -10,5 +10,6 @@
   "obsidian-tasks-plugin",
   "obsidian-kanban",
   "calendar",
-  "obsidian-mind-map"
+  "obsidian-mind-map",
+  "obsidian-linter"
 ]
