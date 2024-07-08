@@ -13,7 +13,7 @@
             "state": {
               "type": "kanban",
               "state": {
-                "file": "未命名看板.md",
+                "file": "daily life.md",
                 "kanbanViewState": {
                   "kanban-plugin": "board",
                   "list-collapse": [
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未命名看板.md",
+                "file": "daily life.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "未命名看板.md",
+                "file": "daily life.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名看板.md"
+                "file": "daily life.md"
               }
             }
           },
@@ -140,13 +140,21 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "65229f450f2d968a",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,9 +172,9 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "07eae307dffe3a4b",
+  "active": "65229f450f2d968a",
   "lastOpenFiles": [
-    "未命名看板.md",
+    "daily life.md",
     "Excalidraw/Drawing 2024-07-05 14.48.42.excalidraw.md",
     "work/network/容器网络/Flannel.md",
     "README.md",

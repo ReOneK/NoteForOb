@@ -6,6 +6,7 @@ kanban-plugin: board
 
 ## da📅 2024-07-08
 
+- [ ] hello
 
 
 
