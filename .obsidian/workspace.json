@@ -97,7 +97,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "linksCollapsed": false,
+                "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
@@ -160,8 +160,9 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "768a83dc3810f3e9",
+  "active": "ca25b929f2e99b3a",
   "lastOpenFiles": [
+    "work/go/GC.md",
     "work/go/channel.md",
     "daily life.md",
     "未命名看板.md",
@@ -175,7 +176,6 @@
     "work/k8s/多集群管理与调度/Vocano.md",
     "work/k8s/多集群管理与调度/karmada.md",
     "work/k8s/多集群管理与调度/基础概念.md",
-    "work/go/GC.md",
     "work/go/context.md",
     "work/go/并发/sync.Pool.md",
     "work/go/并发/sync.Map.md",
