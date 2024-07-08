@@ -11,7 +11,7 @@
             "id": "ca25b929f2e99b3a",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {}
             }
           }
@@ -86,7 +86,7 @@
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
@@ -138,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -160,8 +160,9 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "ca25b929f2e99b3a",
+  "active": "768a83dc3810f3e9",
   "lastOpenFiles": [
+    "work/go/channel.md",
     "daily life.md",
     "未命名看板.md",
     "Excalidraw/Drawing 2024-07-05 14.48.42.excalidraw.md",
@@ -176,7 +177,6 @@
     "work/k8s/多集群管理与调度/基础概念.md",
     "work/go/GC.md",
     "work/go/context.md",
-    "work/go/channel.md",
     "work/go/并发/sync.Pool.md",
     "work/go/并发/sync.Map.md",
     "work/go/并发/Mutex.md",
