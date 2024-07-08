@@ -11,8 +11,16 @@
             "id": "07eae307dffe3a4b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "kanban",
+              "state": {
+                "file": "未命名看板.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false
+                  ]
+                }
+              }
             }
           }
         ]
@@ -81,6 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "未命名看板.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "未命名看板.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +128,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "未命名看板.md"
+              }
             }
           },
           {
@@ -154,6 +166,7 @@
   },
   "active": "07eae307dffe3a4b",
   "lastOpenFiles": [
+    "未命名看板.md",
     "Excalidraw/Drawing 2024-07-05 14.48.42.excalidraw.md",
     "work/network/容器网络/Flannel.md",
     "README.md",
