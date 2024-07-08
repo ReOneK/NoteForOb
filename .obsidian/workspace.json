@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "b33df7b25223debb",
+        "id": "c114c695864fd43f",
         "type": "tabs",
         "children": [
           {
-            "id": "07eae307dffe3a4b",
+            "id": "ca25b929f2e99b3a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "daily life.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily life.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily life.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "daily life.md"
-              }
+              "state": {}
             }
           },
           {
@@ -168,10 +160,10 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "07eae307dffe3a4b",
+  "active": "ca25b929f2e99b3a",
   "lastOpenFiles": [
-    "未命名看板.md",
     "daily life.md",
+    "未命名看板.md",
     "Excalidraw/Drawing 2024-07-05 14.48.42.excalidraw.md",
     "work/network/容器网络/Flannel.md",
     "README.md",
