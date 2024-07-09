@@ -4,22 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "8cf4b94dd7bb9c10",
+        "id": "befe7e7c760025e9",
         "type": "tabs",
         "children": [
           {
-            "id": "a097ce735267dfc1",
+            "id": "250992217e7d7a56",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "work note.canvas",
-                "viewState": {
-                  "x": -416,
-                  "y": -595.0698974609376,
-                  "zoom": 0
-                }
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -88,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work note.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "work note.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -127,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "work note.canvas"
-              }
+              "state": {}
             }
           },
           {
@@ -171,11 +160,11 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "a097ce735267dfc1",
+  "active": "250992217e7d7a56",
   "lastOpenFiles": [
+    "work note.canvas",
     "Excalidraw/test.md",
     "Excalidraw/未命名.canvas",
-    "work note.canvas",
     "未命名.canvas",
     "README.md",
     "daily note",

@@ -1,13 +1,4 @@
 {
-	"nodes":[
-		{"id":"53aab2d5cc748974","x":-619,"y":-978,"width":400,"height":400,"type":"file","file":"Excalidraw/test.md"},
-		{"id":"a7d29a59449243db","type":"text","text":"note","x":-541,"y":-206,"width":250,"height":60},
-		{"id":"58fa8576ede01ebf","x":-540,"y":-367,"width":250,"height":60,"type":"text","text":"ss"},
-		{"id":"44c45f11d4e52e58","x":-543,"y":-510,"width":250,"height":60,"type":"text","text":"sss"}
-	],
-	"edges":[
-		{"id":"9f06e3a7ae54940e","fromNode":"a7d29a59449243db","fromSide":"top","toNode":"58fa8576ede01ebf","toSide":"bottom"},
-		{"id":"e0a8e296dd64de57","fromNode":"58fa8576ede01ebf","fromSide":"top","toNode":"44c45f11d4e52e58","toSide":"bottom"},
-		{"id":"18ecb2ef214cf6e1","fromNode":"44c45f11d4e52e58","fromSide":"top","toNode":"53aab2d5cc748974","toSide":"bottom"}
-	]
+	"nodes":[],
+	"edges":[]
 }
