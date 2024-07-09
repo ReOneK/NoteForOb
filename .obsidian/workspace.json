@@ -4,16 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7676d823ec9cf27b",
+        "id": "8cf4b94dd7bb9c10",
         "type": "tabs",
         "children": [
           {
-            "id": "0046e87f715dd6c2",
+            "id": "a097ce735267dfc1",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "canvas",
               "state": {
-                "file": "Excalidraw/Drawing 2024-07-09 14.36.14.excalidraw.md"
+                "file": "work note.canvas",
+                "viewState": {
+                  "x": -416,
+                  "y": -595.0698974609376,
+                  "zoom": 0
+                }
               }
             }
           }
@@ -83,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-07-09 14.36.14.excalidraw.md",
+                "file": "work note.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-07-09 14.36.14.excalidraw.md",
+                "file": "work note.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-07-09 14.36.14.excalidraw.md"
+                "file": "work note.canvas"
               }
             }
           },
@@ -166,10 +171,10 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "0046e87f715dd6c2",
+  "active": "a097ce735267dfc1",
   "lastOpenFiles": [
+    "Excalidraw/test.md",
     "Excalidraw/未命名.canvas",
-    "Excalidraw/Drawing 2024-07-09 14.36.14.excalidraw.md",
     "work note.canvas",
     "未命名.canvas",
     "README.md",
