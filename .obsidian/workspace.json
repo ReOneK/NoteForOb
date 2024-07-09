@@ -138,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -160,7 +160,7 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "6e4ba0b0df50a3b1",
+  "active": "f490a39c4603af26",
   "lastOpenFiles": [
     "2024-07-08.md",
     "work/go/GC.md",
