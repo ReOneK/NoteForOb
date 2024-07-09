@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8a36b18861b40c87",
+        "id": "b41caf66de3e348d",
         "type": "tabs",
         "children": [
           {
-            "id": "eaa0717d331029ee",
+            "id": "2e755ae58ba15605",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "未命名.canvas",
+                "file": "work note.canvas",
                 "viewState": {
                   "x": 0,
                   "y": 0,
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未命名.canvas",
+                "file": "work note.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "未命名.canvas",
+                "file": "work note.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名.canvas"
+                "file": "work note.canvas"
               }
             }
           },
@@ -171,9 +171,10 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "eaa0717d331029ee",
+  "active": "2e755ae58ba15605",
   "lastOpenFiles": [
     "未命名.canvas",
+    "work note.canvas",
     "README.md",
     "daily note",
     "work note/CV.md",
