@@ -4,15 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "6e5615b22b5979fb",
+        "id": "8a36b18861b40c87",
         "type": "tabs",
         "children": [
           {
-            "id": "75e2074c51424967",
+            "id": "eaa0717d331029ee",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "canvas",
+              "state": {
+                "file": "未命名.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              }
             }
           }
         ]
@@ -81,6 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "未命名.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "未命名.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +127,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "未命名.canvas"
+              }
             }
           },
           {
@@ -160,37 +171,37 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "6e4ba0b0df50a3b1",
+  "active": "eaa0717d331029ee",
   "lastOpenFiles": [
-    "未命名",
-    "note/CV.md",
-    "daily life.md",
     "未命名.canvas",
+    "README.md",
+    "daily note",
+    "work note/CV.md",
+    "daily life.md",
     "未命名看板.md",
     "2024-07-09.md",
     "未命名.md",
     "2024-07-08.md",
-    "note/go/GC.md",
-    "note/go/channel.md",
+    "work note/go/GC.md",
+    "work note/go/channel.md",
     "Excalidraw/Drawing 2024-07-05 14.48.42.excalidraw.md",
-    "note/network/容器网络/Flannel.md",
-    "README.md",
+    "work note/network/容器网络/Flannel.md",
     "test.md",
-    "note/network/容器网络/Cilium.md",
-    "note/network/容器网络/Calico.md",
-    "note/network/容器网络/基础概念.md",
-    "note/k8s/多集群管理与调度/Vocano.md",
-    "note/k8s/多集群管理与调度/karmada.md",
-    "note/k8s/多集群管理与调度/基础概念.md",
-    "note/go/context.md",
-    "note/go/并发/sync.Pool.md",
-    "note/go/并发/sync.Map.md",
-    "note/go/并发/Mutex.md",
-    "note/go/并发",
-    "note/k8s/多集群管理与调度",
-    "note/network/容器网络",
+    "work note/network/容器网络/Cilium.md",
+    "work note/network/容器网络/Calico.md",
+    "work note/network/容器网络/基础概念.md",
+    "work note/k8s/多集群管理与调度/Vocano.md",
+    "work note/k8s/多集群管理与调度/karmada.md",
+    "work note/k8s/多集群管理与调度/基础概念.md",
+    "work note/go/context.md",
+    "work note/go/并发/sync.Pool.md",
+    "work note/go/并发/sync.Map.md",
+    "work note/go/并发/Mutex.md",
+    "work note/go/并发",
+    "work note/k8s/多集群管理与调度",
+    "work note/network/容器网络",
     "work/network/未命名.md",
-    "note/network/容器网络",
+    "work note/network/容器网络",
     "Excalidraw/Drawing 2024-07-05 11.37.15.excalidraw.md",
     "Pasted image 20240705114246.png",
     "Excalidraw/Drawing 2024-07-05 11.37.15_0.excalidraw.md",
@@ -198,8 +209,7 @@
     "Excalidraw",
     "da",
     "r",
-    "note",
-    "note/go",
-    "note/network"
+    "work note",
+    "work note/go"
   ]
 }
