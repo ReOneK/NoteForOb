@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bcf1249163c71836",
+        "id": "9c8911772e5c7f3b",
         "type": "tabs",
         "children": [
           {
-            "id": "d7a7868b7416b4c9",
+            "id": "8d5f6b5426aa33be",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -160,13 +160,13 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "f490a39c4603af26",
+  "active": "8d5f6b5426aa33be",
   "lastOpenFiles": [
+    "daily life.md",
+    "未命名看板.md",
     "2024-07-08.md",
     "work/go/GC.md",
     "work/go/channel.md",
-    "daily life.md",
-    "未命名看板.md",
     "Excalidraw/Drawing 2024-07-05 14.48.42.excalidraw.md",
     "work/network/容器网络/Flannel.md",
     "README.md",
