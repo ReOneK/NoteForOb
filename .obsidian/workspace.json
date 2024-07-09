@@ -4,21 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b41caf66de3e348d",
+        "id": "7676d823ec9cf27b",
         "type": "tabs",
         "children": [
           {
-            "id": "2e755ae58ba15605",
+            "id": "0046e87f715dd6c2",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "excalidraw",
               "state": {
-                "file": "work note.canvas",
-                "viewState": {
-                  "x": -416,
-                  "y": -176,
-                  "zoom": 0
-                }
+                "file": "Excalidraw/Drawing 2024-07-09 14.36.14.excalidraw.md"
               }
             }
           }
@@ -88,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work note.canvas",
+                "file": "Excalidraw/Drawing 2024-07-09 14.36.14.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "work note.canvas",
+                "file": "Excalidraw/Drawing 2024-07-09 14.36.14.excalidraw.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work note.canvas"
+                "file": "Excalidraw/Drawing 2024-07-09 14.36.14.excalidraw.md"
               }
             }
           },
@@ -171,10 +166,12 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "2e755ae58ba15605",
+  "active": "0046e87f715dd6c2",
   "lastOpenFiles": [
-    "未命名.canvas",
+    "Excalidraw/未命名.canvas",
+    "Excalidraw/Drawing 2024-07-09 14.36.14.excalidraw.md",
     "work note.canvas",
+    "未命名.canvas",
     "README.md",
     "daily note",
     "work note/CV.md",
@@ -205,7 +202,6 @@
     "work note/network/容器网络",
     "Excalidraw/Drawing 2024-07-05 11.37.15.excalidraw.md",
     "Pasted image 20240705114246.png",
-    "Excalidraw/Drawing 2024-07-05 11.37.15_0.excalidraw.md",
     "Pasted image 20240705113026.png",
     "Excalidraw",
     "da",
