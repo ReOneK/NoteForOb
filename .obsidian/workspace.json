@@ -11,8 +11,14 @@
             "id": "918b3a1b95289508",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "kanban",
+              "state": {
+                "file": "未命名看板.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": []
+                }
+              }
             }
           }
         ]
@@ -81,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "未命名看板.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "未命名看板.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +126,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "未命名看板.md"
+              }
             }
           },
           {
@@ -160,12 +170,12 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "6e4ba0b0df50a3b1",
+  "active": "918b3a1b95289508",
   "lastOpenFiles": [
+    "未命名看板.md",
     "2024-07-09.md",
     "未命名.md",
     "daily life.md",
-    "未命名看板.md",
     "2024-07-08.md",
     "work/go/GC.md",
     "work/go/channel.md",
