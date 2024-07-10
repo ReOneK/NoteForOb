@@ -4,20 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "befe7e7c760025e9",
+        "id": "f9fe78c1b292eda1",
         "type": "tabs",
         "children": [
           {
-            "id": "250992217e7d7a56",
+            "id": "d41fc2091f9be556",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "kanban",
               "state": {
-                "file": "work note.canvas",
-                "viewState": {
-                  "x": 7.5,
-                  "y": -5,
-                  "zoom": 0
+                "file": "未命名看板.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": []
                 }
               }
             }
@@ -88,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work note.canvas",
+                "file": "未命名看板.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "work note.canvas",
+                "file": "未命名看板.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work note.canvas"
+                "file": "未命名看板.md"
               }
             }
           },
@@ -171,17 +170,17 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "250992217e7d7a56",
+  "active": "d41fc2091f9be556",
   "lastOpenFiles": [
+    "未命名看板.md",
+    "未命名.canvas",
     "work note.canvas",
     "Excalidraw/test.md",
     "Excalidraw/未命名.canvas",
-    "未命名.canvas",
     "README.md",
     "daily note",
     "work note/CV.md",
     "daily life.md",
-    "未命名看板.md",
     "2024-07-09.md",
     "未命名.md",
     "2024-07-08.md",
