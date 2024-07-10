@@ -16,7 +16,9 @@
                 "file": "未命名看板.md",
                 "kanbanViewState": {
                   "kanban-plugin": "board",
-                  "list-collapse": []
+                  "list-collapse": [
+                    false
+                  ]
                 }
               }
             }
