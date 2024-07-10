@@ -4,18 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d43573ae35864fc2",
+        "id": "61d004835b274f98",
         "type": "tabs",
         "children": [
           {
-            "id": "55b4e478b95664a1",
+            "id": "a83c8fd3c19a7079",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "work note/go/channel.md",
-                "mode": "source",
-                "source": false
+                "file": "知识图谱/未命名.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               }
             }
           }
@@ -85,13 +88,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work note/go/channel.md",
+                "file": "知识图谱/未命名.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
+                "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
@@ -102,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "work note/go/channel.md",
+                "file": "知识图谱/未命名.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work note/go/channel.md"
+                "file": "知识图谱/未命名.canvas"
               }
             }
           },
@@ -145,13 +148,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -169,9 +170,12 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "55b4e478b95664a1",
+  "active": "a83c8fd3c19a7079",
   "lastOpenFiles": [
     "work note.canvas",
+    "知识图谱/未命名.canvas",
+    "知识图谱",
+    "work note/go/channel.md",
     "半年学习计划.md",
     "work note/network/容器网络/基础概念.md",
     "未命名.canvas",
@@ -185,7 +189,6 @@
     "未命名.md",
     "2024-07-08.md",
     "work note/go/GC.md",
-    "work note/go/channel.md",
     "Excalidraw/Drawing 2024-07-05 14.48.42.excalidraw.md",
     "work note/network/容器网络/Flannel.md",
     "test.md",
@@ -209,7 +212,6 @@
     "Excalidraw",
     "da",
     "r",
-    "work note",
-    "work note/go"
+    "work note"
   ]
 }
