@@ -11,8 +11,12 @@
             "id": "55b4e478b95664a1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "work note/go/channel.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work note/network/容器网络/基础概念.md",
+                "file": "work note/go/channel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "work note/network/容器网络/基础概念.md",
+                "file": "work note/go/channel.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work note/network/容器网络/基础概念.md"
+                "file": "work note/go/channel.md"
               }
             }
           },
@@ -165,11 +169,11 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "6e4ba0b0df50a3b1",
+  "active": "55b4e478b95664a1",
   "lastOpenFiles": [
+    "work note.canvas",
     "半年学习计划.md",
     "work note/network/容器网络/基础概念.md",
-    "work note.canvas",
     "未命名.canvas",
     "Excalidraw/test.md",
     "Excalidraw/未命名.canvas",
