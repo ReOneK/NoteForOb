@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work note/go/channel.md",
+                "file": "work note/go/GC.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work note/go/channel.md",
+                "file": "work note/go/GC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "work note/go/channel.md",
+                "file": "work note/go/GC.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work note/go/channel.md"
+                "file": "work note/go/GC.md"
               }
             }
           },
@@ -169,10 +169,10 @@
   },
   "active": "a83c8fd3c19a7079",
   "lastOpenFiles": [
+    "work note/go/context.md",
+    "work note/go/channel.md",
     "半年学习计划.md",
     "work note.canvas",
-    "work note/go/channel.md",
-    "work note/go/context.md",
     "知识图谱/k8s.canvas",
     "知识图谱",
     "work note/network/容器网络/基础概念.md",
