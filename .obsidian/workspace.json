@@ -11,11 +11,14 @@
             "id": "a83c8fd3c19a7079",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "work note/go/GC.md",
-                "mode": "source",
-                "source": false
+                "file": "work note.canvas",
+                "viewState": {
+                  "x": -16.5,
+                  "y": -109.5,
+                  "zoom": 0
+                }
               }
             }
           }
@@ -85,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work note/go/GC.md",
+                "file": "work note.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "work note/go/GC.md",
+                "file": "work note.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work note/go/GC.md"
+                "file": "work note.canvas"
               }
             }
           },
@@ -169,46 +172,46 @@
   },
   "active": "a83c8fd3c19a7079",
   "lastOpenFiles": [
-    "work note/go/context.md",
-    "work note/go/channel.md",
+    "知识库/go/GC.md",
+    "知识库/go/context.md",
+    "知识库/go/channel.md",
     "半年学习计划.md",
     "work note.canvas",
     "知识图谱/k8s.canvas",
     "知识图谱",
-    "work note/network/容器网络/基础概念.md",
+    "知识库/network/容器网络/基础概念.md",
     "未命名.canvas",
     "Excalidraw/test.md",
     "Excalidraw/未命名.canvas",
     "README.md",
-    "daily note",
-    "work note/CV.md",
+    "读书笔记",
+    "知识库/CV.md",
     "daily life.md",
     "2024-07-09.md",
     "未命名.md",
     "2024-07-08.md",
-    "work note/go/GC.md",
     "Excalidraw/Drawing 2024-07-05 14.48.42.excalidraw.md",
-    "work note/network/容器网络/Flannel.md",
+    "知识库/network/容器网络/Flannel.md",
     "test.md",
-    "work note/network/容器网络/Cilium.md",
-    "work note/network/容器网络/Calico.md",
-    "work note/k8s/多集群管理与调度/Vocano.md",
-    "work note/k8s/多集群管理与调度/karmada.md",
-    "work note/k8s/多集群管理与调度/基础概念.md",
-    "work note/go/并发/sync.Pool.md",
-    "work note/go/并发/sync.Map.md",
-    "work note/go/并发/Mutex.md",
-    "work note/go/并发",
-    "work note/k8s/多集群管理与调度",
-    "work note/network/容器网络",
+    "知识库/network/容器网络/Cilium.md",
+    "知识库/network/容器网络/Calico.md",
+    "知识库/k8s/多集群管理与调度/Vocano.md",
+    "知识库/k8s/多集群管理与调度/karmada.md",
+    "知识库/k8s/多集群管理与调度/基础概念.md",
+    "知识库/go/并发/sync.Pool.md",
+    "知识库/go/并发/sync.Map.md",
+    "知识库/go/并发/Mutex.md",
+    "知识库/go/并发",
+    "知识库/k8s/多集群管理与调度",
+    "知识库/network/容器网络",
     "work/network/未命名.md",
-    "work note/network/容器网络",
+    "知识库/network/容器网络",
     "Excalidraw/Drawing 2024-07-05 11.37.15.excalidraw.md",
     "Pasted image 20240705114246.png",
     "Pasted image 20240705113026.png",
     "Excalidraw",
     "da",
     "r",
-    "work note"
+    "知识库"
   ]
 }
