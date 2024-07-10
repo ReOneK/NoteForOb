@@ -4,25 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "f9fe78c1b292eda1",
+        "id": "8b3e8f7dd40157a1",
         "type": "tabs",
         "children": [
           {
-            "id": "d41fc2091f9be556",
+            "id": "d2689078ea2a7173",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "半年学习计划.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "list",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
+                "file": "work note/network/容器网络/基础概念.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -92,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "半年学习计划.md",
+                "file": "work note/network/容器网络/基础概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "半年学习计划.md",
+                "file": "work note/network/容器网络/基础概念.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "半年学习计划.md"
+                "file": "work note/network/容器网络/基础概念.md"
               }
             }
           },
@@ -176,10 +169,10 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "d41fc2091f9be556",
+  "active": "d2689078ea2a7173",
   "lastOpenFiles": [
-    "work note.canvas",
     "半年学习计划.md",
+    "work note.canvas",
     "未命名.canvas",
     "Excalidraw/test.md",
     "Excalidraw/未命名.canvas",
