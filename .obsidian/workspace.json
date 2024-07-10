@@ -13,7 +13,7 @@
             "state": {
               "type": "kanban",
               "state": {
-                "file": "未命名看板.md",
+                "file": "半年学习计划.md",
                 "kanbanViewState": {
                   "kanban-plugin": "board",
                   "list-collapse": [
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未命名看板.md",
+                "file": "半年学习计划.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "未命名看板.md",
+                "file": "半年学习计划.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名看板.md"
+                "file": "半年学习计划.md"
               }
             }
           },
@@ -175,8 +175,8 @@
   },
   "active": "d41fc2091f9be556",
   "lastOpenFiles": [
-    "未命名看板.md",
     "未命名.canvas",
+    "半年学习计划.md",
     "work note.canvas",
     "Excalidraw/test.md",
     "Excalidraw/未命名.canvas",
