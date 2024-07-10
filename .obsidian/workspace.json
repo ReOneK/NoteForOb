@@ -149,7 +149,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -171,7 +171,7 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "250992217e7d7a56",
+  "active": "65229f450f2d968a",
   "lastOpenFiles": [
     "work note.canvas",
     "Excalidraw/test.md",
