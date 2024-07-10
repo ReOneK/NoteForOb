@@ -11,14 +11,11 @@
             "id": "a83c8fd3c19a7079",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "知识图谱/未命名.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "work note/go/channel.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -88,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识图谱/未命名.canvas",
+                "file": "work note/go/channel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识图谱/未命名.canvas",
+                "file": "work note/go/channel.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识图谱/未命名.canvas"
+                "file": "work note/go/channel.md"
               }
             }
           },
@@ -172,8 +169,9 @@
   },
   "active": "a83c8fd3c19a7079",
   "lastOpenFiles": [
+    "work note/go/context.md",
+    "知识图谱/k8s.canvas",
     "work note.canvas",
-    "知识图谱/未命名.canvas",
     "知识图谱",
     "work note/go/channel.md",
     "半年学习计划.md",
@@ -197,7 +195,6 @@
     "work note/k8s/多集群管理与调度/Vocano.md",
     "work note/k8s/多集群管理与调度/karmada.md",
     "work note/k8s/多集群管理与调度/基础概念.md",
-    "work note/go/context.md",
     "work note/go/并发/sync.Pool.md",
     "work note/go/并发/sync.Map.md",
     "work note/go/并发/Mutex.md",
