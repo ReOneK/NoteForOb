@@ -15,7 +15,7 @@
               "state": {
                 "file": "半年学习计划.md",
                 "kanbanViewState": {
-                  "kanban-plugin": "board",
+                  "kanban-plugin": "list",
                   "list-collapse": [
                     false,
                     false,
@@ -178,9 +178,9 @@
   },
   "active": "d41fc2091f9be556",
   "lastOpenFiles": [
-    "未命名.canvas",
-    "半年学习计划.md",
     "work note.canvas",
+    "半年学习计划.md",
+    "未命名.canvas",
     "Excalidraw/test.md",
     "Excalidraw/未命名.canvas",
     "README.md",
