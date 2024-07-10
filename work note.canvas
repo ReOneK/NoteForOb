@@ -1,9 +1,0 @@
-{
-	"nodes":[
-		{"id":"f51bb8f9226392e2","x":-320,"y":-60,"width":265,"height":60,"type":"text","text":"莫慌莫慌，太阳下山有月光"},
-		{"id":"fb6fabaac660ad5e","x":37,"y":-219,"width":250,"height":60,"type":"text","text":""}
-	],
-	"edges":[
-		{"id":"dc3d568835e5d3f4","fromNode":"f51bb8f9226392e2","fromSide":"right","toNode":"fb6fabaac660ad5e","toSide":"left"}
-	]
-}
