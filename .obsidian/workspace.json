@@ -11,13 +11,18 @@
             "id": "a83c8fd3c19a7079",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "kanban",
               "state": {
-                "file": "知识图谱/work note.canvas",
-                "viewState": {
-                  "x": -16.5,
-                  "y": -109.5,
-                  "zoom": 0
+                "file": "半年学习计划.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "list",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
                 }
               }
             }
@@ -88,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识图谱/work note.canvas",
+                "file": "半年学习计划.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识图谱/work note.canvas",
+                "file": "半年学习计划.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识图谱/work note.canvas"
+                "file": "半年学习计划.md"
               }
             }
           },
@@ -172,8 +177,8 @@
   },
   "active": "6e4ba0b0df50a3b1",
   "lastOpenFiles": [
-    "半年学习计划.md",
     "知识图谱/work note.canvas",
+    "半年学习计划.md",
     "知识库/go/GC.md",
     "知识库/go/context.md",
     "知识库/go/channel.md",
