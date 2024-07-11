@@ -2,5 +2,7 @@
   "cssTheme": "Minimal",
   "accentColor": "#a0b49c",
   "theme": "moonstone",
-  "interfaceFontFamily": "Comic Sans MS"
+  "interfaceFontFamily": "Comic Sans MS",
+  "textFontFamily": "Courier",
+  "baseFontSizeAction": true
 }

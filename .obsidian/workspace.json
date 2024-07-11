@@ -11,18 +11,13 @@
             "id": "a8ca4f1772e9785a",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "canvas",
               "state": {
-                "file": "study plan.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "list",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
+                "file": "知识图谱/操作系统.canvas",
+                "viewState": {
+                  "x": -72,
+                  "y": 67.5,
+                  "zoom": 0
                 }
               }
             }
@@ -93,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study plan.md",
+                "file": "知识图谱/操作系统.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study plan.md",
+                "file": "知识图谱/操作系统.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study plan.md"
+                "file": "知识图谱/操作系统.canvas"
               }
             }
           },
@@ -177,8 +172,8 @@
   },
   "active": "a8ca4f1772e9785a",
   "lastOpenFiles": [
-    "README.md",
     "study plan.md",
+    "README.md",
     "知识图谱/k8s.canvas",
     "知识图谱/操作系统.canvas",
     "知识图谱/网络.canvas",
