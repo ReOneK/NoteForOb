@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "703f6aeacd7b9de0",
+        "id": "8fa7cf374e885332",
         "type": "tabs",
         "children": [
           {
-            "id": "a8ca4f1772e9785a",
+            "id": "ff3064c1ed83ed3a",
             "type": "leaf",
             "state": {
               "type": "canvas",
@@ -170,10 +170,12 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "a8ca4f1772e9785a",
+  "active": "ff3064c1ed83ed3a",
   "lastOpenFiles": [
-    "study plan.md",
+    "未命名.canvas",
+    "未命名看板.md",
     "知识图谱/操作系统.canvas",
+    "study plan.md",
     "README.md",
     "知识图谱/k8s.canvas",
     "知识图谱/网络.canvas",
@@ -185,7 +187,6 @@
     "知识库/go/channel.md",
     "知识图谱",
     "知识库/network/容器网络/基础概念.md",
-    "未命名.canvas",
     "Excalidraw/未命名.canvas",
     "读书笔记",
     "知识库/CV.md",
@@ -209,7 +210,6 @@
     "知识库/network/容器网络",
     "work/network/未命名.md",
     "知识库/network/容器网络",
-    "Excalidraw/Drawing 2024-07-05 11.37.15.excalidraw.md",
     "Pasted image 20240705114246.png",
     "Pasted image 20240705113026.png",
     "Excalidraw",
