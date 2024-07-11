@@ -13,7 +13,7 @@
             "state": {
               "type": "kanban",
               "state": {
-                "file": "半年学习计划.md",
+                "file": "study plan.md",
                 "kanbanViewState": {
                   "kanban-plugin": "list",
                   "list-collapse": [
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "半年学习计划.md",
+                "file": "study plan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "半年学习计划.md",
+                "file": "study plan.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "半年学习计划.md"
+                "file": "study plan.md"
               }
             }
           },
@@ -175,11 +175,11 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "f2c51b691d3ba190",
+  "active": "6e4ba0b0df50a3b1",
   "lastOpenFiles": [
     "知识图谱/k8s.canvas",
     "Excalidraw/test.md",
-    "半年学习计划.md",
+    "study plan.md",
     "README.md",
     "知识图谱/work note.canvas",
     "知识库/go/GC.md",
