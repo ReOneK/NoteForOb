@@ -11,14 +11,12 @@
             "id": "ff3064c1ed83ed3a",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "知识图谱/操作系统.canvas",
-                "viewState": {
-                  "x": -72,
-                  "y": 101.34765625,
-                  "zoom": 0
-                }
+                "file": "知识库/硬盘/未命名.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -88,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识图谱/操作系统.canvas",
+                "file": "知识库/硬盘/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,9 +103,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识图谱/操作系统.canvas",
-                "linksCollapsed": true,
-                "unlinkedCollapsed": true
+                "file": "知识库/硬盘/未命名.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -128,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识图谱/操作系统.canvas"
+                "file": "知识库/硬盘/未命名.md"
               }
             }
           },
@@ -148,7 +146,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -172,9 +171,12 @@
   },
   "active": "ff3064c1ed83ed3a",
   "lastOpenFiles": [
+    "知识库/CV.md",
+    "知识库/硬盘/未命名.md",
+    "知识库/硬盘",
+    "知识图谱/操作系统.canvas",
     "未命名.canvas",
     "未命名看板.md",
-    "知识图谱/操作系统.canvas",
     "study plan.md",
     "README.md",
     "知识图谱/k8s.canvas",
@@ -189,7 +191,6 @@
     "知识库/network/容器网络/基础概念.md",
     "Excalidraw/未命名.canvas",
     "读书笔记",
-    "知识库/CV.md",
     "daily life.md",
     "2024-07-09.md",
     "未命名.md",
@@ -213,7 +214,6 @@
     "Pasted image 20240705114246.png",
     "Pasted image 20240705113026.png",
     "Excalidraw",
-    "da",
-    "r"
+    "da"
   ]
 }
