@@ -1,7 +1,7 @@
 {
 	"nodes":[
 		{"id":"dc14ddd68917636a","type":"text","text":"操作","x":-125,"y":-30,"width":105,"height":60},
-		{"id":"05f534ea1659cb7a","x":-197,"y":105,"width":250,"height":60,"type":"text","text":"硬盘"}
+		{"id":"05f534ea1659cb7a","type":"text","text":"       y","x":-197,"y":105,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"f7b13451cbbaace7","fromNode":"dc14ddd68917636a","fromSide":"bottom","toNode":"05f534ea1659cb7a","toSide":"top"}
