@@ -1,5 +1,6 @@
 {
   "cssTheme": "Minimal",
   "accentColor": "#a0b49c",
-  "theme": "moonstone"
+  "theme": "moonstone",
+  "interfaceFontFamily": "Comic Sans MS"
 }
