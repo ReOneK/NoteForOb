@@ -11,19 +11,11 @@
             "id": "f2c51b691d3ba190",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "study plan.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "list",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -93,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study plan.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study plan.md",
+                "file": "README.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study plan.md"
+                "file": "README.md"
               }
             }
           },
@@ -175,11 +167,11 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "6e4ba0b0df50a3b1",
+  "active": "f2c51b691d3ba190",
   "lastOpenFiles": [
+    "study plan.md",
     "知识图谱/k8s.canvas",
     "Excalidraw/test.md",
-    "study plan.md",
     "README.md",
     "知识图谱/work note.canvas",
     "知识库/go/GC.md",
