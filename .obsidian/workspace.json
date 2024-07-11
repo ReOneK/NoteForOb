@@ -61,8 +61,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -160,7 +159,7 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "d59f98508a763dbc",
+  "active": "6e4ba0b0df50a3b1",
   "lastOpenFiles": [
     "知识图谱/k8s.canvas",
     "知识图谱/操作系统.canvas",
