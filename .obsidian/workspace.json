@@ -13,10 +13,10 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "知识图谱/操作系统.canvas",
+                "file": "知识图谱/k8s.canvas",
                 "viewState": {
-                  "x": -72.5,
-                  "y": 0,
+                  "x": -227.5,
+                  "y": -55,
                   "zoom": 0
                 }
               }
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识图谱/操作系统.canvas",
+                "file": "知识图谱/k8s.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识图谱/操作系统.canvas",
+                "file": "知识图谱/k8s.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识图谱/操作系统.canvas"
+                "file": "知识图谱/k8s.canvas"
               }
             }
           },
@@ -172,8 +172,8 @@
   },
   "active": "f2c51b691d3ba190",
   "lastOpenFiles": [
-    "知识图谱/k8s.canvas",
     "知识图谱/操作系统.canvas",
+    "知识图谱/k8s.canvas",
     "study plan.md",
     "知识图谱/网络.canvas",
     "README.md",
