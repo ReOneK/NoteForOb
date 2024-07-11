@@ -4,25 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "61d004835b274f98",
+        "id": "6371dee98336aef5",
         "type": "tabs",
         "children": [
           {
-            "id": "a83c8fd3c19a7079",
+            "id": "f2c51b691d3ba190",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "canvas",
               "state": {
-                "file": "半年学习计划.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "list",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
+                "file": "知识图谱/k8s.canvas",
+                "viewState": {
+                  "x": -227.5,
+                  "y": -55,
+                  "zoom": 0
                 }
               }
             }
@@ -93,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "半年学习计划.md",
+                "file": "知识图谱/k8s.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "半年学习计划.md",
+                "file": "知识图谱/k8s.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "半年学习计划.md"
+                "file": "知识图谱/k8s.canvas"
               }
             }
           },
@@ -175,10 +170,12 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "6e4ba0b0df50a3b1",
+  "active": "f2c51b691d3ba190",
   "lastOpenFiles": [
-    "知识图谱/work note.canvas",
+    "Excalidraw/test.md",
     "半年学习计划.md",
+    "README.md",
+    "知识图谱/work note.canvas",
     "知识库/go/GC.md",
     "知识库/go/context.md",
     "知识库/go/channel.md",
@@ -186,9 +183,7 @@
     "知识图谱",
     "知识库/network/容器网络/基础概念.md",
     "未命名.canvas",
-    "Excalidraw/test.md",
     "Excalidraw/未命名.canvas",
-    "README.md",
     "读书笔记",
     "知识库/CV.md",
     "daily life.md",
