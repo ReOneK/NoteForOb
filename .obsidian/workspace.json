@@ -4,22 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "6371dee98336aef5",
+        "id": "703f6aeacd7b9de0",
         "type": "tabs",
         "children": [
           {
-            "id": "f2c51b691d3ba190",
+            "id": "a8ca4f1772e9785a",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "知识图谱/k8s.canvas",
-                "viewState": {
-                  "x": -227.5,
-                  "y": -55,
-                  "zoom": 0
-                }
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -88,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识图谱/k8s.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识图谱/k8s.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -127,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "知识图谱/k8s.canvas"
-              }
+              "state": {}
             }
           },
           {
@@ -170,10 +159,10 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "f2c51b691d3ba190",
+  "active": "a8ca4f1772e9785a",
   "lastOpenFiles": [
-    "知识图谱/操作系统.canvas",
     "知识图谱/k8s.canvas",
+    "知识图谱/操作系统.canvas",
     "study plan.md",
     "知识图谱/网络.canvas",
     "README.md",
