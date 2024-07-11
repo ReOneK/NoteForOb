@@ -11,13 +11,18 @@
             "id": "a8ca4f1772e9785a",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "kanban",
               "state": {
-                "file": "知识图谱/操作系统.canvas",
-                "viewState": {
-                  "x": -72,
-                  "y": 67.5,
-                  "zoom": 0
+                "file": "study plan.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "list",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
                 }
               }
             }
@@ -88,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识图谱/操作系统.canvas",
+                "file": "study plan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识图谱/操作系统.canvas",
+                "file": "study plan.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识图谱/操作系统.canvas"
+                "file": "study plan.md"
               }
             }
           },
@@ -172,10 +177,10 @@
   },
   "active": "a8ca4f1772e9785a",
   "lastOpenFiles": [
+    "知识图谱/操作系统.canvas",
     "study plan.md",
     "README.md",
     "知识图谱/k8s.canvas",
-    "知识图谱/操作系统.canvas",
     "知识图谱/网络.canvas",
     "leetcode",
     "Excalidraw/test.md",
