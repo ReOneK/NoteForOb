@@ -11,18 +11,13 @@
             "id": "f2c51b691d3ba190",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "canvas",
               "state": {
-                "file": "study plan.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "list",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
+                "file": "知识图谱/k8s.canvas",
+                "viewState": {
+                  "x": -227.5,
+                  "y": -55,
+                  "zoom": 0
                 }
               }
             }
@@ -93,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study plan.md",
+                "file": "知识图谱/k8s.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study plan.md",
+                "file": "知识图谱/k8s.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study plan.md"
+                "file": "知识图谱/k8s.canvas"
               }
             }
           },
@@ -175,11 +170,12 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "f2c51b691d3ba190",
+  "active": "6e4ba0b0df50a3b1",
   "lastOpenFiles": [
+    "study plan.md",
+    "知识图谱/网络.canvas",
     "README.md",
     "leetcode",
-    "study plan.md",
     "知识图谱/k8s.canvas",
     "Excalidraw/test.md",
     "知识图谱/work note.canvas",
