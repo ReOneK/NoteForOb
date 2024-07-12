@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "8fa7cf374e885332",
+        "id": "c524c530dce035a4",
         "type": "tabs",
         "children": [
           {
-            "id": "ff3064c1ed83ed3a",
+            "id": "21114b47efe157c0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "知识库/硬盘/未命名.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/硬盘/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/硬盘/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "知识库/硬盘/未命名.md"
-              }
+              "state": {}
             }
           },
           {
@@ -169,10 +160,10 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "ff3064c1ed83ed3a",
+  "active": "21114b47efe157c0",
   "lastOpenFiles": [
-    "知识库/CV.md",
     "知识库/硬盘/未命名.md",
+    "知识库/CV.md",
     "知识库/硬盘",
     "知识图谱/操作系统.canvas",
     "未命名.canvas",
