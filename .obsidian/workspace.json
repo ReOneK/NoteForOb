@@ -11,16 +11,49 @@
             "id": "753f6b498852f6cb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "知识库/硬盘/基本概念.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "知识图谱/操作系统.canvas",
+                "viewState": {
+                  "x": -246,
+                  "y": 373.32562255859375,
+                  "zoom": 0
+                }
+              }
+            }
+          },
+          {
+            "id": "6d2c055ad2458483",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "知识图谱/操作系统.canvas",
+                "viewState": {
+                  "x": -91,
+                  "y": 314.1681762695313,
+                  "zoom": 0
+                }
+              }
+            }
+          },
+          {
+            "id": "0e5eb08d062ac734",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "知识图谱/操作系统.canvas",
+                "viewState": {
+                  "x": -91,
+                  "y": 726.9578491210937,
+                  "zoom": 0
+                }
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -86,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/硬盘/基本概念.md",
+                "file": "知识图谱/操作系统.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/硬盘/基本概念.md",
+                "file": "知识图谱/操作系统.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/硬盘/基本概念.md"
+                "file": "知识图谱/操作系统.canvas"
               }
             }
           },
@@ -169,12 +202,13 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "753f6b498852f6cb",
+  "active": "0e5eb08d062ac734",
   "lastOpenFiles": [
-    "知识图谱/操作系统.canvas",
-    "pic/硬盘.png",
-    "知识库/硬盘/基本概念.md",
     "知识库/硬盘/场景.md",
+    "知识库/硬盘/基本概念.md",
+    "知识图谱/操作系统.canvas",
+    "知识图谱/k8s.canvas",
+    "pic/硬盘.png",
     "pic",
     "知识库/CV.md",
     "知识库/硬盘",
@@ -182,7 +216,6 @@
     "未命名看板.md",
     "study plan.md",
     "README.md",
-    "知识图谱/k8s.canvas",
     "知识图谱/网络.canvas",
     "leetcode",
     "Excalidraw/test.md",
