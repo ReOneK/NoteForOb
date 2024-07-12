@@ -71,12 +71,14 @@
             "id": "6d7bd2499c2961ed",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "知识库/硬盘/场景.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "知识图谱/os/硬盘.canvas",
+                "viewState": {
+                  "x": -22,
+                  "y": -193.11940307617186,
+                  "zoom": 0
+                }
               }
             }
           }
@@ -147,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/硬盘/场景.md",
+                "file": "知识图谱/os/硬盘.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/硬盘/场景.md",
+                "file": "知识图谱/os/硬盘.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -187,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/硬盘/场景.md"
+                "file": "知识图谱/os/硬盘.canvas"
               }
             }
           },
@@ -232,11 +234,11 @@
   },
   "active": "6d7bd2499c2961ed",
   "lastOpenFiles": [
+    "知识库/硬盘/场景.md",
     "知识库/硬盘/基本概念.md",
     "知识图谱/os/硬盘.canvas",
     "知识图谱/操作系统.canvas",
     "知识图谱/k8s.canvas",
-    "知识库/硬盘/场景.md",
     "知识图谱/k8s/未命名看板.md",
     "知识图谱/k8s",
     "知识图谱/os",
