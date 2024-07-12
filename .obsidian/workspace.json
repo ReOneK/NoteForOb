@@ -11,8 +11,13 @@
             "id": "21114b47efe157c0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "知识库/硬盘/基本概念.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "知识库/硬盘/基本概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "知识库/硬盘/基本概念.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "知识库/硬盘/基本概念.md"
+              }
             }
           },
           {
@@ -162,7 +171,7 @@
   },
   "active": "21114b47efe157c0",
   "lastOpenFiles": [
-    "知识库/硬盘/未命名.md",
+    "知识库/硬盘/基本概念.md",
     "知识库/CV.md",
     "知识库/硬盘",
     "知识图谱/操作系统.canvas",
