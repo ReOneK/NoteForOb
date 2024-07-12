@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/硬盘/场景.md",
+                "file": "知识库/硬盘/基本概念.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/硬盘/场景.md",
+                "file": "知识库/硬盘/基本概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/硬盘/场景.md",
+                "file": "知识库/硬盘/基本概念.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/硬盘/场景.md"
+                "file": "知识库/硬盘/基本概念.md"
               }
             }
           },
@@ -171,8 +171,8 @@
   },
   "active": "753f6b498852f6cb",
   "lastOpenFiles": [
-    "知识库/硬盘/基本概念.md",
     "知识库/硬盘/场景.md",
+    "知识库/硬盘/基本概念.md",
     "pic/硬盘.png",
     "pic",
     "知识库/CV.md",
