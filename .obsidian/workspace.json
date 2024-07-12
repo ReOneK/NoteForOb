@@ -43,7 +43,22 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "知识图谱/os/未命名.canvas",
+                "file": "知识图谱/操作系统.canvas",
+                "viewState": {
+                  "x": -91,
+                  "y": 127,
+                  "zoom": 0
+                }
+              }
+            }
+          },
+          {
+            "id": "481063f21d40c93a",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "知识图谱/os/硬盘.canvas",
                 "viewState": {
                   "x": -171,
                   "y": -143.5,
@@ -53,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -119,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识图谱/os/未命名.canvas",
+                "file": "知识图谱/os/硬盘.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识图谱/os/未命名.canvas",
+                "file": "知识图谱/os/硬盘.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -159,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识图谱/os/未命名.canvas"
+                "file": "知识图谱/os/硬盘.canvas"
               }
             }
           },
@@ -202,15 +217,15 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "6e4ba0b0df50a3b1",
+  "active": "481063f21d40c93a",
   "lastOpenFiles": [
     "知识图谱/操作系统.canvas",
-    "知识图谱/os/未命名.canvas",
+    "知识图谱/k8s.canvas",
+    "知识图谱/os/硬盘.canvas",
     "知识库/硬盘/场景.md",
     "知识图谱/k8s/未命名看板.md",
     "知识图谱/k8s",
     "知识图谱/os",
-    "知识图谱/k8s.canvas",
     "知识库/硬盘/基本概念.md",
     "pic/硬盘.png",
     "pic",
