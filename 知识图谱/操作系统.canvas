@@ -1,7 +1,7 @@
 {
 	"nodes":[
 		{"id":"dc14ddd68917636a","type":"text","text":"操作系统","x":-422,"y":64,"width":131,"height":60},
-		{"id":"05f534ea1659cb7a","type":"text","text":"硬盘","x":-178,"y":342,"width":101,"height":59},
+		{"id":"05f534ea1659cb7a","type":"text","text":"[[未命名.canvas|未命名]]","x":-178,"y":351,"width":122,"height":50},
 		{"id":"bdee71408a74fae6","type":"text","text":"CPU","x":-182,"y":-18,"width":108,"height":50},
 		{"id":"ee74e6b895bc905b","type":"text","text":"网络","x":-180,"y":157,"width":107,"height":60},
 		{"id":"212624d828ad25df","type":"text","text":"内存","x":-182,"y":-232,"width":112,"height":60},

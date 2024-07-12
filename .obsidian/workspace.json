@@ -45,8 +45,8 @@
               "state": {
                 "file": "知识图谱/os/未命名.canvas",
                 "viewState": {
-                  "x": 0,
-                  "y": 0,
+                  "x": -171,
+                  "y": -143.5,
                   "zoom": 0
                 }
               }
@@ -202,12 +202,12 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "0e5eb08d062ac734",
+  "active": "6e4ba0b0df50a3b1",
   "lastOpenFiles": [
-    "知识库/硬盘/场景.md",
-    "知识图谱/os/未命名.canvas",
-    "知识图谱/k8s/未命名看板.md",
     "知识图谱/操作系统.canvas",
+    "知识图谱/os/未命名.canvas",
+    "知识库/硬盘/场景.md",
+    "知识图谱/k8s/未命名看板.md",
     "知识图谱/k8s",
     "知识图谱/os",
     "知识图谱/k8s.canvas",

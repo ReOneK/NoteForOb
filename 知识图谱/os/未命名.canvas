@@ -1,9 +1,11 @@
 {
 	"nodes":[
 		{"id":"6c63ca9660dfa721","x":-378,"y":-40,"width":117,"height":60,"type":"text","text":"硬盘"},
-		{"id":"626d62e4967c79c6","x":-120,"y":-307,"width":250,"height":60,"type":"text","text":"[[基本概念]]"}
+		{"id":"626d62e4967c79c6","x":-120,"y":-307,"width":143,"height":60,"type":"text","text":"[[基本概念]]"},
+		{"id":"3c4b96336447255c","x":-119,"y":-42,"width":155,"height":60,"type":"text","text":"[[场景]]"}
 	],
 	"edges":[
-		{"id":"be1f4e9e8a0eccef","fromNode":"6c63ca9660dfa721","fromSide":"right","toNode":"626d62e4967c79c6","toSide":"left"}
+		{"id":"be1f4e9e8a0eccef","fromNode":"6c63ca9660dfa721","fromSide":"right","toNode":"626d62e4967c79c6","toSide":"left"},
+		{"id":"0e66e3dff8d1cf7e","fromNode":"6c63ca9660dfa721","fromSide":"right","toNode":"3c4b96336447255c","toSide":"left"}
 	]
 }
