@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"6c63ca9660dfa721","x":-378,"y":-40,"width":117,"height":60,"type":"text","text":"硬盘"},
+		{"id":"626d62e4967c79c6","x":-120,"y":-307,"width":250,"height":60,"type":"text","text":"[[基本概念]]"}
+	],
+	"edges":[
+		{"id":"be1f4e9e8a0eccef","fromNode":"6c63ca9660dfa721","fromSide":"right","toNode":"626d62e4967c79c6","toSide":"left"}
+	]
+}
