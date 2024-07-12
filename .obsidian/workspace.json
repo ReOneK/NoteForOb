@@ -11,14 +11,12 @@
             "id": "753f6b498852f6cb",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "知识图谱/操作系统.canvas",
-                "viewState": {
-                  "x": -246,
-                  "y": 219.399951171875,
-                  "zoom": 0
-                }
+                "file": "知识库/硬盘/基本概念.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -88,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识图谱/操作系统.canvas",
+                "file": "知识库/硬盘/基本概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识图谱/操作系统.canvas",
+                "file": "知识库/硬盘/基本概念.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -128,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识图谱/操作系统.canvas"
+                "file": "知识库/硬盘/基本概念.md"
               }
             }
           },
@@ -153,7 +151,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -173,13 +171,13 @@
   },
   "active": "753f6b498852f6cb",
   "lastOpenFiles": [
+    "知识图谱/操作系统.canvas",
     "pic/硬盘.png",
     "知识库/硬盘/基本概念.md",
     "知识库/硬盘/场景.md",
     "pic",
     "知识库/CV.md",
     "知识库/硬盘",
-    "知识图谱/操作系统.canvas",
     "未命名.canvas",
     "未命名看板.md",
     "study plan.md",
