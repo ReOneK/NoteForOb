@@ -54,12 +54,14 @@
             "id": "8916f43431bceddd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "知识库/硬盘/场景.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "知识图谱/操作系统.canvas",
+                "viewState": {
+                  "x": -91,
+                  "y": 127,
+                  "zoom": 0
+                }
               }
             }
           }
@@ -130,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/硬盘/场景.md",
+                "file": "知识图谱/操作系统.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/硬盘/场景.md",
+                "file": "知识图谱/操作系统.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/硬盘/场景.md"
+                "file": "知识图谱/操作系统.canvas"
               }
             }
           },
@@ -213,12 +215,14 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "8916f43431bceddd",
+  "active": "6e4ba0b0df50a3b1",
   "lastOpenFiles": [
+    "知识图谱/k8s",
+    "知识图谱/os",
+    "知识图谱/k8s.canvas",
     "知识图谱/操作系统.canvas",
     "知识库/硬盘/场景.md",
     "知识库/硬盘/基本概念.md",
-    "知识图谱/k8s.canvas",
     "pic/硬盘.png",
     "pic",
     "知识库/CV.md",
@@ -257,7 +261,6 @@
     "知识库/network/容器网络",
     "知识库/network/容器网络",
     "Pasted image 20240705114246.png",
-    "Pasted image 20240705113026.png",
-    "Excalidraw"
+    "Pasted image 20240705113026.png"
   ]
 }
