@@ -113,4 +113,4 @@
             
             1. 对于阻塞场景，则将当前的goroutine封装成sudog结构体，并加入接受队列/发送队列中，然后阻塞goroutine,等待被唤醒
                 
-            2. 对于非阻塞场景，则将数据拷贝到/循环队列 `buf` 中，增加/减少 `qcount`，唤醒一个阻塞在发送队列 `sendq` /recvq的 goroutine（如果有）
+            2. 对于非阻塞场景，则将数据拷贝到循环队列 `buf` 中，增加/减少 `qcount`，唤醒一个阻塞在发送队列 `sendq` /recvq的 goroutine（如果有）
