@@ -65,8 +65,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/go/并发/sync.Map.md",
-                "mode": "source",
+                "file": "知识库/k8s/多集群管理与调度/基础概念.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/go/并发/sync.Map.md",
+                "file": "知识库/k8s/多集群管理与调度/基础概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/go/并发/sync.Map.md",
+                "file": "知识库/k8s/多集群管理与调度/基础概念.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/go/并发/sync.Map.md"
+                "file": "知识库/k8s/多集群管理与调度/基础概念.md"
               }
             }
           },
@@ -224,10 +224,10 @@
   },
   "active": "cdb7fac85ba0b300",
   "lastOpenFiles": [
-    "知识库/go/并发/Mutex.md",
-    "知识库/go/并发/sync.Map.md",
-    "知识库/go/GC.md",
     "知识库/go/context.md",
+    "知识库/go/GC.md",
+    "知识库/go/并发/sync.Map.md",
+    "知识库/go/并发/Mutex.md",
     "知识库/go/channel.md",
     "知识库/go/并发/sync.Pool.md",
     "知识库/文件系统/基本概念.md",

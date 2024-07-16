@@ -1,6 +1,6 @@
 ```
 type Map struct {  
-  mu Mutex // 排他锁，用于对dirty map操作时候加锁处理  
+  mu  Mutex // 排他锁，用于对dirty map操作时候加锁处理  
 ​  
   read atomic.Value // read map  
 ​  
