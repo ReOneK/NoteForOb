@@ -13,14 +13,67 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/go/GC.md",
+                "file": "知识库/go/并发/Mutex.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "77c225a8ebb95d30",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "知识库/go/并发/Mutex.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "db90164e88d4ff57",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "知识库/go/并发/sync.Map.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aebb4d1d97edeae9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "知识库/go/并发/Mutex.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cdb7fac85ba0b300",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "知识库/go/并发/sync.Map.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -86,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/go/GC.md",
+                "file": "知识库/go/并发/sync.Map.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/go/GC.md",
+                "file": "知识库/go/并发/sync.Map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/go/GC.md"
+                "file": "知识库/go/并发/sync.Map.md"
               }
             }
           },
@@ -169,14 +222,14 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "734cc10861f1f6a9",
+  "active": "cdb7fac85ba0b300",
   "lastOpenFiles": [
-    "知识库/go/context.md",
+    "知识库/go/并发/Mutex.md",
+    "知识库/go/并发/sync.Map.md",
     "知识库/go/GC.md",
+    "知识库/go/context.md",
     "知识库/go/channel.md",
     "知识库/go/并发/sync.Pool.md",
-    "知识库/go/并发/sync.Map.md",
-    "知识库/go/并发/Mutex.md",
     "知识库/文件系统/基本概念.md",
     "pic/linux IO栈.png",
     "知识图谱/os/硬盘.canvas",
