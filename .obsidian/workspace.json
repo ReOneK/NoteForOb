@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/go/channel.md",
+                "file": "知识库/go/GC.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/go/channel.md",
+                "file": "知识库/go/GC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/go/channel.md",
+                "file": "知识库/go/GC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/go/channel.md"
+                "file": "知识库/go/GC.md"
               }
             }
           },
@@ -171,6 +171,9 @@
   },
   "active": "734cc10861f1f6a9",
   "lastOpenFiles": [
+    "知识库/go/context.md",
+    "知识库/go/GC.md",
+    "知识库/go/channel.md",
     "知识库/go/并发/sync.Pool.md",
     "知识库/go/并发/sync.Map.md",
     "知识库/go/并发/Mutex.md",
@@ -195,9 +198,6 @@
     "leetcode",
     "Excalidraw/test.md",
     "知识图谱/work note.canvas",
-    "知识库/go/GC.md",
-    "知识库/go/context.md",
-    "知识库/go/channel.md",
     "知识图谱",
     "知识库/network/容器网络/基础概念.md",
     "Excalidraw/未命名.canvas",
