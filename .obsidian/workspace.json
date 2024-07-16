@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/go/并发/Mutex.md",
+                "file": "知识库/go/并发/sync.Map.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/go/并发/Mutex.md",
+                "file": "知识库/go/并发/sync.Map.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/go/并发/Mutex.md",
+                "file": "知识库/go/并发/sync.Map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/go/并发/Mutex.md"
+                "file": "知识库/go/并发/sync.Map.md"
               }
             }
           },
@@ -171,6 +171,7 @@
   },
   "active": "734cc10861f1f6a9",
   "lastOpenFiles": [
+    "知识库/go/并发/Mutex.md",
     "知识库/文件系统/基本概念.md",
     "pic/linux IO栈.png",
     "知识图谱/os/硬盘.canvas",
