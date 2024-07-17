@@ -4,76 +4,71 @@
     "type": "split",
     "children": [
       {
-        "id": "bb2779f70c14acf6",
+        "id": "dcc2cf8a0bbbeb15",
         "type": "tabs",
         "children": [
           {
-            "id": "734cc10861f1f6a9",
+            "id": "753f6b498852f6cb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "知识库/go/并发/Mutex.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "知识图谱/操作系统.canvas",
+                "viewState": {
+                  "x": -246,
+                  "y": 373.32562255859375,
+                  "zoom": 0
+                }
               }
             }
           },
           {
-            "id": "77c225a8ebb95d30",
+            "id": "6d2c055ad2458483",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "知识库/go/并发/Mutex.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "知识图谱/操作系统.canvas",
+                "viewState": {
+                  "x": -91,
+                  "y": 314.1681762695313,
+                  "zoom": 0
+                }
               }
             }
           },
           {
-            "id": "db90164e88d4ff57",
+            "id": "0e5eb08d062ac734",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "知识库/go/并发/sync.Map.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "知识图谱/操作系统.canvas",
+                "viewState": {
+                  "x": -91,
+                  "y": 127,
+                  "zoom": 0
+                }
               }
             }
           },
           {
-            "id": "aebb4d1d97edeae9",
+            "id": "481063f21d40c93a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "知识库/go/并发/Mutex.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cdb7fac85ba0b300",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "知识库/leetcode/base know.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "知识图谱/os/硬盘.canvas",
+                "viewState": {
+                  "x": -171,
+                  "y": -143.5,
+                  "zoom": 0
+                }
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -139,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/leetcode/base know.md",
+                "file": "知识图谱/os/硬盘.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/leetcode/base know.md",
+                "file": "知识图谱/os/硬盘.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -179,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/leetcode/base know.md"
+                "file": "知识图谱/os/硬盘.canvas"
               }
             }
           },
@@ -208,41 +203,31 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-kanban:创建新看板": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "templater-obsidian:Templater": false,
       "obsidian42-brat:BRAT": false,
       "obsidian-projects:Open projects": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-kanban:创建新看板": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "cdb7fac85ba0b300",
+  "active": "481063f21d40c93a",
   "lastOpenFiles": [
-    "知识库/network/容器网络/Flannel.md",
+    "知识库/硬盘/场景.md",
+    "知识库/文件系统/基本概念.md",
+    "知识库/文件系统/场景.md",
+    "知识库/文件系统",
     "知识库/leetcode/base know.md",
     "知识库/leetcode",
-    "知识库/network/容器网络/Cilium.md",
-    "知识库/network/容器网络/Calico.md",
-    "知识库/network/容器网络/基础概念.md",
-    "知识库/k8s/多集群管理与调度/Vocano.md",
-    "知识库/k8s/多集群管理与调度/karmada.md",
-    "知识库/k8s/多集群管理与调度/基础概念.md",
-    "知识库/go/context.md",
-    "知识库/go/GC.md",
-    "知识库/go/并发/sync.Map.md",
-    "知识库/go/并发/Mutex.md",
-    "知识库/go/channel.md",
-    "知识库/go/并发/sync.Pool.md",
-    "知识库/文件系统/基本概念.md",
     "pic/linux IO栈.png",
+    "知识库/硬盘/基本概念.md",
     "知识图谱/os/硬盘.canvas",
-    "知识库/文件系统/场景.md",
     "知识图谱/操作系统.canvas",
     "知识图谱/k8s.canvas",
     "知识图谱/k8s/未命名看板.md",
@@ -251,7 +236,7 @@
     "pic/硬盘.png",
     "pic",
     "知识库/CV.md",
-    "知识库/文件系统",
+    "知识库/硬盘",
     "未命名.canvas",
     "未命名看板.md",
     "study plan.md",
@@ -260,15 +245,25 @@
     "leetcode",
     "Excalidraw/test.md",
     "知识图谱/work note.canvas",
+    "知识库/go/GC.md",
+    "知识库/go/context.md",
+    "知识库/go/channel.md",
     "知识图谱",
+    "知识库/network/容器网络/基础概念.md",
     "Excalidraw/未命名.canvas",
     "读书笔记",
     "daily life.md",
     "2024-07-09.md",
     "未命名.md",
     "2024-07-08.md",
+    "Excalidraw/Drawing 2024-07-05 14.48.42.excalidraw.md",
+    "知识库/network/容器网络/Flannel.md",
+    "test.md",
+    "知识库/network/容器网络/Cilium.md",
+    "知识库/network/容器网络/Calico.md",
+    "知识库/k8s/多集群管理与调度/Vocano.md",
+    "知识库/k8s/多集群管理与调度/karmada.md",
     "知识库/go/并发",
-    "知识库/k8s/多集群管理与调度",
     "Pasted image 20240705114246.png",
     "Pasted image 20240705113026.png"
   ]
