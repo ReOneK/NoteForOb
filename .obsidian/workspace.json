@@ -119,7 +119,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -222,8 +223,9 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "cdb7fac85ba0b300",
+  "active": "d59f98508a763dbc",
   "lastOpenFiles": [
+    "知识库/leetcode",
     "知识库/network/容器网络/Cilium.md",
     "知识库/network/容器网络/Calico.md",
     "知识库/network/容器网络/基础概念.md",
@@ -265,7 +267,6 @@
     "未命名.md",
     "2024-07-08.md",
     "Excalidraw/Drawing 2024-07-05 14.48.42.excalidraw.md",
-    "知识库/network/容器网络/Flannel.md",
     "知识库/go/并发",
     "知识库/k8s/多集群管理与调度",
     "知识库/network/容器网络",
