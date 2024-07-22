@@ -11,12 +11,14 @@
             "id": "481063f21d40c93a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "知识库/leetcode/base know.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "知识图谱/os/硬盘.canvas",
+                "viewState": {
+                  "x": -178,
+                  "y": -693.2482897872637,
+                  "zoom": -0.38018157043456
+                }
               }
             }
           }
@@ -86,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/leetcode/base know.md",
+                "file": "知识图谱/os/硬盘.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/leetcode/base know.md",
+                "file": "知识图谱/os/硬盘.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/leetcode/base know.md"
+                "file": "知识图谱/os/硬盘.canvas"
               }
             }
           },
@@ -171,12 +173,12 @@
   },
   "active": "481063f21d40c93a",
   "lastOpenFiles": [
+    "知识库/leetcode/base know.md",
     "知识图谱/os/硬盘.canvas",
     "知识库/硬盘/场景.md",
     "知识库/文件系统/基本概念.md",
     "知识库/文件系统/场景.md",
     "知识库/文件系统",
-    "知识库/leetcode/base know.md",
     "知识库/leetcode",
     "pic/linux IO栈.png",
     "知识库/硬盘/基本概念.md",
