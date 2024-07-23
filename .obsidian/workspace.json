@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/CV.md",
+                "file": "知识库/k8s/多集群管理与调度/基础概念.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/CV.md",
+                "file": "知识库/k8s/多集群管理与调度/基础概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/CV.md",
+                "file": "知识库/k8s/多集群管理与调度/基础概念.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/CV.md"
+                "file": "知识库/k8s/多集群管理与调度/基础概念.md"
               }
             }
           },
@@ -171,6 +171,7 @@
   },
   "active": "9052a56a658386dd",
   "lastOpenFiles": [
+    "知识库/CV.md",
     "知识库/文件系统/场景.md",
     "知识库/文件系统/基本概念.md",
     "pic/Pasted image 20240722171710.png",
@@ -189,7 +190,6 @@
     "知识图谱/os",
     "pic/硬盘.png",
     "pic",
-    "知识库/CV.md",
     "知识库/硬盘",
     "未命名.canvas",
     "未命名看板.md",
