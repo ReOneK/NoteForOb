@@ -32,4 +32,4 @@ ssk集群管控平台
         
 2. 增强容器，支持业务给自己的容器扩展io limit,swapniss,pid limit等参数
 
-kubernetes优化
+#### 大规模apiserver优化
