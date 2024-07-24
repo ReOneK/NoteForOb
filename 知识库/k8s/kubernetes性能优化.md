@@ -24,4 +24,4 @@
 
 ##### 背景
 1. 内存消耗来源
-	1. apierverza
+	1. apiserver在watchCache中缓存了集群所有云数据，并且为每种资源缓存了历史
