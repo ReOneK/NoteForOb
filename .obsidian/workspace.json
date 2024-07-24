@@ -171,8 +171,9 @@
   },
   "active": "9052a56a658386dd",
   "lastOpenFiles": [
-    "知识库/k8s/多集群管理与调度.md",
+    "知识库/go/GC.md",
     "知识库/k8s/kubernetes性能优化.md",
+    "知识库/k8s/多集群管理与调度.md",
     "知识库/k8s/多集群管理与调度/Vocano.md",
     "知识库/k8s/多集群管理与调度/karmada.md",
     "知识库/CV.md",
@@ -203,7 +204,6 @@
     "leetcode",
     "Excalidraw/test.md",
     "知识图谱/work note.canvas",
-    "知识库/go/GC.md",
     "知识库/go/context.md",
     "知识库/go/channel.md",
     "知识图谱",
