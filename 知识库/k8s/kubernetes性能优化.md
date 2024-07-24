@@ -24,4 +24,5 @@
 
 ##### 背景
 1. 内存消耗来源
-	1. apiserver在watchCache中缓存了集群所有云数据，并且为每种资源缓存了历史
+	1. apiserver在watchCache中缓存了集群所有云数据，并且为每种资源缓存了历史watchCacheEvent
+	2. 一些controller在没有指定resourceVersion的情况发起list请求，会导致apiServer在内存中进行大量的数据深拷贝，这些深拷贝的数据无法被直接GC
