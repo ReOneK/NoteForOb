@@ -16,6 +16,8 @@
 
 	- 另外一个方案是直接修改kubelet的代码
 	- 在NewMainKubelet这边添加一个go func去check 占位文件
-	- 如果存在则将标识设立为true，并在
+	- 如果存在则将标识设立为true，并在killpod这个函数的时候去进行判断
 
 5. 监控以及验证
+
+### 
