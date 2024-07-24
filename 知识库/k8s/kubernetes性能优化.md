@@ -13,6 +13,6 @@
 	3. 在每个节点上运行定时脚本去检查是否存在占位文件
 	4. 如果存在则通过 `kubectl get pods --all-namespaces -o json | jq -r 
 	5. 停止所有调度
-	
+	- 另外一个方案是直接修改kubeletd
 
 5. 监控以及验证
