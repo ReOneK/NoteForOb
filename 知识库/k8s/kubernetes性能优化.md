@@ -48,4 +48,6 @@
 3. 调整apiserver参数
     1. 增加apiserver资源限制：--max-requests-inflight控制并发量的请求数量
     2. 启用api优先级和公平性：确保关键组件的请求优先得到处理
-4. 在apiserver前套用x
+4. 在apiserver前套用限流
+	1. nginx
+	2. istio
