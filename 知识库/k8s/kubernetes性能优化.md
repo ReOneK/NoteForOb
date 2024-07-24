@@ -15,6 +15,7 @@
 	5. 停止所有调度
 
 	- 另外一个方案是直接修改kubelet的代码
-	- 在NewMainKubelet
+	- 在NewMainKubelet这边添加一个go func去check 占位文件
+	- 如果存在则将标识设立为true，并在
 
 5. 监控以及验证
