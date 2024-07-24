@@ -31,19 +31,13 @@
 	2. 当请求的资源数据量过大时， kube-apiserver 配置的默认timeout（1分钟）不足以支撑一次资源数据量返回，infromer不断尝试 list ，导致OOM。
 ##### 解决方案
 1. 优化list/watch请求
-    
     1. 尽可能的使用FieldSelector/LabelSelector，减少apiserver的压力
-
     2. 设置合理的resourceVersion参数，避免获取重复的已经处理过的数据
-        
     3. 限制请求频率，设置合适的timeoutSeconds控制持续请求的时间
-        
     4. 使用watch bookmarks: 保证在重新连接后不会错过任何事件
-        
         1. 服务端和客户端协同维护同一个同步点（bookmark）-- AllowWatchBookmarks: true
-            
         2. 客户端发送watch请求
-            
+
         3. 服务端在返回的watch事件流会定期发送特殊的bookmark事件流
             
 2. 使用informar机制
