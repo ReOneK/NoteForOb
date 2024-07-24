@@ -23,3 +23,5 @@
 ### 大规模apiserver优化
 
 ##### 背景
+1. 内存消耗来源
+	1. apierverza
