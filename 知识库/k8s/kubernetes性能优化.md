@@ -6,5 +6,6 @@
 ##### 解决方案
 1. 逐步升级
 2. 升级过程的协调
-		确保 API Server 和 Kubelet 的版本兼容，先升级控制平面组件，然后逐步升级节点上的 Kubelet
+		确保 API Server 和 Kubelet 的版本兼容，先升级控制平面组件，然后逐步升级节点上的 Kubelet，kube-proxy
 3. 使用熔断机制
+4. 监控以及验证
