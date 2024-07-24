@@ -33,7 +33,7 @@
 1. 优化list/watch请求
     
     1. 尽可能的使用FieldSelector/LabelSelector，减少apiserver的压力
-        
+
     2. 设置合理的resourceVersion参数，避免获取重复的已经处理过的数据
         
     3. 限制请求频率，设置合适的timeoutSeconds控制持续请求的时间
