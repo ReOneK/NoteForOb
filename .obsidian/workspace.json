@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/leetcode/base know.md",
+                "file": "知识库/k8s/kubernetes性能优化.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/leetcode/base know.md",
+                "file": "知识库/k8s/kubernetes性能优化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/leetcode/base know.md",
+                "file": "知识库/k8s/kubernetes性能优化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/leetcode/base know.md"
+                "file": "知识库/k8s/kubernetes性能优化.md"
               }
             }
           },
@@ -169,8 +169,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6e4ba0b0df50a3b1",
+  "active": "9052a56a658386dd",
   "lastOpenFiles": [
+    "知识库/leetcode/base know.md",
     "知识库/k8s/多集群管理与调度.md",
     "知识库/k8s/kubernetes性能优化.md",
     "知识库/go/GC.md",
@@ -181,7 +182,6 @@
     "知识库/文件系统/基本概念.md",
     "pic/Pasted image 20240722171710.png",
     "pic/io引擎.png",
-    "知识库/leetcode/base know.md",
     "知识图谱/os/硬盘.canvas",
     "知识库/硬盘/场景.md",
     "知识库/文件系统",
