@@ -27,3 +27,4 @@
 #### 滑动窗口
 1. 边界判断
 	1. 如果使用hashmap，left指针务必小于map里已存的right指针
+		`index,ok:=map[s[r]];ok && index>=left`
