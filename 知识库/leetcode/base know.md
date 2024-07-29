@@ -16,3 +16,4 @@
 3. value 一般是索引
 
 #### 链表
+1. 哨兵：dummy:=&ListNode
