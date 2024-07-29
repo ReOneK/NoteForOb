@@ -16,4 +16,6 @@
 3. value 一般是索引
 
 #### 链表
-1. 哨兵：dummy:=&ListNode
+1. 哨兵：dummy:=&ListNode{-1,nil}
+
+#### 两数相加
