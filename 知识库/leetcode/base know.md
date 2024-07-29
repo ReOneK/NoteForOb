@@ -1,12 +1,4 @@
 
-#### 字符串转数字
-	num:=int(s[i]-'0')
-
-#### 取数字中的每个值并倒序输出
-	var nums int
-	res:=nums*10+ x%10
-	x:=x/10
-
 #### 排序
 	sort.Ints(nums)
 
@@ -16,3 +8,23 @@
 3. value 一般是索引
 
 #### 链表
+1. 哨兵：dummy:=&ListNode{-1,nil}
+
+#### 整数的一些基本用法
+- 字符串转整数
+	- `int(x - '0')`
+- 整除
+	- x/num
+		-用来判断两个数相加是否超过十，需要进1
+- 取余数
+	- x%num
+- 逆转数字
+	- `nums=123
+	- `res=0`
+	- `res=res*10+nums%10`
+	- `nums=nums/10`
+
+#### 滑动窗口
+1. 边界判断
+	1. 如果使用hashmap，left指针务必小于map里已存的right指针
+		`index,ok:=map[s[r]];ok && index>=left`
