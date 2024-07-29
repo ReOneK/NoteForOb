@@ -11,9 +11,12 @@
             "id": "5133ae0ace059bbb",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "pic/Pasted image 20240729200726.png"
+                "file": "知识库/内存/基本概念.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -83,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pic/Pasted image 20240729200726.png",
+                "file": "知识库/内存/基本概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pic/Pasted image 20240729200726.png",
+                "file": "知识库/内存/基本概念.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -123,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pic/Pasted image 20240729200726.png"
+                "file": "知识库/内存/基本概念.md"
               }
             }
           },
@@ -166,14 +169,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6e4ba0b0df50a3b1",
+  "active": "5133ae0ace059bbb",
   "lastOpenFiles": [
+    "知识库/内存/场景.md",
+    "pic/虚拟地址空间.png",
     "知识库/文件系统/基本概念.md",
     "pic/Pasted image 20240722171710.png",
     "知识库/文件系统/场景.md",
-    "pic/Pasted image 20240729200726.png",
     "知识库/内存/基本概念.md",
-    "知识库/内存/场景.md",
     "知识库/leetcode/base know.md",
     "进程创建的过程中，如何申请pid.md",
     "numa.md",
