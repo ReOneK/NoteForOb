@@ -23,4 +23,5 @@
 	- `res=0`
 	- `res=res*10+nums%10`
 	- `nums=nums/10`
-- 
+
+#### shau
