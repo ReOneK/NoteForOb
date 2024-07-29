@@ -1,12 +1,12 @@
 {
 	"nodes":[
 		{"id":"6c63ca9660dfa721","type":"text","text":"硬盘","x":-642,"y":-127,"width":117,"height":60},
-		{"id":"626d62e4967c79c6","type":"text","text":"[[基本概念]]","x":-401,"y":-392,"width":143,"height":60},
+		{"id":"626d62e4967c79c6","type":"text","text":"[[知识库/文件系统/基本概念]]","x":-401,"y":-392,"width":143,"height":60},
 		{"id":"3c4b96336447255c","type":"text","text":"[[知识库/文件系统/场景]]","x":-395,"y":108,"width":155,"height":60},
-		{"id":"c9fe5fb1e7d76d57","type":"text","text":"[[基本概念#磁盘IO耗时]]","x":-157,"y":-775,"width":250,"height":60},
-		{"id":"8cdcd6e2f70ee5ca","x":-94,"y":-697,"width":250,"height":60,"type":"text","text":"[[基本概念#操作系统如何降低随机读写的性能]]"},
-		{"id":"f11eb7cd8dd68a2d","x":-25,"y":-614,"width":250,"height":60,"type":"text","text":"[[基本概念#文件系统]]"},
-		{"id":"79fa5e255c178253","x":36,"y":-534,"width":250,"height":60,"type":"text","text":"[[基本概念#文件和目录创建所需资源]]"},
+		{"id":"c9fe5fb1e7d76d57","type":"text","text":"[[知识库/文件系统/基本概念#磁盘IO耗时]]","x":-157,"y":-775,"width":250,"height":60},
+		{"id":"8cdcd6e2f70ee5ca","x":-94,"y":-697,"width":250,"height":60,"type":"text","text":"[[知识库/文件系统/基本概念#操作系统如何降低随机读写的性能]]"},
+		{"id":"f11eb7cd8dd68a2d","x":-25,"y":-614,"width":250,"height":60,"type":"text","text":"[[知识库/文件系统/基本概念#文件系统]]"},
+		{"id":"79fa5e255c178253","x":36,"y":-534,"width":250,"height":60,"type":"text","text":"[[知识库/文件系统/基本概念#文件和目录创建所需资源]]"},
 		{"id":"dc60c02fd48e1dd3","x":-89,"y":-187,"width":250,"height":60,"type":"text","text":"[[知识库/文件系统/场景#压缩文件夹后为何传输速度变快]]"}
 	],
 	"edges":[
