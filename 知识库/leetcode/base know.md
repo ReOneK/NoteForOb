@@ -37,4 +37,4 @@
 		2. 
 	3. l,r为中心点
 		1. 奇数中心点：expand(s,i,i)
-		2. 偶数中心点：expand(s,i,i+q)
+		2. 偶数中心点：expand(s,i,i+1)
