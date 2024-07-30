@@ -30,7 +30,7 @@
     "type": "split",
     "children": [
       {
-        "id": "f26cd2019bb10018",
+        "id": "07abfc488f4d65a3",
         "type": "tabs",
         "children": [
           {
@@ -42,7 +42,13 @@
                 "sortOrder": "alphabetical"
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "f26cd2019bb10018",
+        "type": "tabs",
+        "children": [
           {
             "id": "d59f98508a763dbc",
             "type": "leaf",
