@@ -30,3 +30,5 @@
 		`index,ok:=map[s[r]];ok && index>=left`
 
 #### 回文子串
+1. 回文串判断
+	1. 
