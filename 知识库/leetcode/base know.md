@@ -33,5 +33,7 @@
 1. 回文串判断
 	1. 中心扩展法
 	2. func expand(s string,l,r int) int
+		1. 边界pan d
 	3. l,r为中心点
 		1. 奇数中心点：expand(s,i,i)
+		2. 偶数中心点：expand(s,i,i+q)
