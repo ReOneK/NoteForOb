@@ -42,4 +42,7 @@
 	3. l,r为中心点
 		1. 奇数中心点：L1=expand(s,i,i)
 		2. 偶数中心点：L2=expand(s,i,i+1)
-		3. 比较L1，L2的大小，取最大并与缓存的res进行bi jia
+		3. 比较L1，L2的大小，取最大L并与缓存的res进行比较
+		4. 更新start和end的结果
+			1. start=i-(L-1)/2
+			2. end=i+L/2
