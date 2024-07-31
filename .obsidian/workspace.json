@@ -11,12 +11,9 @@
             "id": "c328399ae78a64c5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "知识库/内存/基本概念.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "pic/共享内存1.png"
               }
             }
           }
@@ -86,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/内存/基本概念.md",
+                "file": "pic/共享内存1.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/内存/基本概念.md",
+                "file": "pic/共享内存1.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/内存/基本概念.md"
+                "file": "pic/共享内存1.png"
               }
             }
           },
@@ -168,11 +165,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c328399ae78a64c5",
+  "active": "6e4ba0b0df50a3b1",
   "lastOpenFiles": [
+    "知识库/内存/基本概念.md",
     "知识库/内存/场景.md",
     "知识库/文件系统/场景.md",
-    "知识库/内存/基本概念.md",
     "pic/共享内存1.png",
     "pic/共享内存.png",
     "知识库/leetcode/base know.md",
