@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/内存/场景.md",
+                "file": "知识库/leetcode/base know.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/内存/场景.md",
+                "file": "知识库/leetcode/base know.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/内存/场景.md",
+                "file": "知识库/leetcode/base know.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/内存/场景.md"
+                "file": "知识库/leetcode/base know.md"
               }
             }
           },
@@ -170,9 +170,9 @@
   },
   "active": "c328399ae78a64c5",
   "lastOpenFiles": [
+    "知识库/内存/场景.md",
     "知识库/文件系统/场景.md",
     "知识库/文件系统/基本概念.md",
-    "知识库/内存/场景.md",
     "知识库/leetcode/base know.md",
     "知识库/内存/基本概念.md",
     "pic/共享内存1.png",
