@@ -47,8 +47,9 @@
 	kube-apiserver将反序列化HTTP请求（解码），构造运行时对象（runtime object），并将它持久化到etcd。
 
 > [!NOTE] apiserver如何找到每一个资源对应的操作Handle
-
-
+> 注册机制
+> - 1. - 当 kube-apiserver 启动时，它会加载所有已注册的资源类型和它们的处理函数。这些资源和它们的处理逻辑通常在 Kubernetes 源代码中定义，并在编译时注册到 API Server 中。
+> - 
 > 1.当apiserver启动时，会创建一个server chain,允许apiserver进行聚合
 > 2.这个时候会创建一个默认的通用apiserver
 > 3.同时默认生成的OpenAPI信息会填充到apiserver的配置中
