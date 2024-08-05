@@ -47,17 +47,12 @@
 	kube-apiserver将反序列化HTTP请求（解码），构造运行时对象（runtime object），并将它持久化到etcd。
 
 > [!NOTE] apiserver如何找到每一个资源对应的操作Handler
-> 注册机制
->  1.API注册
+>  
 > - 当 kube-apiserver 启动时，它会加载所有已注册的资源类型和它们的处理函数。这些资源和它们的处理逻辑通常在 Kubernetes 源代码中定义，并在编译时注册到 API Server 中。
 > 2.REST处理器
 > - 每个资源类型都有一个对应的 REST 处理器，该处理器用于处理 HTTP 请求。REST 处理器实现了资源的创建、读取、更新、删除等（CRUD）操作的具体逻辑。
 > 
-> 1.当apiserver启动时，会创建一个server chain,允许apiserver进行聚合
-> 2.这个时候会创建一个默认的通用apiserver
-> 3.同时默认生成的OpenAPI信息会填充到apiserver的配置中
-> - 为每个api组配置一个存储服务提供器
-> - 为每一个不同版本的API组添加REST路由映射信息
+
 
 ## pod删除的过程
 1. **发出删除请求**：
