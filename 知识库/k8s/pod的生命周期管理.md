@@ -43,7 +43,9 @@
 - 变更准入控制器（Mutating Admission Controller）用于变更信息，能够修改用户提交的资源对象信息
 - 验证准入控制器（Validating Admission Controller）用于身份验证，能够验证用户提交的资源对象信息
 
-etcd
+#### etcd
+	kube-apiserver将反序列化HTTP请求（解码），构造运行时对象（runtime object），并将它持久化到etcd。
+
 ## pod删除的过程
 1. **发出删除请求**：
     
