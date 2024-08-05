@@ -1,11 +1,12 @@
 ## pod创建的过程
-#### kubectl create
+### kubectl create
 
-- 客户端参数检查验证
-	- 镜像名称/拉取策略校验
+#### 客户端参数检查验证
+	 镜像名称/拉取策略校验
 
-+ 对象生成
-	+ 获取pod默认生成器，生成运行时对象
+#### 对象生成
+	获取pod默认生成器
+	生成运行时对象
 > [!NOTE] api groups和version 
 > k8s的api带版本号并且被划分为不同的api groups
 > k8s一般支持多版本的api groups,为了找到最合适的api,会调用apiserver进行获取
@@ -16,7 +17,7 @@
 	-  -- kubeconfig
 
 #### apiserver
-	apiserver在第一次启动的时候，会根据用户提供的命令行参数
+	apiserver在第一次启动的时候，会根据用户提供的命令行参数组装一个合适的认证器列表
 
 ## pod删除的过程
 1. **发出删除请求**：
