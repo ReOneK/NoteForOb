@@ -38,7 +38,10 @@
 - RBAC
 - Node
 
-#### Admi
+#### Admission control
+	持久化（）
+
+
 ## pod删除的过程
 1. **发出删除请求**：
     
