@@ -16,7 +16,7 @@
 	-  -- kubeconfig
 
 #### apiserver
-
+	apiserver在第一次启动的时候，会根据用户提供的命令行参数
 
 ## pod删除的过程
 1. **发出删除请求**：
