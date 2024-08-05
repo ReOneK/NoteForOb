@@ -22,7 +22,7 @@
 	每一个请求都会逐一经过这个请求列表，直到有一个认证通过
 - 客户端证书认证（x509）
 - HTTP Basic（静态密码文件）
-- Bearer Token（jia）
+- Bearer Token（静态Token文件）
 
 ## pod删除的过程
 1. **发出删除请求**：
