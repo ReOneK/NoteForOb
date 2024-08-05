@@ -23,6 +23,7 @@
 - 客户端证书认证（x509）
 - HTTP Basic（静态密码文件）
 - Bearer Token（静态Token文件）
+- webhook认证（）
 
 ## pod删除的过程
 1. **发出删除请求**：
