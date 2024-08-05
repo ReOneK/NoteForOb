@@ -30,6 +30,13 @@
 
 #### 鉴权
 	kube-apiserver需要基于用户提供的命令行参数，来组装一个合适的鉴权器列表来处理每一个请求。当所有的鉴权器都拒绝该请求时，请求会终止
+	通过指定--authorization-mode参数设置授权机制，至少需要指定一个
+- AlwaysAllow
+- AlwaysDeny
+- ABAC
+- Webhook
+- RBAC
+- Node
 
 ## pod删除的过程
 1. **发出删除请求**：
