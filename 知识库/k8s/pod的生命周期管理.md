@@ -77,7 +77,7 @@
 ### 一个长期处于terminating的pod如何查找原因
 
 #### 排查问题的方法
-- kubectl describe pod <pod_name>
+- kubectl describe pod pod_name
 - kubectl logs pod-name -n namespace
 - kubectl debug pod/pod-name -n namespace --image=busybox sh
 - journalctl -u kubelet
