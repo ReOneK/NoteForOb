@@ -44,7 +44,7 @@
         2. 客户端发送watch请求
         3. 服务端在返回的watch事件流会定期发送特殊的bookmark事件流
             
-2. 使用informor机制
+2. 使用informer机制
     1. 利用客户端的缓存，避免重复请求apiserver
     2. 事件处理机制，避免频繁轮询apiserver
         
