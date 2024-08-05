@@ -47,11 +47,13 @@
 	kube-apiserver将反序列化HTTP请求（解码），构造运行时对象（runtime object），并将它持久化到etcd。
 
 > [!NOTE] apiserver如何找到每一个资源对应的操作Handle
+
+
 > 1.当apiserver启动时，会创建一个server chain,允许apiserver进行聚合
 > 2.这个时候会创建一个默认的通用apiserver
 > 3.同时默认生成的OpenAPI信息会填充到apiserver的配置中
 > - 为每个api组配置一个存储服务提供器
-> - 
+> - 为每一个不同版本的API组添加REST路由映射信息
 
 ## pod删除的过程
 1. **发出删除请求**：
