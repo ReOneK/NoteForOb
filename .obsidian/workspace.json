@@ -45,9 +45,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1d85c83cb1e6d1fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "知识库/k8s/基础概念.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -195,7 +208,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4dc1ad10ee32fb20",
+  "active": "1d85c83cb1e6d1fb",
   "lastOpenFiles": [
     "知识库/k8s/基础概念.md",
     "知识库/k8s/kubernetes性能优化.md",
