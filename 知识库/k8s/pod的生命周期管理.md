@@ -39,7 +39,9 @@
 - Node
 
 #### Admission control
-	持久化（）
+	持久化（存到etcd之前）的最后一道保障
+- 变更准入控制器（Mutating Admission Controller）用于变更信息，能够修改用户提交的资源对象信息
+- 验证准入控制器（Validating Admission Controller）用于身份验证，能够验证用户提交的资源对象信息
 
 
 ## pod删除的过程
