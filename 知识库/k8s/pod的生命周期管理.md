@@ -14,7 +14,7 @@
 
 #### 按照正确的格式输出创建的对象
 #### 客户端的认证支持
-	-  -- kubeconfig
+	-- kubeconfig
 
 ### apiserver
 #### 认证
