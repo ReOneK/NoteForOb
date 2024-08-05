@@ -50,6 +50,7 @@
 > 1.当apiserver启动时，会创建一个server chain,允许apiserver进行聚合
 > 2.这个时候会创建一个默认的通用apiserver
 > 3.同时默认生成的OpenAPI信息会填充到apiserver的配置中
+> 	apiserver为每个api组配置一个存储服务提供器
 > 	
 ## pod删除的过程
 1. **发出删除请求**：
