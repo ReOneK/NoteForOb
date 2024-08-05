@@ -46,7 +46,7 @@
 #### etcd
 	kube-apiserver将反序列化HTTP请求（解码），构造运行时对象（runtime object），并将它持久化到etcd。
 
-> [!NOTE]apiserver如何找到每一个资源对应的
+> [!NOTE] apiserver如何找到每一个资源对应的操作Handle
 > 
 ## pod删除的过程
 1. **发出删除请求**：
