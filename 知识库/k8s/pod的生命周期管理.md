@@ -1,8 +1,6 @@
 ## pod创建的过程
 
-
-
-## 删除pod的过程
+## pod删除的过程
 1. **发出删除请求**：
     
     - 当用户使用 `kubectl delete pod` 命令删除一个 Pod 时，这个请求首先被发送到 Kubernetes API 服务器。
