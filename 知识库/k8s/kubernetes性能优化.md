@@ -29,7 +29,7 @@
 	2. 一些controller在没有指定resourceVersion的情况发起list请求，会导致apiServer在内存中进行大量的数据深拷贝，这些深拷贝的数据无法被直接GC
 		1. `resourceVersion` 是 Kubernetes API 对象的一个字段，用于标识对象的版本
 		2. 当 Controller 发起 List 请求时，如果指定了 `resourceVersion`，API Server 可以根据该版本号判断是否有数据更新
-		3. 如果没有数据更新，API Server 可以直接返回缓存中的数据，避免进行深拷贝操作
+		3. **如果没有数据更新，API Server 可以直接返回缓存中的数据，避免进行深拷贝操作**
 2. 实际场景
 	1. 在 daemonset 中使用 informer ，或故障重启节点时，请求量突增，且在apiServer一个副本挂了后，异常连接传递到其他副本，导致 OOM 雪崩。
 	2. 当请求的资源数据量过大时， kube-apiserver 配置的默认timeout（1分钟）不足以支撑一次资源数据量返回，infromer不断尝试 list ，导致OOM。
