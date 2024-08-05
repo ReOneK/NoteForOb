@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/k8s/基础概念.md",
+                "file": "知识库/k8s/pod的生命周期管理.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/k8s/基础概念.md",
+                "file": "知识库/k8s/pod的生命周期管理.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/k8s/基础概念.md",
+                "file": "知识库/k8s/pod的生命周期管理.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/k8s/基础概念.md",
+                "file": "知识库/k8s/pod的生命周期管理.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/k8s/基础概念.md",
+                "file": "知识库/k8s/pod的生命周期管理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/k8s/基础概念.md",
+                "file": "知识库/k8s/pod的生命周期管理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/k8s/基础概念.md"
+                "file": "知识库/k8s/pod的生命周期管理.md"
               }
             }
           },
@@ -210,7 +210,7 @@
   },
   "active": "1d85c83cb1e6d1fb",
   "lastOpenFiles": [
-    "知识库/k8s/基础概念.md",
+    "知识库/k8s/pod的生命周期管理.md",
     "知识库/k8s/kubernetes性能优化.md",
     "知识库/CV.md",
     "知识库/内存/基本概念.md",
