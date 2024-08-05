@@ -8,7 +8,7 @@
 	+ 获取pod默认生成器，生成运行时对象	
 > [!NOTE] api groups和version 
 > k8s的api带版本号并且被划分为不同的api groups
-> k8s一般支持多版本的api groups,为了找到最合适的api,
+> k8s一般支持多版本的api groups,为了找到最合适的api,会调用
 
 
 
