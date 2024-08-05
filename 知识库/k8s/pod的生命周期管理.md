@@ -48,6 +48,7 @@
 
 > [!NOTE] apiserver如何找到每一个资源对应的操作Handle
 > 1.当apiserver启动时，会创建一个server chain,允许apiserver进行聚合
+> 2.这个时候会创建一个
 ## pod删除的过程
 1. **发出删除请求**：
     
