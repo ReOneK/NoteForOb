@@ -11,7 +11,7 @@
 > k8s一般支持多版本的api groups,为了找到最合适的api,会调用apiserver进行获取
 > 但是为了提高性能，一般会在本地~/.kube/cache/discovery目录缓存这些schema文件。
 
--
+
 
 
 
