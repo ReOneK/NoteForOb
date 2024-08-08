@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "e1c7f7a4f3c70ede",
+        "id": "a20bd18b3a65ff3a",
         "type": "tabs",
         "children": [
           {
-            "id": "14e5633b2acc550e",
+            "id": "331e361c70da0aba",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "知识库/k8s/pod的生命周期管理.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -65,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "883699a2382e28d4",
@@ -82,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "知识库/k8s/pod的生命周期管理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "知识库/k8s/pod的生命周期管理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -119,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "知识库/k8s/pod的生命周期管理.md"
+              }
             }
           },
           {
@@ -162,18 +170,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "14e5633b2acc550e",
+  "active": "331e361c70da0aba",
   "lastOpenFiles": [
+    "知识库/k8s/kubernetes性能优化.md",
+    "知识库/cpu/基础知识.md",
+    "知识库/cpu/场景.md",
     "知识库/k8s/pod的生命周期管理.md",
     "知识库/k8s/多集群管理与调度.md",
     "study plan.md",
-    "知识库/k8s/kubernetes性能优化.md",
     "知识库/CV.md",
     "知识库/内存/基本概念.md",
     "知识库/内存/场景.md",
     "知识库/文件系统/基本概念.md",
-    "知识库/cpu/基础知识.md",
-    "知识库/cpu/场景.md",
     "知识库/leetcode/base know.md",
     "知识库/cpu/未命名",
     "知识库/cpu",
