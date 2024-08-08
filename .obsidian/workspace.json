@@ -152,7 +152,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,7 +171,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c06ec0deee3554fa",
+  "active": "65229f450f2d968a",
   "lastOpenFiles": [
     "知识库/k8s/多集群管理与调度.md",
     "study plan.md",
