@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4152a2afdcabb867",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "知识库/k8s/k8s组件.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -168,11 +182,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "331e361c70da0aba",
+  "active": "4152a2afdcabb867",
   "lastOpenFiles": [
     "知识库/k8s/pod的生命周期管理.md",
-    "知识库/k8s/kubernetes性能优化.md",
     "知识库/k8s/k8s组件.md",
+    "知识库/k8s/kubernetes性能优化.md",
     "知识库/cpu/基础知识.md",
     "知识库/cpu/场景.md",
     "知识库/k8s/多集群管理与调度.md",
