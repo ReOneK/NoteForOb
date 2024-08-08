@@ -58,11 +58,8 @@
 	当调度器将一个pod调度到一个节点后，那个节点上的kubelet就会接手开始具体的创建工作。
 
 > [!NOTE] kubelet是如何指导pod被绑定到节点上
-> 
-> 
-
-
-
+> - Pod 对象在 Kubernetes API Server 上通过调度器绑定到一个节点之后，Pod 对象中会更新 `.spec.nodeName` 字段。
+> - 绑定节点的 Kubelet 通过 Kubernetes API Server Watch 机制监控 Pod 资源的变化。当发现有新添加或更新到它管理的节点上的 Pod 时，会触发相应的处理逻辑。
 ### kubelet
 
 
