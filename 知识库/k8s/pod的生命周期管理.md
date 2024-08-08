@@ -43,7 +43,7 @@
 - 变更准入控制器（Mutating Admission Controller）用于变更信息，能够修改用户提交的资源对象信息
 - 验证准入控制器（Validating Admission Controller）用于身份验证，能够验证用户提交的资源对象信息
 
-#### etcd
+### etcd
 	kube-apiserver将反序列化HTTP请求（解码），构造运行时对象（runtime object），并将它持久化到etcd。
 
 > [!NOTE] apiserver如何找到每一个资源对应的操作Handler
@@ -52,6 +52,9 @@
 > 2.REST处理器
 > - 每个资源类型都有一个对应的 REST 处理器，该处理器用于处理 HTTP 请求。REST 处理器实现了资源的创建、读取、更新、删除等（CRUD）操作的具体逻辑。
 > 
+
+### schedule
+
 
 
 ## pod删除的过程
