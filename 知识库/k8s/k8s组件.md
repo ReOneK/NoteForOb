@@ -5,5 +5,6 @@
 
 #### default ns下面内置的kubernetes svc的作用
 	1. 是由 kube-apiserver 中的 bootstrap controller 进行控制的
-	2. 
+	2. 代表 Kubernetes API Server
+	3. 
 
