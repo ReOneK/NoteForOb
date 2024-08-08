@@ -5,5 +5,6 @@
 
 #### 相关细节
 
-1. defau
+1. default ns下面的kubernetes svc的作用
+	1. 是由 kube-apiserver 中的 bootstrap controller 进行控制的
 
