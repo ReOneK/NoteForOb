@@ -13,3 +13,4 @@
 		- 提供基于 Service ClusterIP 的修复及检查功能
 		- 提供基于 Service NodePort 的修复及检查功能
 
+#### 多个apiserver实例是如何统一管理的
