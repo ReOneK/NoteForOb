@@ -61,7 +61,27 @@
 > - Pod 对象在 Kubernetes API Server 上通过调度器绑定到一个节点之后，Pod 对象中会更新 `.spec.nodeName` 字段。
 > - 绑定节点的 Kubelet 通过 Kubernetes API Server Watch 机制监控 Pod 资源的变化。当发现有新添加或更新到它管理的节点上的 Pod 时，会触发相应的处理逻辑。
 ### kubelet
-
+1. **同步 Loop**：
+    
+    - Kubelet 以定期循环（sync loop）的方式监控 API Server 和本地状态，并使其一致。每次循环中会检查新绑定到当前节点的 Pod。
+2. **镜像拉取**：
+    
+    - 如果 Pod 使用的容器镜像还未被拉取，Kubelet 会通过 CRI（Container Runtime Interface）请求容器运行时拉取镜像。
+3. **创建 Pod 容器**：
+    
+    - 通过 CRI 创建与 Pod 对应的容器，这包括初始化容器（init containers）和正常的应用容器（application containers）。
+4. **运行时 Cgroups 和 Namespace 设置**：
+    
+    - Kubelet 设置容器的 cgroups 来限制资源使用，并配置容器的 namespaces 以实现进程隔离、网络隔离等。
+5. **设置网络**：
+    
+    - 配置 Pod 的网络，包括分配 IP 地址、设置网络接口等。通常，Kubelet 使用 CNI 插件来完成这些任务。
+6. **挂载卷**：
+    
+    - 根据 Pod 规范挂载相应的卷，包括本地卷或远程存储卷。
+7. **启动容器**：
+    
+    - 完成初始化工作后，通过 CRI 启动容器，进入主应用程序运行状态。
 
 
 ## pod删除的过程
