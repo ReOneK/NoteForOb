@@ -92,13 +92,12 @@
 	    - 将 Pod 的 `deletionTimestamp` 字段设为当前时间，表明这个 Pod 正在被删除。
 	    - 更新 Pod 对象状态，并触发相应的事件。
 
-1. kubelet：
-		    *由于 Pod 对象的变化（`deletionTimestamp` 字段被设置），调度器和与该 Pod 相关的 Kubelet 会通过 on-watch 事件获取到这个变动。*
-    - API 服务器随后会通知运行该 Pod 的节点上的 kubelet，要求其执行 Pod 的删除操作。
-    - 这个通知通常是通过 `gRPC` 或 HTTP 请求发送的。
+2. kubelet：
+	*由于 Pod 对象的变化（`deletionTimestamp` 字段被设置），调度器和与该 Pod 相关的 Kubelet 会通过 on-watch 事件获取到这个变动。*
+		    
 3. **执行优雅终止**：
     
-    - kubelet 接收到删除请求后，会向 Pod 中的容器发送一个 `SIGTERM` 信号，触发优雅终止过程。此时，应用程序有机会进行清理和保存数据。
+    - kubelet 会向 Pod 中的容器发送一个 `SIGTERM` 信号，触发优雅终止过程。此时，应用程序有机会进行清理和保存数据。
     - kubelet 会等待一段时间（按照 `terminationGracePeriodSeconds` 设置）以给容器足够时间关闭。
 4. **强制终止**：
     
