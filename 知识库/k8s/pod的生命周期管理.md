@@ -91,8 +91,9 @@
     - API 服务器会将这个删除请求记录下来，并将 Pod 的状态标记为 "Terminating"。
 	    - 将 Pod 的 `deletionTimestamp` 字段设为当前时间，表明这个 Pod 正在被删除。
 	    - 更新 Pod 对象状态，并触发相应的事件。
-1. **通知 kubelet**：
-    
+
+1. kubelet：
+		    *由于 Pod 对象的变化（`deletionTimestamp` 字段被设置），调度器和与该 Pod 相关的 Kubelet 会通过 on-watch 事件获取到这个变动。*
     - API 服务器随后会通知运行该 Pod 的节点上的 kubelet，要求其执行 Pod 的删除操作。
     - 这个通知通常是通过 `gRPC` 或 HTTP 请求发送的。
 3. **执行优雅终止**：
