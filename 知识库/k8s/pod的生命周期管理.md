@@ -57,6 +57,11 @@
 	调度器会过滤出所有在PodSpec中NodeName字段为空的pod，然后尝试为这些pod找到一个适合其运行的节点。
 	当调度器将一个pod调度到一个节点后，那个节点上的kubelet就会接手开始具体的创建工作。
 
+> [!NOTE] kubelet是如何指导pod被绑定到节点上
+> 
+> 
+
+
 
 ### kubelet
 
