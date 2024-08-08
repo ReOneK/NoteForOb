@@ -89,7 +89,9 @@
     
     - 当用户使用 `kubectl delete pod` 命令删除一个 Pod 时，这个请求首先被发送到 Kubernetes API 服务器。
     - API 服务器会将这个删除请求记录下来，并将 Pod 的状态标记为 "Terminating"。
-2. **通知 kubelet**：
+	    - 将 Pod 的 `deletionTimestamp` 字段设为当前时间，表明这个 Pod 正在被删除。
+	    - 更新 Pod 对象状态，并触发相应的事件。
+1. **通知 kubelet**：
     
     - API 服务器随后会通知运行该 Pod 的节点上的 kubelet，要求其执行 Pod 的删除操作。
     - 这个通知通常是通过 `gRPC` 或 HTTP 请求发送的。
