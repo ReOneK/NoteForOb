@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/go/channel.md",
+                "file": "知识库/go/GMP.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/go/channel.md",
+                "file": "知识库/go/GMP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/go/channel.md",
+                "file": "知识库/go/GMP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/go/channel.md"
+                "file": "知识库/go/GMP.md"
               }
             }
           },
@@ -184,6 +184,8 @@
   },
   "active": "4152a2afdcabb867",
   "lastOpenFiles": [
+    "知识库/go/channel.md",
+    "知识库/go/GMP.md",
     "知识库/go/并发/sync.Pool.md",
     "知识库/go/并发/sync.Map.md",
     "知识库/go/并发/Mutex.md",
@@ -229,8 +231,6 @@
     "pic",
     "知识库/硬盘",
     "未命名.canvas",
-    "未命名看板.md",
-    "README.md",
     "知识图谱/网络.canvas",
     "leetcode",
     "知识图谱/work note.canvas",
