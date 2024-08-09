@@ -11,12 +11,9 @@
             "id": "331e361c70da0aba",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "知识库/go/GMP.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "Excalidraw/test.md"
               }
             }
           }
@@ -86,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/go/GMP.md",
+                "file": "Excalidraw/test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/go/GMP.md",
+                "file": "Excalidraw/test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/go/GMP.md"
+                "file": "Excalidraw/test.md"
               }
             }
           },
@@ -168,10 +165,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6e4ba0b0df50a3b1",
+  "active": "331e361c70da0aba",
   "lastOpenFiles": [
-    "知识库/go/GC.md",
+    "读书笔记/未命名.md",
     "知识库/go/GMP.md",
+    "知识库/go/GC.md",
     "知识库/k8s/k8s组件.md",
     "pic/GMP调度流程.png",
     "知识库/go/channel.md",
