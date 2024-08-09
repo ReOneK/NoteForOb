@@ -6,9 +6,9 @@
     
     - local pool
         
-    - victim pool -->cache
-        
-
+    - victim pool (cache)
+	    - 作为缓冲区，在对象从某个处理器 (P) 被清理时，暂时存储这些对象以备其他处理器复用
+    
 ##### 清除对象
 
 2个GC循环清除缓存池中的对象（对象回收时会先放入local pool）
