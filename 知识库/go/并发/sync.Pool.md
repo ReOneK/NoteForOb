@@ -6,7 +6,7 @@
     
     - local pool
         
-    - victim cache
+    - victim pool -->cache
         
 
 ##### 清除对象
