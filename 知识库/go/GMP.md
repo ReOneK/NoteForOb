@@ -18,3 +18,12 @@
 
 #### 调度过程中阻塞
 
+- I/O，select
+- block on syscall
+- channel
+- 等待锁
+- runtime.Gosched()
+
+
+> [!NOTE] 关于阻塞
+> - 用户态阻塞
