@@ -15,3 +15,6 @@
 5. 当从全局队列中没有获取到可执行的G时候，M会从其他P的局部队列中偷取G来执行(流程3.2)，这种从其他P偷的方式称为`work stealing`
 6. 当G因系统调用(syscall)阻塞时会阻塞M，此时P会和M解绑即`hand off`，并寻找新的idle的M，若没有idle的M就会新建一个M(流程5.1)。
 7. 当G因channel或者network I/O阻塞时，不会阻塞M，M会寻找其他runnable的G；当阻塞的G恢复后会重新进入runnable进入P队列等待执行(流程5.3)
+
+#### 调度过程中阻塞
+
