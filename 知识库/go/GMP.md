@@ -30,5 +30,7 @@
 > 	- 对应的G会被放置到某个wait队列(如channel的waitq)，该G的状态由_Gruning变为_Gwaitting，而M会跳过该G尝试获取并执行下一个G，
 > 	- 如果此时没有runnable的G供M运行，那么M将解绑P，并进入sleep状态；
 > 	- 当阻塞的G被另一端的G2唤醒时（比如channel的可读/写通知），G被标记为runnable，尝试加入G2所在P的runnext，然后再是P的Local队列和Global队列。
-> - 系统调用阻塞会导致M阻塞，此时M可被抢占（执行该G的M会与P解绑）
-> 	- 执行该G的M会与P解绑，而P则尝试与其它idle的M绑定，继续执行其它G。如果没有其它idle的M，但P的Local队列中仍然有G需要执行，则创建一个新的M；当系统调用完成后，G会重新尝试获取一个idle的P进入它的Local队列恢复执行，如果没有idle的P，G会被标记为runnable加入到Global队列。
+> - 系统调用阻塞会导致M阻塞，此时M可被抢占
+> 	- 执行该G的M会与P解绑，而P则尝试与其它idle的M绑定，继续执行其它G。
+> 	- 如果没有其它idle的M，但P的Local队列中仍然有G需要执行，则创建一个新的M；
+> 	- 当系统调用完成后，G会重新尝试获取一个idle的P进入它的Local队列恢复执行，如果没有idle的P，G会被标记为runnable加入到Global队列。
