@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "a20bd18b3a65ff3a",
+        "id": "187ee38a8c103896",
         "type": "tabs",
         "children": [
           {
-            "id": "331e361c70da0aba",
+            "id": "415226dbcfc1049b",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/test.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -83,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -122,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Excalidraw/test.md"
-              }
+              "state": {}
             }
           },
           {
@@ -165,8 +159,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "331e361c70da0aba",
+  "active": "415226dbcfc1049b",
   "lastOpenFiles": [
+    "Excalidraw/test.md",
     "读书笔记/未命名.md",
     "知识库/go/GMP.md",
     "知识库/go/GC.md",
@@ -206,7 +201,6 @@
     "知识库/文件系统",
     "知识库/leetcode",
     "pic/linux IO栈.png",
-    "知识库/硬盘/基本概念.md",
     "知识图谱/操作系统.canvas",
     "知识图谱/k8s.canvas",
     "知识图谱/k8s",
