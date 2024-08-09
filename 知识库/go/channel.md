@@ -6,9 +6,9 @@
 
 #### 循环队列的队满和队空的二义性问题
     
-    1. 用一个空白单元来解决
-        
-    2. goland的channel通过添加一个qcount来记录
+1. 用一个空白单元来解决
+	
+2. goland的channel通过添加一个qcount来记录
         
 #### channel规则
     
@@ -68,56 +68,56 @@
 	 
 #### 接收流程 (val <-- chan)
     
-    1. 快速路径 - 非阻塞接收:
-        
-        - 尝试获取 channel 的 `lock`，如果获取不到，说明其他 goroutine 正在操作 channel，则进入慢速路径。
-            
-        - 如果 channel 不为空 (`qcount > 0`)，则从循环队列 `buf` 中读取数据，减少 `qcount`，唤醒一个阻塞在发送队列 `sendq` 的 goroutine（如果有）。
-            
-        - 如果 channel 为空 (qcount == 0）sendq不为空，说明有等待发送数据的 goroutine，则直接从sendq中取出第一个 goroutine，并根据 channel 是否为缓冲通道进行处理：
-            
-            - **缓冲通道:** 从发送者 goroutine 复制数据到 channel 的缓冲区 `buf` 中，增加 `qcount`，然后从 `buf` 中读取数据返回给接收者。
-                
-            - **非缓冲通道:** 直接将发送者 goroutine 的数据传递给接收者 goroutine，无需经过 channel 缓冲区，完成 "handoff" 过程。
-                
-        - 释放 `lock`。
-            
-    2. 慢速路径 - 阻塞接收:
-        
-        - 加锁：获取 channel 的 `lock`。
-            
-        - 判断 channel 是否已关闭：如果已关闭，且缓冲区为空 (`qcount == 0`)，则直接返回默认值（零值），如果缓冲区不为空，则从缓冲区读取数据，直到缓冲区为空。
-            
-        - 判断 channel 是否为空：如果为空，则将当前 goroutine 封装成 `sudog` 结构体，并将其加入到接收队列 `recvq` 中，然后将当前 goroutine 阻塞，等待被唤醒。
-            
-        - 判断发送队列 `sendq` 是否为空：如果不为空，则直接从 `sendq` 中取出第一个 goroutine，并根据 channel 是否为缓冲通道进行处理（处理逻辑同快速路径）。
-            
-        - 从循环队列 `buf` 中读取数据，减少 `qcount`。
-            
-        - 唤醒一个阻塞在发送队列 `sendq` 中的 goroutine（如果有）。
-            
-        - 释放 `lock`。
-            
-        
-        **一些注意点**
-        
-        - 关闭 channel 后，仍然可以从 channel 接收数据，直到 channel 中的数据全部被读取完毕，之后再接收将会返回零值。
-            
-        - 非缓冲通道的发送和接收操作会同步阻塞，直到另一方准备好进行数据传输，因此非缓冲通道也称为同步通道。
-            
-        - 缓冲通道的发送操作只有在缓冲区满时才会阻塞，接收操作只有在缓冲区为空时才会阻塞。
+1. 快速路径 - 非阻塞接收:
+	
+	- 尝试获取 channel 的 `lock`，如果获取不到，说明其他 goroutine 正在操作 channel，则进入慢速路径。
+		
+	- 如果 channel 不为空 (`qcount > 0`)，则从循环队列 `buf` 中读取数据，减少 `qcount`，唤醒一个阻塞在发送队列 `sendq` 的 goroutine（如果有）。
+		
+	- 如果 channel 为空 (qcount == 0）sendq不为空，说明有等待发送数据的 goroutine，则直接从sendq中取出第一个 goroutine，并根据 channel 是否为缓冲通道进行处理：
+		
+		- **缓冲通道:** 从发送者 goroutine 复制数据到 channel 的缓冲区 `buf` 中，增加 `qcount`，然后从 `buf` 中读取数据返回给接收者。
+			
+		- **非缓冲通道:** 直接将发送者 goroutine 的数据传递给接收者 goroutine，无需经过 channel 缓冲区，完成 "handoff" 过程。
+			
+	- 释放 `lock`。
+		
+2. 慢速路径 - 阻塞接收:
+	
+	- 加锁：获取 channel 的 `lock`。
+		
+	- 判断 channel 是否已关闭：如果已关闭，且缓冲区为空 (`qcount == 0`)，则直接返回默认值（零值），如果缓冲区不为空，则从缓冲区读取数据，直到缓冲区为空。
+		
+	- 判断 channel 是否为空：如果为空，则将当前 goroutine 封装成 `sudog` 结构体，并将其加入到接收队列 `recvq` 中，然后将当前 goroutine 阻塞，等待被唤醒。
+		
+	- 判断发送队列 `sendq` 是否为空：如果不为空，则直接从 `sendq` 中取出第一个 goroutine，并根据 channel 是否为缓冲通道进行处理（处理逻辑同快速路径）。
+		
+	- 从循环队列 `buf` 中读取数据，减少 `qcount`。
+		
+	- 唤醒一个阻塞在发送队列 `sendq` 中的 goroutine（如果有）。
+		
+	- 释放 `lock`。
+		
+	
+	**一些注意点**
+	
+	- 关闭 channel 后，仍然可以从 channel 接收数据，直到 channel 中的数据全部被读取完毕，之后再接收将会返回零值。
+		
+	- 非缓冲通道的发送和接收操作会同步阻塞，直到另一方准备好进行数据传输，因此非缓冲通道也称为同步通道。
+		
+	- 缓冲通道的发送操作只有在缓冲区满时才会阻塞，接收操作只有在缓冲区为空时才会阻塞。
 
 
 #### 简化过程
         
-	1. 先获取lock,没获取到则阻塞
-		
-	2. 判断是否关闭，关闭的时候再发送数据则会Panic
-		
-	3. 判断是否为空，如果为空（qcount=0）并且接受者队列/发送者队列不为空,则直接将数据复制到对应的goroutine，不需要经过buf
-		
-	4. 如果不为空
-		
-		1. 对于阻塞场景，则将当前的goroutine封装成sudog结构体，并加入接受队列/发送队列中，然后阻塞goroutine,等待被唤醒
-			
-		2. 对于非阻塞场景，则将数据拷贝到循环队列 `buf` 中，增加/减少 `qcount`，唤醒一个阻塞在发送队列 `sendq` /recvq的 goroutine（如果有）
+1. 先获取lock,没获取到则阻塞
+
+2. 判断是否关闭，关闭的时候再发送数据则会Panic
+
+3. 判断是否为空，如果为空（qcount=0）并且接受者队列/发送者队列不为空,则直接将数据复制到对应的goroutine，不需要经过buf
+
+4. 如果不为空
+
+5. 对于阻塞场景，则将当前的goroutine封装成sudog结构体，并加入接受队列/发送队列中，然后阻塞goroutine,等待被唤醒
+	
+2. 对于非阻塞场景，则将数据拷贝到循环队列 `buf` 中，增加/减少 `qcount`，唤醒一个阻塞在发送队列 `sendq` /recvq的 goroutine（如果有）
