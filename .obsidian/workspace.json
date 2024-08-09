@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/go/GC.md",
+                "file": "知识库/go/GMP.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/go/GC.md",
+                "file": "知识库/go/GMP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/go/GC.md",
+                "file": "知识库/go/GMP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/go/GC.md"
+                "file": "知识库/go/GMP.md"
               }
             }
           },
@@ -168,8 +168,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "331e361c70da0aba",
+  "active": "6e4ba0b0df50a3b1",
   "lastOpenFiles": [
+    "知识库/go/GC.md",
     "知识库/go/GMP.md",
     "知识库/k8s/k8s组件.md",
     "pic/GMP调度流程.png",
@@ -199,7 +200,6 @@
     "进程创建的过程中，如何申请pid.md",
     "numa.md",
     "知识库/内存",
-    "知识库/go/GC.md",
     "知识库/k8s/多集群管理与调度/Vocano.md",
     "知识库/k8s/多集群管理与调度/karmada.md",
     "pic/io引擎.png",
