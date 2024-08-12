@@ -115,5 +115,5 @@
 	2. `return nil`
 3. 两层遍历
 	1. 先是遍历最外层
-	2. `for i:=0;i<len(nums);i++`
-	3. ``
+	2. `for i:=0;i<len(nums)-2;i++`
+	3. `l,r:=i+1,len(nums)`
