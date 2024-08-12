@@ -74,5 +74,6 @@
 2. 然后遍历传入的数据
 	1. 如果传入的是int
 		1. for i:=0;i<len(values)&& nums>0;i++
-		2. if nums<values
+		2. `if values[i]<nums{
+		3. res+=sy`
 	
