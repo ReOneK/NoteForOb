@@ -97,4 +97,7 @@
 	5. `return a[:i]`
 2. 再求多个字符串的最长前缀
 	1. `x:=len(s)`
-	2. `prefix:=`
+	2. `prefix:=s[0]`
+	3. `for i:=0;i<len(s);i++{`
+	4. `prefix=commonPrefix(prefix,s[i])`
+	5. `return prefix`
