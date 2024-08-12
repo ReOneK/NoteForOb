@@ -121,4 +121,7 @@
 	5. 然后遍历第二层
 	6. `for l<r`
 	7. 计算sum的值
-	8. `sum:=`
+	8. `sum:=nums[i]+nums[l]|nums[r]`
+	9. 根据sum的值进行双指针收缩
+	10. `if sum==target{return}`
+	11. 
