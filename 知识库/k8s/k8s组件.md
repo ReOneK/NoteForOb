@@ -18,3 +18,5 @@
 2. ReconcileEndpoints 会从 etcd 中获取 apiserver 的实例信息并更新 endpoint。
 
 ## NodeLifecycleController
+	定期监控node的状态并根据node的condition添加对应的taint标签或者直接驱逐node上的pod
+	
