@@ -124,4 +124,6 @@
 	8. `sum:=nums[i]+nums[l]|nums[r]`
 	9. 根据sum的值进行双指针收缩
 	10. `if sum==target{return}`
-	11. 
+	11. 因为数组排序过，可能存在重复的值，需要判断跳过
+	12. `if l<r && nums[l]==nums[l+1]{l++}`
+	13. ``
