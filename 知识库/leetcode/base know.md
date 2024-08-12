@@ -81,5 +81,5 @@
 		1. `for i:=0;i<len(values)&& len(s)>0 ;i++{`
 		2. `for strings.HasPrefix(s, symbols[i]){`
 		3. `res+=values[i]`
-		4. ``
+		4. `s=s[len(symbols[i]):]`
 	
