@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4be7d6114f7be141",
+        "id": "fe7dd99663911393",
         "type": "tabs",
         "children": [
           {
-            "id": "cdcd6bc216fe31d2",
+            "id": "fad9e29b6a21588d",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -161,7 +161,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "cdcd6bc216fe31d2",
+  "active": "fad9e29b6a21588d",
   "lastOpenFiles": [
     "知识库/k8s/k8s组件.md",
     "知识库/k8s/pod的生命周期管理.md",
