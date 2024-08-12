@@ -82,4 +82,8 @@
 		2. `for strings.HasPrefix(s, symbols[i]){`
 		3. `res+=values[i]`
 		4. `s=s[len(symbols[i]):]`
-	
+
+
+#### 最长公共子串
+##### 思考
+	对于求多个对象的共同点，ke yi
