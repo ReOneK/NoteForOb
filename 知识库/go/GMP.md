@@ -37,4 +37,4 @@
 
 #### M什么时候会和P解绑
 1. 系统调用阻塞，M可被抢占
-2. P中没有可runnable的G供M运行，此时M将解绑Pbin
+2. P中没有可runnable的G供M运行，此时M将解绑P并进入sleep状态
