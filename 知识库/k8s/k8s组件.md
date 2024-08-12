@@ -17,3 +17,4 @@
 1. 一个集群中 apiserver 的所有实例会在 etcd 中的对应目录下创建 key，并定期更新这个 key 来上报自己的心跳信息。
 2. ReconcileEndpoints 会从 etcd 中获取 apiserver 的实例信息并更新 endpoint。
 
+## NodeLifecycleController
