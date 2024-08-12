@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/go/GC.md",
+                "file": "知识库/go/GMP.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/go/GC.md",
+                "file": "知识库/go/GMP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/go/GC.md",
+                "file": "知识库/go/GMP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/go/GC.md"
+                "file": "知识库/go/GMP.md"
               }
             }
           },
@@ -170,6 +170,7 @@
   },
   "active": "415226dbcfc1049b",
   "lastOpenFiles": [
+    "知识库/go/GC.md",
     "知识库/go/context.md",
     "知识库/go/channel.md",
     "知识库/go/并发/sync.Pool.md",
@@ -181,7 +182,6 @@
     "Excalidraw/test.md",
     "读书笔记/未命名.md",
     "知识库/go/GMP.md",
-    "知识库/go/GC.md",
     "pic/GMP调度流程.png",
     "知识库/cpu/基础知识.md",
     "知识库/cpu/场景.md",
