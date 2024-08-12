@@ -19,4 +19,4 @@
 
 ## NodeLifecycleController
 	定期监控node的状态并根据node的condition添加对应的taint标签或者直接驱逐node上的pod
-	
+#### taint
