@@ -29,4 +29,5 @@
 > [!NOTE] 避免因网络等问题引起的pod驱逐行为
 >  NodeLifecycleController 会为 node 进行分区并会为每个区设置不同的驱逐速率，即实际上会以 rate-limited 的方式添加 taint，在某些情况下可以避免 pod 被大量驱逐。
 
-## 
+## garbage collector controller
+### 删除策略
