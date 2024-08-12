@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/go/context.md",
+                "file": "知识库/go/GC.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/go/context.md",
+                "file": "知识库/go/GC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/go/context.md",
+                "file": "知识库/go/GC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/go/context.md"
+                "file": "知识库/go/GC.md"
               }
             }
           },
@@ -170,6 +170,7 @@
   },
   "active": "415226dbcfc1049b",
   "lastOpenFiles": [
+    "知识库/go/context.md",
     "知识库/go/channel.md",
     "知识库/go/并发/sync.Pool.md",
     "知识库/go/并发/sync.Map.md",
@@ -206,7 +207,6 @@
     "知识库/k8s/多集群管理与调度/karmada.md",
     "pic/io引擎.png",
     "知识图谱/os/硬盘.canvas",
-    "知识库/硬盘/场景.md",
     "知识库/文件系统",
     "知识库/leetcode",
     "pic/linux IO栈.png",
