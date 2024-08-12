@@ -78,4 +78,5 @@
 		4. `res+=symbols[i]`
 		5. `nums-=values[i]`
 	2. 如果传入的是string
+		1. `for i:=0;i<len(values)&& ;i++`
 	
