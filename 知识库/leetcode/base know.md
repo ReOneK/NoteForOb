@@ -126,4 +126,6 @@
 	10. `if sum==target{return}`
 	11. 因为数组排序过，可能存在重复的值，需要判断跳过
 	12. `if l<r && nums[l]==nums[l+1]{l++}`
-	13. ``
+	13. `if l<r && nums[r]==nums[r-1]{r++}`
+	14. 再根据sum和target的大小进行收缩l,r
+	15. ``
