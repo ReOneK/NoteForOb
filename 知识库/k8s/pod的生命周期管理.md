@@ -2,11 +2,11 @@
 ### kubectl create
 
 #### 客户端参数检查验证
-镜像名称
-	 镜像拉取策略校验
+1. 镜像名称
+2. 镜像拉取策略校验
 #### 对象生成
-	获取pod默认生成器
-	生成运行时对象
+1. 获取pod默认生成器
+2. 生成运行时对象
 > [!NOTE] api groups和version 
 > k8s的api带版本号并且被划分为不同的api groups
 > k8s一般支持多版本的api groups,为了找到最合适的api,会调用apiserver进行获取
@@ -14,7 +14,7 @@
 
 #### 按照正确的格式输出创建的对象
 #### 客户端的认证支持
-	-- kubeconfig
+  -- kubeconfig
 
 ### apiserver
 #### 认证
