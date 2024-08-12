@@ -110,4 +110,7 @@
 		- 数组中可能会出现相邻重复的数字，需要加一个判断跳过
 ##### 解法
 1. func(nums []int, target int)
-2. 
+2. 基础判断
+	1. `if len(nums)<3{`
+	2. `return nil`
+3. 
