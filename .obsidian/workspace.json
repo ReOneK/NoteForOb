@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/network/容器网络/Flannel.md",
+                "file": "知识库/go/GMP.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/network/容器网络/Flannel.md",
+                "file": "知识库/go/GMP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/network/容器网络/Flannel.md",
+                "file": "知识库/go/GMP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/network/容器网络/Flannel.md"
+                "file": "知识库/go/GMP.md"
               }
             }
           },
@@ -171,6 +171,7 @@
   },
   "active": "52197f71c143ddb5",
   "lastOpenFiles": [
+    "知识库/network/容器网络/Flannel.md",
     "知识库/network/容器网络/Cilium.md",
     "知识库/network/容器网络/Calico.md",
     "知识库/network/容器网络/基础概念.md",
@@ -204,7 +205,6 @@
     "pic/缺页中断.png",
     "pic/虚拟地址空间.png",
     "pic/Pasted image 20240722171710.png",
-    "进程创建的过程中，如何申请pid.md",
     "知识库/内存",
     "pic/io引擎.png",
     "知识图谱/os/硬盘.canvas",
