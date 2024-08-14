@@ -1,4 +1,5 @@
 #### G-M-P分别代表：
+	将这些Goroutine分配、负载、调度到处理器上
 
 - G - Goroutine，Go协程，是参与调度与执行的最小单位
 - M - Machine，指的是系统级线程
