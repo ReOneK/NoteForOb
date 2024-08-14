@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/内存/场景.md",
+                "file": "知识库/内存/基本概念.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/内存/场景.md",
+                "file": "知识库/内存/基本概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/内存/场景.md",
+                "file": "知识库/内存/基本概念.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/内存/场景.md"
+                "file": "知识库/内存/基本概念.md"
               }
             }
           },
@@ -171,6 +171,7 @@
   },
   "active": "52197f71c143ddb5",
   "lastOpenFiles": [
+    "知识库/内存/场景.md",
     "知识库/go/并发/Mutex.md",
     "知识库/go/并发/sync.Map.md",
     "知识库/go/并发/sync.Pool.md",
@@ -195,7 +196,6 @@
     "study plan.md",
     "知识库/CV.md",
     "知识库/内存/基本概念.md",
-    "知识库/内存/场景.md",
     "知识库/文件系统/基本概念.md",
     "知识库/cpu/未命名",
     "知识库/cpu",
