@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/go/并发/sync.Pool.md",
+                "file": "知识库/go/并发/Mutex.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/go/并发/sync.Pool.md",
+                "file": "知识库/go/并发/Mutex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/go/并发/sync.Pool.md",
+                "file": "知识库/go/并发/Mutex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/go/并发/sync.Pool.md"
+                "file": "知识库/go/并发/Mutex.md"
               }
             }
           },
@@ -171,6 +171,8 @@
   },
   "active": "52197f71c143ddb5",
   "lastOpenFiles": [
+    "知识库/go/并发/sync.Map.md",
+    "知识库/go/并发/sync.Pool.md",
     "知识库/go/channel.md",
     "知识库/go/context.md",
     "知识库/go/GC.md",
@@ -184,8 +186,6 @@
     "知识库/k8s/k8s组件.md",
     "知识库/k8s/kubernetes性能优化.md",
     "知识库/k8s/多集群管理与调度.md",
-    "知识库/go/并发/sync.Pool.md",
-    "知识库/go/并发/sync.Map.md",
     "知识库/go/并发/Mutex.md",
     "Excalidraw/test.md",
     "读书笔记/未命名.md",
