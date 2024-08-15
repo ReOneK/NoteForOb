@@ -136,4 +136,6 @@ s[i:i+n]== needStr
 
 #### 去除重复数字
 - i:=0
-- for l:=0;l<len()
+- for l:=0;l<len(s);l++
+- if s[l]!=s[i]
+- 
