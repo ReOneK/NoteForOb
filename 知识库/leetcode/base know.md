@@ -138,4 +138,5 @@ s[i:i+n]== needStr
 - i:=0
 - for l:=0;l<len(s);l++
 - if s[l]!=s[i]
-- 
+- i++
+- s[i]=s[l]
