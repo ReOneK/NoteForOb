@@ -132,4 +132,8 @@
 	16. `else sum>target{r--}`
 
 #### 字符串的匹配遍历可以用滑动窗口
-s[i:i+n]
+s[i:i+n]== needStr
+
+#### 去除重复数字
+- i:=0
+- for l:=0;l<len()
