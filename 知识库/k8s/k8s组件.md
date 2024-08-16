@@ -49,5 +49,5 @@
 	schedule内部的pod informer只监听status.phase 不为 succeeded 以及 failed 状态的 pod，即非 terminating 的 pod。
 
 #### scheduleOne的主要逻辑
-1. 从shedule
+1. 从schedule调度队列中取出一个pod，如果pod处于删除状态则跳过
 2. 
