@@ -85,3 +85,5 @@
   3.第三种类型是宿主机相关的过滤规则，主要是PodToleratesNodeTaintsPred
   4.Pod 相关的过滤规则，主要是 MatchInterPodAffinityPred。
   5.新增的过滤规则，与宿主机的运行状况有关
+
+#### priorities
