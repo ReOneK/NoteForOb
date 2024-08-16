@@ -61,4 +61,14 @@
 - 执行 prebind plugin
 - 执行 postbind plugin
 
-#### zheng
+#### 正常的调度过程（包含优选和预选）
+
+ 1. 检查 pod pvc 信息
+ 2. 执行 prefilter plugins
+ 3. 获取 scheduler cache 的快照，每次调度 pod 时都会获取一次快照
+ 4. 执行 `g.findNodesThatFit()` 预选算法
+ 5. 执行 postfilter plugin
+ 6. 若 node 为 0 直接返回失败的 error，若 node 数为1 直接返回该 node
+ 7. 执行 `g.priorityMetaProducer()` 获取 metaPrioritiesInterface，计算 pod 的metadata，检查该 node 上是否有相同 meta 的 pod
+ 8. 执行 `PrioritizeNodes()` 算法
+ 9. 执行 `g.selectHost()` 通过得分选择一个最佳的 node
