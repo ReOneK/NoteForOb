@@ -93,5 +93,7 @@
 4. 优先级函数返回的节点分数乘以权重以获得加权分数
 5. 最后计算所有节点的总加权分数
 
-常见的|priorities 算法|
-|-
+常见的priorities 算法
+	- SelectorSpreadPriority：按 service，rs，statefulset 归属计算 Node 上分布最少的
+	- InterPodAffinityPriority：pod 亲和性选择策略，默认权重为1
+	- LeastRequestedPriority： 
