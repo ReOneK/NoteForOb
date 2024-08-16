@@ -75,4 +75,6 @@
 
 #### predicates
 
-1. 调度su
+##### 调度算法
+1. GeneralPredicates -- 
+	1. 
