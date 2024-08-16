@@ -81,4 +81,5 @@
 	- PodFitsHostPorts：检查 Pod 申请的宿主机端口（spec.nodePort）是不是跟已经被使用的端口有冲突
 	- PodMatchNodeSelector：检查 Pod 的 nodeSelector 或者 nodeAffinity 指定的节点是否与节点匹配等
 	- PodFitsResources：检查主机的资源是否满足 Pod 的需求，根据实际已经分配（Request）的资源量做调度
-  2.
+  2.与 Volume 相关的过滤规则
+  3.第三种类型是宿主机相关的过滤规则，主要是
