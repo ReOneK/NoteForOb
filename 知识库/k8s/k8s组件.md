@@ -72,3 +72,7 @@
  7. 执行 `g.priorityMetaProducer()` 获取 metaPrioritiesInterface，计算 pod 的metadata，检查该 node 上是否有相同 meta 的 pod
  8. 执行 `PrioritizeNodes()` 算法
  9. 执行 `g.selectHost()` 通过得分选择一个最佳的 node
+
+#### predicates
+
+1. 调度su
