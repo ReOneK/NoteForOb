@@ -96,4 +96,8 @@
 常见的priorities 算法
 	- SelectorSpreadPriority：按 service，rs，statefulset 归属计算 Node 上分布最少的
 	- InterPodAffinityPriority：pod 亲和性选择策略，默认权重为1
-	- LeastRequestedPriority： 
+	- LeastRequestedPriority：选择空闲资源（CPU 和 Memory）最多的节点，默认权重为1
+	- BalancedResourceAllocation：CPU、Memory 以及 Volume 资源分配最均衡的节点，默认权重为1
+	- NodeAffinityPriority：节点亲和性选择策略，默认权重为1
+	- TaintTolerationPriority
+	- ImageLocalityPriority
