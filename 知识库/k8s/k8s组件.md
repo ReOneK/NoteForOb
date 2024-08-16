@@ -46,4 +46,4 @@
 - 当一个对象的依赖对象被删除后其对应的 finalizers 字段也会被移除，只有 finalizers 字段为空时，apiserver 才会删除该对象。
 
 ## schedule
-	
+	schedule内部的pod informer只监听status.phase 不为 succeeded 以及 failed 状态的 pod，即非 terminating 的 pod。
