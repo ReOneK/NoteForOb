@@ -49,5 +49,14 @@
 	schedule内部的pod informer只监听status.phase 不为 succeeded 以及 failed 状态的 pod，即非 terminating 的 pod。
 
 #### scheduleOne的主要逻辑
-1. 从schedule调度队列中取出一个pod，如果pod处于删除状态则跳过
-2. 
+ - 从 scheduler 调度队列中取出一个 pod，如果该 pod 处于删除状态则跳过
+- 执行调度逻辑 `sched.schedule()` 返回通过预算及优选算法过滤后选出的最佳 node
+- 如果过滤算法没有选出合适的 node，则返回 core.FitError
+- 若没有合适的 node 会判断是否启用了抢占策略，若启用了则执行抢占机制
+- 判断是否需要 VolumeScheduling 特性
+- 执行 reserve plugin
+- pod 对应的 spec.NodeName 写上 scheduler 最终选择的 node，更新 scheduler cache
+- 请求 apiserver 异步处理最终的绑定操作，写入到 etcd
+- 执行 permit plugin
+- 执行 prebind plugin
+- 执行 postbind plugin
