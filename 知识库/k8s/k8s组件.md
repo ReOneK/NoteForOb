@@ -102,4 +102,4 @@
 	- TaintTolerationPriority
 	- ImageLocalityPriority：待调度 Pod 需要使用的镜像是否存在于该节点
 
-###
+#### 优先级和抢占机制
