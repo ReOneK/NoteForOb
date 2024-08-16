@@ -47,3 +47,7 @@
 
 ## schedule
 	schedule内部的pod informer只监听status.phase 不为 succeeded 以及 failed 状态的 pod，即非 terminating 的 pod。
+
+#### scheduleOne的主要逻辑
+1. 从shedule
+2. 
