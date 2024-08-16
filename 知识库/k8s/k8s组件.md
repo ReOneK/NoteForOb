@@ -100,4 +100,6 @@
 	- BalancedResourceAllocation：CPU、Memory 以及 Volume 资源分配最均衡的节点，默认权重为1
 	- NodeAffinityPriority：节点亲和性选择策略，默认权重为1
 	- TaintTolerationPriority
-	- ImageLocalityPriority
+	- ImageLocalityPriority：待调度 Pod 需要使用的镜像是否存在于该节点
+
+###
