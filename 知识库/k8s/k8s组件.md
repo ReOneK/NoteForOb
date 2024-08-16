@@ -44,3 +44,5 @@
 	- finalizerOrphanFinalizer 
 	- ForegroundFinalizerfinalizer
 - 当一个对象的依赖对象被删除后其对应的 finalizers 字段也会被移除，只有 finalizers 字段为空时，apiserver 才会删除该对象。
+
+###
