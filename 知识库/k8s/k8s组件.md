@@ -102,4 +102,7 @@
 	- TaintTolerationPriority
 	- ImageLocalityPriority：待调度 Pod 需要使用的镜像是否存在于该节点
 
-#### 优先级和抢占机制
+### 优先级和抢占机制
+
+#### 为什么要有抢占机制
+	在离线混布的场景下：
