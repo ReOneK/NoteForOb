@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/k8s/pod的生命周期管理.md",
+                "file": "知识库/cpu/基础知识.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/k8s/pod的生命周期管理.md",
+                "file": "知识库/cpu/基础知识.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/k8s/pod的生命周期管理.md",
+                "file": "知识库/cpu/基础知识.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/k8s/pod的生命周期管理.md"
+                "file": "知识库/cpu/基础知识.md"
               }
             }
           },
@@ -171,8 +171,8 @@
   },
   "active": "9ee9bbfbc13430b2",
   "lastOpenFiles": [
-    "知识库/k8s/k8s组件.md",
     "知识库/k8s/pod的生命周期管理.md",
+    "知识库/k8s/k8s组件.md",
     "知识库/leetcode/base know.md",
     "知识库/文件系统/基本概念.md",
     "知识库/cpu/基础知识.md",
