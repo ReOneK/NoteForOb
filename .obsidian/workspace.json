@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "67e83d1a7281d10a",
+        "id": "1874e3cd73a5b9f0",
         "type": "tabs",
         "children": [
           {
-            "id": "9ee9bbfbc13430b2",
+            "id": "e6e3210378b1d65e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "883699a2382e28d4",
@@ -170,14 +169,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9ee9bbfbc13430b2",
+  "active": "e6e3210378b1d65e",
   "lastOpenFiles": [
+    "pic/lxcfs.png",
+    "知识库/cpu/基础知识.md",
     "pic/进程状态.png",
     "知识库/k8s/pod的生命周期管理.md",
     "知识库/k8s/k8s组件.md",
     "知识库/leetcode/base know.md",
     "知识库/文件系统/基本概念.md",
-    "知识库/cpu/基础知识.md",
     "知识库/cpu/场景.md",
     "知识库/文件系统/场景.md",
     "知识库/内存/基本概念.md",
@@ -216,14 +216,12 @@
     "知识图谱/k8s.canvas",
     "知识图谱/k8s",
     "知识图谱/os",
-    "pic/硬盘.png",
     "pic",
     "知识库/硬盘",
     "未命名.canvas",
     "知识图谱/网络.canvas",
     "leetcode",
     "知识图谱/work note.canvas",
-    "Excalidraw/未命名.canvas",
-    "Pasted image 20240705114246.png"
+    "Excalidraw/未命名.canvas"
   ]
 }
