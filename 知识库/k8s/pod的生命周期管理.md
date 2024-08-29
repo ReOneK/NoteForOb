@@ -109,7 +109,7 @@
 > 3. **Pod 级别**：每个 pod 创建一个 cgroup，用来限制这个 pod 使用的总资源量；
 > 4. **Container 级别**：在 pod cgroup 内部，限制单个 container 的资源使用量。
 
-7. 
+7. Pod基础运行环境准备
 ## pod删除的过程
 
 1. **发出删除请求**：
