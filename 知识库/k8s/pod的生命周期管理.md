@@ -70,7 +70,8 @@
 1. **同步 Loop**：
     
     - Kubelet 以定期循环（sync loop）的方式监控 API Server 和本地状态，并使其一致。每次循环中会检查新绑定到当前节点的 Pod。
-2. **镜像拉取**：
+    - 
+1. **镜像拉取**：
     
     - 如果 Pod 使用的容器镜像还未被拉取，Kubelet 会通过 CRI（Container Runtime Interface）请求容器运行时拉取镜像。
 3. **创建 Pod 容器**：
