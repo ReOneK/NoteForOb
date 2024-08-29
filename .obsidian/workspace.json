@@ -4,16 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "1b4a948dafe959c6",
+        "id": "cf34a188766c5ed0",
         "type": "tabs",
         "children": [
           {
-            "id": "054d086c207358be",
+            "id": "a84f71ffedd1dcfd",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "pic/Pasted image 20240829090220.png"
+                "file": "知识库/k8s/pod的生命周期管理.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -83,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pic/Pasted image 20240829090220.png",
+                "file": "知识库/k8s/pod的生命周期管理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pic/Pasted image 20240829090220.png",
+                "file": "知识库/k8s/pod的生命周期管理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -123,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pic/Pasted image 20240829090220.png"
+                "file": "知识库/k8s/pod的生命周期管理.md"
               }
             }
           },
@@ -166,10 +169,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6e4ba0b0df50a3b1",
+  "active": "a84f71ffedd1dcfd",
   "lastOpenFiles": [
+    "pic/kubelet-cgroup.png",
     "知识库/k8s/pod的生命周期管理.md",
-    "pic/Pasted image 20240829090220.png",
     "pic/kubelet.png",
     "知识库/cpu/基础知识.md",
     "知识库/cpu/场景.md",
