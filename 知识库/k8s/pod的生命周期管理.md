@@ -88,6 +88,8 @@
     - **Probe Manager:** 负责管理 Pod 中容器的 Liveness Probe 和 Readiness Probe (探针) 逻辑。
 - 通过整合来自事件源、本地缓存以及 Status Manager 和 Probe Manager 的信息， kubelet 得到了对当前 Pod 状态的最最新感知。
 
+#### kubelet创建容器流程
+
 1. **同步 Loop**：
     
     - Kubelet 以定期循环（sync loop）的方式监控 API Server 和本地状态，并使其一致。每次循环中会检查新绑定到当前节点的 Pod。
