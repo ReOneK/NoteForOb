@@ -70,23 +70,6 @@
 
 - 当 kubelet 接收到一个新创建的 Pod 的信息时，它做的第一件事就是为这个 Pod 创建一个专用的**事件管道(Event Pipe)**。
 - 同时，kubelet 会启动一个**容器管理的主线程**, 这个线程专门负责从该 Pod 的事件管道中读取和处理事件。
-> [!NOTE] 容器管理主线程
-> 1. PLEG (Pod Lifecycle Event Generator):
-    - 负责监控容器运行时(例如 Docker)的事件, 并将这些事件转换为 Pod 级别的事件。
-    - 例如，当容器状态发生改变（创建、启动、停止等）时，PLEG 会生成相应的 Pod 事件。
-1. **Pod Workers:**
-    - Kubelet 会为每个 Pod 分配一个专门的 Pod Worker 线程。
-    - Pod Worker 负责该 Pod 的整个生命周期管理，包括：
-    - 从事件管道读取事件。
-    - 根据事件类型执行相应的操作，例如创建、启动、停止、删除容器等。
-    - 调用 CRI (Container Runtime Interface) 与底层容器运行时进行交互。
-    - 更新 Pod 状态到 kubelet 的 Pod Cache。
-2. **Status Manager:**
-    - 负责将 Pod 状态的变更同步到 Kubernetes API Server。
-    - 它会定期从 kubelet 的 Pod Cache 中读取最新的 Pod 状态信息，并将这些信息更新到 API Server。
-3. **Probe Manager:**
-    - 负责执行容器的 Liveness Probe 和 Readiness Probe。
-    - 它会定期检查容器的健康状态，并在必要时采取相应的措施，例如重启容器或将 Pod 从 Service 的 Endpoint 列表中移除。
 
 
 **2. 获取 Pod 最新状态信息:**
@@ -184,3 +167,25 @@
 3. **资源密集型任务**：
     
     - 容器正在处理资源密集型任务（如大规模的文件处理或数据分析），这些任务需要时间完成
+
+### 容器管理主线程
+1. **PLEG (Pod Lifecycle Event Generator):**
+    
+    - 负责监控容器运行时(例如 Docker)的事件, 并将这些事件转换为 Pod 级别的事件。
+    - 例如，当容器状态发生改变（创建、启动、停止等）时，PLEG 会生成相应的 Pod 事件。
+2. **Pod Workers:**
+    
+    - Kubelet 会为每个 Pod 分配一个专门的 Pod Worker 线程。
+    - Pod Worker 负责该 Pod 的整个生命周期管理，包括：
+    - 从事件管道读取事件。
+    - 根据事件类型执行相应的操作，例如创建、启动、停止、删除容器等。
+    - 调用 CRI (Container Runtime Interface) 与底层容器运行时进行交互。
+    - 更新 Pod 状态到 kubelet 的 Pod Cache。
+3. **Status Manager:**
+    
+    - 负责将 Pod 状态的变更同步到 Kubernetes API Server。
+    - 它会定期从 kubelet 的 Pod Cache 中读取最新的 Pod 状态信息，并将这些信息更新到 API Server。
+4. **Probe Manager:**
+    
+    - 负责执行容器的 Liveness Probe 和 Readiness Probe。
+    - 它会定期检查容器的健康状态，并在必要时采取相应的措施，例如重启容器或将 Pod 从 Service 的 Endpoint 列表中移除。
