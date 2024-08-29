@@ -65,14 +65,32 @@
 ![[kubelet.png]]
 #### 容器管理线程模型
 	kubelet中的线程模型属于master/wroker模型，通过单master来监听各种事件源，并为每个Pod创建一个goroutine来进行Pod业务逻辑的处理，master和wroker之间通过一个状态管道来进行通信
-	
+
+**1. 事件管道与容器管理线程:**
+
+- 当 kubelet 接收到一个新创建的 Pod 的信息时，它做的第一件事就是为这个 Pod 创建一个专用的**事件管道(Event Pipe)**。
+- 同时，kubelet 会启动一个**容器管理的主线程**, 这个线程专门负责从该 Pod 的事件管道中读取和处理事件。
+	- 
+
+**2. 获取 Pod 最新状态信息:**
+
+- 容器管理主线程会根据**最后同步时间 (Last Synchronized Time)** 来获取 kubelet 中关于该 Pod 的最新事件。
+    - 对于新建 Pod 而言，由于还没有进行过同步，因此会利用 PLEG (Pod Lifecycle Event Generator) 的机制：
+        - PLEG 会更新 Pod 的时间戳，并广播一个默认的空状态作为当前最新状态。
+- 这样一来，容器管理主线程就能获得两方面的信息：
+    - 本地 podCache 中关于该 Pod 的最新状态。
+    - 事件源中传递的关于该 Pod 的信息。
+
+**3. 整合状态信息并更新：**
+
+- 获取到上述两方面信息后，容器管理主线程会将其与 kubelet 中两个重要组件所维护的 Pod 容器状态信息进行整合：
+    - **Status Manager:** 负责将 Pod 状态的更新及时同步到 API Server。
+    - **Probe Manager:** 负责管理 Pod 中容器的 Liveness Probe 和 Readiness Probe (探针) 逻辑。
+- 通过整合来自事件源、本地缓存以及 Status Manager 和 Probe Manager 的信息， kubelet 得到了对当前 Pod 状态的最最新感知。
 
 1. **同步 Loop**：
     
     - Kubelet 以定期循环（sync loop）的方式监控 API Server 和本地状态，并使其一致。每次循环中会检查新绑定到当前节点的 Pod。
-    - kubelet接收到一个新创建的Pod首先会为其创建一个事件管道，并且启动一个容器管理的主线程消费管道里面的事件，并且会基于最后同步时间来等待当前kubelet中最新发生的事件(从本地的podCache中获取)
-    - 如果是一个新建的Pod，则主要是通过PLEG中更新时间操作，广播的默认空状态来作为最新的状态
-    - 当从本地的podCache中获取到最新的状态信息和从事件源获取的Pod信息后，会结合当前当前statusManager（负责将Pod状态及时更新到Api-Server）和probeManager（主要涉及liveness和readiness的逻辑）里面的Pod里面的容器状态来更新，从而获取当前感知到的最新的Pod状态
 
 2. **镜像拉取**：
     
