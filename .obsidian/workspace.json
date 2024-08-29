@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/k8s/k8s组件.md",
+                "file": "知识库/k8s/pod的生命周期管理.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/k8s/k8s组件.md",
+                "file": "知识库/k8s/pod的生命周期管理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/k8s/k8s组件.md",
+                "file": "知识库/k8s/pod的生命周期管理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/k8s/k8s组件.md"
+                "file": "知识库/k8s/pod的生命周期管理.md"
               }
             }
           },
@@ -171,11 +171,11 @@
   },
   "active": "c9793a37b4bd8d6d",
   "lastOpenFiles": [
+    "知识库/k8s/k8s组件.md",
     "知识库/k8s/pod的生命周期管理.md",
     "other/kubelet创建pod过程.pdf",
     "other",
     "pic/Pasted image 20240829091301.png",
-    "知识库/k8s/k8s组件.md",
     "知识库/k8s/Cgroup.md",
     "pic/kubelet-cgroup.png",
     "pic/kubelet.png",
