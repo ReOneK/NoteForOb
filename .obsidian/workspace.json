@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/k8s/未命名.md",
+                "file": "知识库/k8s/Cgroup.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/k8s/未命名.md",
+                "file": "知识库/k8s/Cgroup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/k8s/未命名.md",
+                "file": "知识库/k8s/Cgroup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/k8s/未命名.md"
+                "file": "知识库/k8s/Cgroup.md"
               }
             }
           },
@@ -172,7 +172,8 @@
   "active": "a84f71ffedd1dcfd",
   "lastOpenFiles": [
     "知识库/k8s/pod的生命周期管理.md",
-    "知识库/k8s/未命名.md",
+    "知识库/k8s/k8s组件.md",
+    "知识库/k8s/Cgroup.md",
     "pic/kubelet-cgroup.png",
     "pic/kubelet.png",
     "知识库/cpu/基础知识.md",
@@ -182,7 +183,6 @@
     "pic/vwstat.png",
     "pic/lxcfs.png",
     "pic/进程状态.png",
-    "知识库/k8s/k8s组件.md",
     "知识库/leetcode/base know.md",
     "知识库/文件系统/基本概念.md",
     "知识库/内存/基本概念.md",
