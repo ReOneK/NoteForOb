@@ -63,6 +63,7 @@
 ### kubelet
 
 ![[kubelet.png]]
+#### 容器管理线程模型
 
 
 1. **同步 Loop**：
