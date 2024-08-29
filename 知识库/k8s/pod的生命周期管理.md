@@ -71,8 +71,10 @@
     
     - Kubelet 以定期循环（sync loop）的方式监控 API Server 和本地状态，并使其一致。每次循环中会检查新绑定到当前节点的 Pod。
     - kubelet接收到一个新创建的Pod首先会为其创建一个事件管道，并且启动一个容器管理的主线程消费管道里面的事件，并且会基于最后同步时间来等待当前kubelet中最新发生的事件(从本地的podCache中获取)
-    - 
-1. **镜像拉取**：
+    - 如果是一个新建的Pod，则主要是通过PLEG中更新时间操作，广播的默认空状态来作为最新的状态
+    - 当从本地的podCache中获取到最新的状态信息和从事件源获取的Pod信息后，会结合当前当前statusManager（负责将Pod状态及时更新到Api-Server）和probeManager（主要涉及liveness和readiness的逻辑）里面的Pod里面的容器状态来更新，从而获取当前感知到的最新的Pod状态
+
+2. **镜像拉取**：
     
     - 如果 Pod 使用的容器镜像还未被拉取，Kubelet 会通过 CRI（Container Runtime Interface）请求容器运行时拉取镜像。
 3. **创建 Pod 容器**：
