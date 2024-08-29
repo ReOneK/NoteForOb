@@ -89,7 +89,8 @@
 - 通过整合来自事件源、本地缓存以及 Status Manager 和 Probe Manager 的信息， kubelet 得到了对当前 Pod 状态的最最新感知。
 
 #### kubelet创建容器流程
-##### 准入检查（硬性条件
+##### 准入检查（硬性条件）
+
 
 
 
