@@ -100,8 +100,9 @@
 	1. **容器运行时**和版本等检查
 5. 更新容器状态
 6. Cgroup配置
-
-7. **同步 Loop**：
+	1. 启动一个PodContainerManager为对应的Pod根据其QoS等级来进行Cgroup配置的更新
+![[kubelet-cgroup.png]]
+8. **同步 Loop**：
     
     - Kubelet 以定期循环（sync loop）的方式监控 API Server 和本地状态，并使其一致。每次循环中会检查新绑定到当前节点的 Pod。
 
