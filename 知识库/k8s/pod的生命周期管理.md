@@ -102,10 +102,16 @@
 	1. 启动一个PodContainerManager为对应的Pod根据其QoS等级来进行Cgroup配置的更新
 ![[kubelet-cgroup.png]]
 
-> [!NOTE] Cgrouppri z
-> Contents
+> [!NOTE] Cgroup配置
+> kubelet 会在 node 上创建了 4 个 cgroup 层级，从 node 的**root cgroup**（一般都是**/sys/fs/cgroup**）往下：
+> 1. **Node 级别**：针对 SystemReserved、KubeReserved 和 k8s pods 分别创建的三个Node-level cgroup；
+> 2. 
+1. **Node 级别**：针对 SystemReserved、KubeReserved 和 k8s pods 分别创建的三个Node-level cgroup；
+2. **QoS 级别**：在`kubepods`cgroup 里面，又针对三种 pod QoS （guaranteed、brustable、besteffort）分别创建一个 sub-cgroup：
+3. **Pod 级别**：每个 pod 创建一个 cgroup，用来限制这个 pod 使用的总资源量；
+4. **Container 级别**：在 pod cgroup 内部，限制单个 container 的资源使用量。
 
-1. 
+5. 
 ## pod删除的过程
 
 1. **发出删除请求**：
