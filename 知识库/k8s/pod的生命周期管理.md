@@ -66,13 +66,13 @@
 #### 容器管理线程模型
 	kubelet中的线程模型属于master/wroker模型，通过单master来监听各种事件源，并为每个Pod创建一个goroutine来进行Pod业务逻辑的处理，master和wroker之间通过一个状态管道来进行通信
 
-**1. 事件管道与容器管理线程:**
+1. 事件管道与容器管理线程
 
 - 当 kubelet 接收到一个新创建的 Pod 的信息时，它做的第一件事就是为这个 Pod 创建一个专用的**事件管道(Event Pipe)**。
 - 同时，kubelet 会启动一个[[#容器管理主线程]] 这个线程专门负责从该 Pod 的事件管道中读取和处理事件。
 
 
-**2. 获取 Pod 最新状态信息:**
+2. 获取 Pod 最新状态信息
 
 - 容器管理主线程会根据**最后同步时间 (Last Synchronized Time)** 来获取 kubelet 中关于该 Pod 的最新事件。
     - 对于新建 Pod 而言，由于还没有进行过同步，因此会利用 PLEG (Pod Lifecycle Event Generator) 的机制：
@@ -81,7 +81,7 @@
     - 本地 podCache 中关于该 Pod 的最新状态。
     - 事件源中传递的关于该 Pod 的信息。
 
-**3. 整合状态信息并更新：**
+3. 整合状态信息并更新
 
 - 获取到上述两方面信息后，容器管理主线程会将其与 kubelet 中两个重要组件所维护的 Pod 容器状态信息进行整合：
     - **Status Manager:** 负责将 Pod 状态的更新及时同步到 API Server。
