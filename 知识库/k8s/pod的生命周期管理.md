@@ -61,6 +61,8 @@
 > - Pod 对象在 Kubernetes API Server 上通过调度器绑定到一个节点之后，Pod 对象中会更新 `.spec.nodeName` 字段。
 > - 绑定节点的 Kubelet 通过 Kubernetes API Server Watch 机制监控 Pod 资源的变化。当发现有新添加或更新到它管理的节点上的 Pod 时，会触发相应的处理逻辑。
 ### kubelet
+
+![[Pasted image 20240829083033.png]]
 1. **同步 Loop**：
     
     - Kubelet 以定期循环（sync loop）的方式监控 API Server 和本地状态，并使其一致。每次循环中会检查新绑定到当前节点的 Pod。
