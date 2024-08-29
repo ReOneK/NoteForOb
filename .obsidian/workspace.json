@@ -169,8 +169,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a84f71ffedd1dcfd",
+  "active": "6e4ba0b0df50a3b1",
   "lastOpenFiles": [
+    "未命名",
     "pic/Pasted image 20240829091301.png",
     "知识库/k8s/k8s组件.md",
     "知识库/k8s/Cgroup.md",
@@ -208,7 +209,6 @@
     "知识库/cpu",
     "pic/共享内存1.png",
     "pic/共享内存.png",
-    "pic/缺页中断.png",
     "知识库/内存",
     "知识图谱/os/硬盘.canvas",
     "知识库/文件系统",
