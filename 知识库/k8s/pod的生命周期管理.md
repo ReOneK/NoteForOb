@@ -64,7 +64,8 @@
 
 ![[kubelet.png]]
 #### 容器管理线程模型
-
+	kubelet中的线程模型属于master/wroker模型，通过单master来监听各种事件源，并为每个Pod创建一个goroutine来进行Pod业务逻辑的处理，master和wroker之间通过一个状态管道来进行通信
+	
 
 1. **同步 Loop**：
     
