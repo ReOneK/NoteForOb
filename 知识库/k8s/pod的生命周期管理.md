@@ -169,8 +169,8 @@
 ### 容器管理主线程
 1. **PLEG (Pod Lifecycle Event Generator):**
     
-    - 负责监控容器运行时(例如 Docker)的事件, 并将这些事件转换为 Pod 级别的事件。
-    - 例如，当容器状态发生改变（创建、启动、停止等）时，PLEG 会生成相应的 Pod 事件。
+    - 负责监控容器运行时的事件, 并将这些事件转换为 Pod 级别的事件。
+    - 调用容器运行时接口获取本节点的容器/沙箱信息，与本地维护的pod缓存进行对比，生成对应的PodLifecycleEvent，然后通过eventChannel发送给Kubelet syncLoop，然后通过定时任务最终达到用户期望的状态。
 2. **Pod Workers:**
     
     - Kubelet 会为每个 Pod 分配一个专门的 Pod Worker 线程。
