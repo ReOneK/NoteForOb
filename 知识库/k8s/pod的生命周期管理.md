@@ -103,7 +103,7 @@
 ![[kubelet-cgroup.png]]
 
 > [!NOTE] Cgroup配置
-> kubelet 会在 node 上创建了 4 个 cgroup 层级，从 node 的**root cgroup**（一般都是**/sys/fs/cgroup**）往下：
+> > kubelet 会在 node 上创建了 4 个 cgroup 层级，从 node 的**root cgroup**（一般都是**/sys/fs/cgroup**）往下：
 > 1. **Node 级别**：针对 SystemReserved、KubeReserved 和 k8s pods 分别创建的三个Node-level cgroup；
 > 2. **QoS 级别**：在`kubepods`cgroup 里面，又针对三种 pod QoS （guaranteed、brustable、besteffort）分别创建一个 sub-cgroup：
 > 3. **Pod 级别**：每个 pod 创建一个 cgroup，用来限制这个 pod 使用的总资源量；
