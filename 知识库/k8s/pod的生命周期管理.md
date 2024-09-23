@@ -110,7 +110,7 @@
 > 4. **Container 级别**：在 pod cgroup 内部，限制单个 container 的资源使用量。
 
 7. Pod基础运行环境准备
-![[Pasted image 20240829091301.png]]
+![[kubelet1.png]]
 ## pod删除的过程
 
 1. **发出删除请求**：

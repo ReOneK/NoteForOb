@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8b194a381fb1a03d",
+        "id": "8301afd83a78b8c9",
         "type": "tabs",
         "children": [
           {
-            "id": "7da2fc2ec0df889a",
+            "id": "763c28be31229d65",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/k8s/k8s组件.md",
-                "mode": "preview",
+                "file": "知识库/network/linux网络/tcp三次握手.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/k8s/k8s组件.md",
+                "file": "知识库/network/linux网络/tcp三次握手.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/k8s/k8s组件.md",
+                "file": "知识库/network/linux网络/tcp三次握手.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/k8s/k8s组件.md"
+                "file": "知识库/network/linux网络/tcp三次握手.md"
               }
             }
           },
@@ -169,19 +169,28 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7da2fc2ec0df889a",
+  "active": "763c28be31229d65",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-09-23 14.22.57.excalidraw.md",
+    "知识库/network/linux网络/tcp三次握手.md",
+    "pic/tcp三次握手.png",
+    "pic/linux IO栈.png",
+    "pic/kubelet-cgroup.png",
+    "pic/kubelet.png",
+    "pic/kubelet1.png",
+    "知识库/CV.md",
+    "知识库/network/linux网络",
+    "知识库/network/Drawing 2024-09-11 16.49.48.excalidraw.md",
+    "Excalidraw/Drawing 2024-09-18 16.02.16.excalidraw.md",
+    "知识库/network/epoll.canvas",
+    "知识库/k8s/k8s组件.md",
     "知识库/k8s/pod的生命周期管理.md",
     "知识库/k8s/Cgroup.md",
     "知识库/cpu/基础知识.md",
     "study plan.md",
     "README.md",
-    "知识库/k8s/k8s组件.md",
     "other/kubelet创建pod过程.pdf",
     "other",
-    "pic/Pasted image 20240829091301.png",
-    "pic/kubelet-cgroup.png",
-    "pic/kubelet.png",
     "知识库/cpu/场景.md",
     "知识库/文件系统/场景.md",
     "pic/sar.png",
@@ -201,16 +210,9 @@
     "知识库/go/GMP.md",
     "知识库/network/容器网络/Flannel.md",
     "知识库/network/容器网络/Cilium.md",
-    "知识库/network/容器网络/Calico.md",
-    "知识库/network/容器网络/基础概念.md",
-    "知识库/k8s/kubernetes性能优化.md",
-    "知识库/k8s/多集群管理与调度.md",
-    "Excalidraw/test.md",
     "pic/GMP调度流程.png",
     "知识库/cpu/未命名",
     "知识库/cpu",
-    "pic/共享内存1.png",
-    "pic/共享内存.png",
     "知识库/内存",
     "知识图谱/os/硬盘.canvas",
     "知识库/文件系统",
@@ -219,7 +221,6 @@
     "知识图谱/k8s.canvas",
     "知识图谱/k8s",
     "知识图谱/os",
-    "pic",
     "未命名.canvas",
     "知识图谱/网络.canvas",
     "知识图谱/work note.canvas",
