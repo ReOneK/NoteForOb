@@ -171,11 +171,11 @@
   },
   "active": "0def21bb1ed15668",
   "lastOpenFiles": [
-    "知识库/k8s/kubernetes性能优化.md",
+    "知识库/k8s/k8s组件.md",
     "知识库/k8s/组件解析/apiserver.md",
+    "知识库/k8s/kubernetes性能优化.md",
     "知识库/k8s/组件解析",
     "知识库/k8s/pod的生命周期管理.md",
-    "知识库/k8s/k8s组件.md",
     "知识库/leetcode/base know.md",
     "图谱/k8s.canvas",
     "图谱/操作系统.canvas",
