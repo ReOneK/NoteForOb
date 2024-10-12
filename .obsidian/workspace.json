@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8301afd83a78b8c9",
+        "id": "139b070df7c1d17e",
         "type": "tabs",
         "children": [
           {
-            "id": "763c28be31229d65",
+            "id": "0def21bb1ed15668",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/network/linux网络/tcp三次握手.md",
+                "file": "知识库/k8s/pod的生命周期管理.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/network/linux网络/tcp三次握手.md",
+                "file": "知识库/k8s/pod的生命周期管理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/network/linux网络/tcp三次握手.md",
+                "file": "知识库/k8s/pod的生命周期管理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/network/linux网络/tcp三次握手.md"
+                "file": "知识库/k8s/pod的生命周期管理.md"
               }
             }
           },
@@ -169,10 +169,28 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "763c28be31229d65",
+  "active": "0def21bb1ed15668",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2024-09-23 14.22.57.excalidraw.md",
+    "知识库/k8s/kubernetes性能优化.md",
+    "知识库/k8s/k8s组件.md",
+    "知识库/leetcode/base know.md",
+    "图谱/k8s.canvas",
+    "图谱/操作系统.canvas",
+    "Book-Read/Learning-eBPF - Full book.pdf",
+    "知识库/k8s/Cgroup.md",
+    "Book-Read/一些非必要的资料.zip",
+    "知识库/k8s/pod的生命周期管理.md",
+    "Book-Read/1、Kubernetes网络权威指南：基础、原理与实践.pdf",
+    "知识库/k8s/多集群管理与调度.md",
+    "Book-Read/labuladong的算法秘籍V3.3.pdf",
+    "Book-Read/labuladong的刷题笔记V5.1.pdf",
+    "Book-Read/LeetCode 101 - A LeetCode Grinding Guide (C++ Version).pdf",
+    "Book-Read/深入理解Linux网络： 修炼底层内功，掌握高性能原理.pdf",
+    "Book-Read/码农翻身：用故事给技术加点料.pdf",
+    "Book-Read/数据密集型应用系统设计（中文版书）.pdf",
+    "Book-Read/未命名.md",
     "知识库/network/linux网络/tcp三次握手.md",
+    "Excalidraw/Drawing 2024-09-23 14.22.57.excalidraw.md",
     "pic/tcp三次握手.png",
     "pic/linux IO栈.png",
     "pic/kubelet-cgroup.png",
@@ -183,21 +201,15 @@
     "知识库/network/Drawing 2024-09-11 16.49.48.excalidraw.md",
     "Excalidraw/Drawing 2024-09-18 16.02.16.excalidraw.md",
     "知识库/network/epoll.canvas",
-    "知识库/k8s/k8s组件.md",
-    "知识库/k8s/pod的生命周期管理.md",
-    "知识库/k8s/Cgroup.md",
     "知识库/cpu/基础知识.md",
     "study plan.md",
     "README.md",
-    "other/kubelet创建pod过程.pdf",
-    "other",
     "知识库/cpu/场景.md",
     "知识库/文件系统/场景.md",
     "pic/sar.png",
     "pic/vwstat.png",
     "pic/lxcfs.png",
     "pic/进程状态.png",
-    "知识库/leetcode/base know.md",
     "知识库/文件系统/基本概念.md",
     "知识库/内存/基本概念.md",
     "知识库/内存/场景.md",
@@ -206,21 +218,8 @@
     "知识库/go/并发/sync.Pool.md",
     "知识库/go/channel.md",
     "知识库/go/context.md",
-    "知识库/go/GC.md",
-    "知识库/go/GMP.md",
-    "知识库/network/容器网络/Flannel.md",
-    "知识库/network/容器网络/Cilium.md",
     "pic/GMP调度流程.png",
-    "知识库/cpu/未命名",
-    "知识库/cpu",
-    "知识库/内存",
-    "知识图谱/os/硬盘.canvas",
-    "知识库/文件系统",
-    "知识库/leetcode",
-    "知识图谱/操作系统.canvas",
-    "知识图谱/k8s.canvas",
-    "知识图谱/k8s",
-    "知识图谱/os",
+    "图谱/os/硬盘.canvas",
     "未命名.canvas",
     "知识图谱/网络.canvas",
     "知识图谱/work note.canvas",
