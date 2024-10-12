@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/k8s/pod的生命周期管理.md",
+                "file": "知识库/k8s/组件解析/apiserver.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/k8s/pod的生命周期管理.md",
+                "file": "知识库/k8s/组件解析/apiserver.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/k8s/pod的生命周期管理.md",
+                "file": "知识库/k8s/组件解析/apiserver.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/k8s/pod的生命周期管理.md"
+                "file": "知识库/k8s/组件解析/apiserver.md"
               }
             }
           },
@@ -172,6 +172,9 @@
   "active": "0def21bb1ed15668",
   "lastOpenFiles": [
     "知识库/k8s/kubernetes性能优化.md",
+    "知识库/k8s/组件解析/apiserver.md",
+    "知识库/k8s/组件解析",
+    "知识库/k8s/pod的生命周期管理.md",
     "知识库/k8s/k8s组件.md",
     "知识库/leetcode/base know.md",
     "图谱/k8s.canvas",
@@ -179,7 +182,6 @@
     "Book-Read/Learning-eBPF - Full book.pdf",
     "知识库/k8s/Cgroup.md",
     "Book-Read/一些非必要的资料.zip",
-    "知识库/k8s/pod的生命周期管理.md",
     "Book-Read/1、Kubernetes网络权威指南：基础、原理与实践.pdf",
     "知识库/k8s/多集群管理与调度.md",
     "Book-Read/labuladong的算法秘籍V3.3.pdf",
@@ -197,7 +199,6 @@
     "pic/kubelet.png",
     "pic/kubelet1.png",
     "知识库/CV.md",
-    "知识库/network/linux网络",
     "知识库/network/Drawing 2024-09-11 16.49.48.excalidraw.md",
     "Excalidraw/Drawing 2024-09-18 16.02.16.excalidraw.md",
     "知识库/network/epoll.canvas",
