@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/内存/场景.md",
+                "file": "知识库/network/容器网络/Cilium.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/内存/场景.md",
+                "file": "知识库/network/容器网络/Cilium.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/内存/场景.md",
+                "file": "知识库/network/容器网络/Cilium.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/内存/场景.md"
+                "file": "知识库/network/容器网络/Cilium.md"
               }
             }
           },
@@ -171,6 +171,8 @@
   },
   "active": "0def21bb1ed15668",
   "lastOpenFiles": [
+    "知识库/network/linux网络/tcp三次握手.md",
+    "知识库/内存/场景.md",
     "知识库/k8s/组件解析/apiserver.md",
     "知识库/k8s/k8s组件.md",
     "知识库/k8s/kubernetes性能优化.md",
@@ -191,7 +193,6 @@
     "Book-Read/码农翻身：用故事给技术加点料.pdf",
     "Book-Read/数据密集型应用系统设计（中文版书）.pdf",
     "Book-Read/未命名.md",
-    "知识库/network/linux网络/tcp三次握手.md",
     "Excalidraw/Drawing 2024-09-23 14.22.57.excalidraw.md",
     "pic/tcp三次握手.png",
     "pic/linux IO栈.png",
@@ -213,7 +214,6 @@
     "pic/进程状态.png",
     "知识库/文件系统/基本概念.md",
     "知识库/内存/基本概念.md",
-    "知识库/内存/场景.md",
     "知识库/go/并发/Mutex.md",
     "知识库/go/并发/sync.Map.md",
     "知识库/go/并发/sync.Pool.md",
