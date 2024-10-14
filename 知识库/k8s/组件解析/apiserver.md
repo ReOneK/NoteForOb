@@ -4,3 +4,4 @@
 3. 创建k8s服务，apiserver service以及kubernetes service
 4. 资源在不同版本之间的转换
 
+### 一次请求的具体流程
