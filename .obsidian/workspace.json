@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/k8s/pod的生命周期管理.md",
+                "file": "Note/k8s/组件解析/apiserver.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/k8s/pod的生命周期管理.md",
+                "file": "Note/k8s/组件解析/apiserver.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/k8s/pod的生命周期管理.md",
+                "file": "Note/k8s/组件解析/apiserver.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/k8s/pod的生命周期管理.md"
+                "file": "Note/k8s/组件解析/apiserver.md"
               }
             }
           },
@@ -185,6 +185,7 @@
   },
   "active": "654282f84e4c3416",
   "lastOpenFiles": [
+    "Note/k8s/pod的生命周期管理.md",
     "Note/k8s/k8s组件.md",
     "Note/k8s/组件解析/apiserver.md",
     "Note/network/容器网络/Cilium.md",
@@ -192,7 +193,6 @@
     "Note/内存/场景.md",
     "Note/k8s/kubernetes性能优化.md",
     "Note/k8s/组件解析",
-    "Note/k8s/pod的生命周期管理.md",
     "Note/leetcode/base know.md",
     "图谱/k8s.canvas",
     "图谱/操作系统.canvas",
