@@ -54,5 +54,5 @@ curl -k https://masterIP:6443
 
 
 ### kube-apiserver与etcd的连接
-
+1. 
 
