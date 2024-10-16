@@ -54,5 +54,6 @@ curl -k https://masterIP:6443
 
 
 ### kube-apiserver与etcd的连接
-1. 每种资源
+####
+1. 与etcd连接时，每种资源类型都会存在一个client
 
