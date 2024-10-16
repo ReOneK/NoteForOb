@@ -63,9 +63,9 @@ curl -k https://masterIP:6443
 - golang 1.19 中入 PriorityWriteScheduler
 - PriorityWriteScheduler 可以支持基于流的优先级的写的能力，但是当没有优先级的差异时，就会退化为 LIFO 的模式，新创建的流会优先得到处理，而已经创建一段时间并且发送了很多数据的流会排在靠后的位置等待处理
 #### 如何解决
-##### goland
+##### goland（版本迭代）
 1. 采取了 round robin write scheduler
-##### etcd
+##### etcd （版本迭代）
 1. 通过修改为 random write scheduler 来避免饥饿问题
 2. 同时通过暴露新的参数 `--listen-client-http-urls` 来解决 TLS 模式下通过 http server 处理 grpc handler 时受到 golang 影响的问题
 3. 最后把 random write scheduler 修改为 round robin write scheduler
