@@ -62,5 +62,9 @@ curl -k https://masterIP:6443
 #### 问题的根源
 - golang 1.19 中入 PriorityWriteScheduler
 - PriorityWriteScheduler 可以支持基于流的优先级的写的能力，但是当没有优先级的差异时，就会退化为 LIFO 的模式，新创建的流会优先得到处理，而已经创建一段时间并且发送了很多数据的流会排在靠后的位置等待处理
-#
+#### 如何解决
+##### goland
+采取了 round robin write scheduler
+##### etcd
+
 
