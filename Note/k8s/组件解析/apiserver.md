@@ -16,11 +16,11 @@ curl -k https://<masterIP>:6443
 #### 2.认证
    apiserver在第一次启动的时候，会根据用户提供的命令行参数组装一个合适的认证器列表
    
-   每一个请求都会逐一经过这个请求列表，直到有一个认证通过
-	- 客户端证书认证（x509）
-	- HTTP Basic（静态密码文件）
-	- Bearer Token（静态Token文件）
-	- webhook认证（使用外部 webhook 服务进行认证）
+每一个请求都会逐一经过这个请求列表，直到有一个认证通过
+- 客户端证书认证（x509）
+- HTTP Basic（静态密码文件）
+- Bearer Token（静态Token文件）
+- webhook认证（使用外部 webhook 服务进行认证）
 
 > [!NOTE] 
 > 认证成功后，Authorization头信息将会从请求中移除，用户信息会添加到请求的上下文信息中。这样后续步骤就可以访问到认证阶段确定的请求用户的信息了。
@@ -29,17 +29,17 @@ curl -k https://<masterIP>:6443
 kube-apiserver需要基于用户提供的命令行参数，来组装一个合适的鉴权器列表来处理每一个请求。当所有的鉴权器都拒绝该请求时，请求会终止
 
 通过指定--authorization-mode参数设置授权机制，至少需要指定一个
-	- AlwaysAllow
-	- AlwaysDeny
-	- ABAC
-	- Webhook
-	- RBAC
-	- Node
+- AlwaysAllow
+- AlwaysDeny
+- ABAC
+- Webhook
+- RBAC
+- Node
 
 #### 4.Admission control
-	持久化（存到etcd之前）的最后一道保障
-	- 变更准入控制器（Mutating Admission Controller）用于变更信息，能够修改用户提交的资源对象信息
-	- 验证准入控制器（Validating Admission Controller）用于身份验证，能够验证用户提交的资源对象信息
+持久化（存到etcd之前）的最后一道保障
+- 变更准入控制器（Mutating Admission Controller）用于变更信息，能够修改用户提交的资源对象信息
+- 验证准入控制器（Validating Admission Controller）用于身份验证，能够验证用户提交的资源对象信息
 
 #### 5.etcd
 	kube-apiserver将反序列化HTTP请求（解码），构造运行时对象（runtime object），并将它持久化到etcd。
