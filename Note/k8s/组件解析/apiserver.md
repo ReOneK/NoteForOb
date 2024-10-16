@@ -10,11 +10,12 @@ curl -k https://<masterIP>:6443
 
 #### 1.Decode
 - kubernetes 中的多数 resource 都会有一个 `internal version`
-- 
+- 在解码时，首先从 HTTP path 中获取期待的 version，然后使用 scheme 以正确的 version 创建一个与之匹配的空对象，并使用 JSON 或 protobuf 解码器进行转换，
+- 在转换的第一步中，如果用户省略了某些字段，Decoder 会把其设置为默认值。
 
 #### 2.认证
-	apiserver在第一次启动的时候，会根据用户提供的命令行参数组装一个合适的认证器列表
-	每一个请求都会逐一经过这个请求列表，直到有一个认证通过
+   apiserver在第一次启动的时候，会根据用户提供的命令行参数组装一个合适的认证器列表
+每一个请求都会逐一经过这个请求列表，直到有一个认证通过
 	- 客户端证书认证（x509）
 	- HTTP Basic（静态密码文件）
 	- Bearer Token（静态Token文件）
