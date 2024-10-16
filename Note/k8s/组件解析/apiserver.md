@@ -9,6 +9,7 @@
 curl -k https://<masterIP>:6443
 
 #### 1.Decode
+	版本适配与转换
 - kubernetes 中的多数 resource 都会有一个 `internal version`
 - 在解码时，首先从 HTTP path 中获取期待的 version，然后使用 scheme 以正确的 version 创建一个与之匹配的空对象，并使用 JSON 或 protobuf 解码器进行转换，
 - 在转换的第一步中，如果用户省略了某些字段，Decoder 会把其设置为默认值。
@@ -26,7 +27,7 @@ curl -k https://<masterIP>:6443
 > 认证成功后，Authorization头信息将会从请求中移除，用户信息会添加到请求的上下文信息中。这样后续步骤就可以访问到认证阶段确定的请求用户的信息了。
 
 #### 3.鉴权
-kube-apiserver需要基于用户提供的命令行参数，来组装一个合适的鉴权器列表来处理每一个请求。当所有的鉴权器都拒绝该请求时，请求会终止
+	kube-apiserver需要基于用户提供的命令行参数，来组装一个合适的鉴权器列表来处理每一个请求。当所有的鉴权器都拒绝该请求时，请求会终止
 
 通过指定--authorization-mode参数设置授权机制，至少需要指定一个
 - AlwaysAllow
@@ -37,7 +38,8 @@ kube-apiserver需要基于用户提供的命令行参数，来组装一个合适
 - Node
 
 #### 4.Admission control
-持久化（存到etcd之前）的最后一道保障
+	持久化（存到etcd之前）的最后一道保障
+
 - 变更准入控制器（Mutating Admission Controller）用于变更信息，能够修改用户提交的资源对象信息
 - 验证准入控制器（Validating Admission Controller）用于身份验证，能够验证用户提交的资源对象信息
 
