@@ -82,3 +82,5 @@ curl -k https://masterIP:6443
 2. 未显式指定 Transport，通过 Config 创建了 clientset，使用 clientset 创建了 informerFactory，并同时针对不同的资源启动了对应的 informer(此时clientset与apiserver是一条连接，通过informerFactory去对不同资源建立stream--http的io多路复用)
 #### 相关的问题
 	一个恶意的 HTTP/2 客户端，迅速创建请求并立即重置它们，可能导致服务器资源的过度消耗。尽管请求的总数受限于 `http2.Server.MaxConcurrentStreams` 设置，但在处理中的请求被重置允许攻击者在现有请求仍在执行时创建新请求。
+
+#### 如何解决
