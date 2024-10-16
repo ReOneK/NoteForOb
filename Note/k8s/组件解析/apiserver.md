@@ -88,4 +88,4 @@ curl -k https://masterIP:6443
 2. 就是超过了限制就将新的连接放入队列中，队列中的数量积压如果超过了MaxConcurrentStreams的4倍就强制关闭连接
 3. 对于apiserver来说，`MaxConcurrentStreams` **从 250 缩小到 100**，是为了降低服务端可能受到的影响，在受到攻击时关闭连接
 
-### apiserver 的内存消
+### apiserver 的内存消耗
