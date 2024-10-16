@@ -86,5 +86,5 @@ curl -k https://masterIP:6443
 #### 如何解决
 1. 在服务端添加相关逻辑，判断执行中的请求是否超过了 `MaxConcurrentStreams` 的值，没有超过的话就直接执行，超过的话则会入队列，等到运行中的某个请求完成之后再从队列中取一个请求开始处理。如果队列里面积压的未处理请求数量超过 `MaxConcurrentStreams` 的 4 倍的话，服务端会报错 too_many_early_resets 并返回  `ErrCodeEnhanceYourCalm`，然后强制关闭连接。
 2. 就是超过了限制就将新的连接放入队列中，队列中的数量积压如果超过了MaxConcurrentStreams的4倍就强制关闭连接
-3. 
+3. 对于apiserver来说，`MaxConcurrentStreams` 从 250 缩小到 100，是为了降低服务端可能受到的影响，在受到攻击时关闭连接
 	
