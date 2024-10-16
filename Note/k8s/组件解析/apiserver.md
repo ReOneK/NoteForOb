@@ -78,4 +78,5 @@ curl -k https://masterIP:6443
 ### client-go与kube-apiserver的连接
 
 #### 相关背景
-1. client-go通过Config结构维护访问kube-apiserver
+1. client-go通过Config结构维护访问kube-apiserver，其中最核心的就是Transport，默认是http/2
+2. 
