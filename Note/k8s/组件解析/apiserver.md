@@ -79,4 +79,5 @@ curl -k https://masterIP:6443
 
 #### 相关背景
 1. client-go通过Config结构维护访问kube-apiserver，其中最核心的就是Transport，默认是http/2
-2. 未显式指定 Transport，通过 Config 创建了 clientset，使用 clientset 创建了 informerFactory，并同时针对不同的资源启动了对应的 informer(此时clientset与apiserver是一条连接，通过informerFactory去对不同资源建立stream)
+2. 未显式指定 Transport，通过 Config 创建了 clientset，使用 clientset 创建了 informerFactory，并同时针对不同的资源启动了对应的 informer(此时clientset与apiserver是一条连接，通过informerFactory去对不同资源建立stream--http的io多路复用)
+#### 相关的问题
