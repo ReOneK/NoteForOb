@@ -73,5 +73,8 @@ curl -k https://masterIP:6443
 1. 采取了 round robin write scheduler
 ##### etcd （版本迭代）
 2. 同时通过暴露新的参数 `--listen-client-http-urls` 来解决 TLS 模式下通过 http server 处理 grpc handler 时受到 golang 影响的问题
-##### 
+##### 新版本的etcd和k8s已经修复了这个问题
+
+### client-go与kube-apiserver的连接
+
 
