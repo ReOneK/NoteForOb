@@ -53,5 +53,6 @@ curl -k https://masterIP:6443
 > - 每个资源类型都有一个对应的 REST 处理器，该处理器用于处理 HTTP 请求。REST 处理器实现了资源的创建、读取、更新、删除等（CRUD）操作的具体逻辑。
 
 
-### 
+### kube-apiserver与etcd的连接
+
 
