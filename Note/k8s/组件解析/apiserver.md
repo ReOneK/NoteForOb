@@ -54,6 +54,8 @@ curl -k https://masterIP:6443
 
 
 ### kube-apiserver与etcd的连接
-####
-1. 与etcd连接时，每种资源类型都会存在一个client
+#### 相关背景
+1. 与etcd连接时，每种资源类型都会存在一个etcd Client实例
+2. etcd clientv3 本身已经是通过 gRPC 方式访问 etcd 了
+3. 
 
