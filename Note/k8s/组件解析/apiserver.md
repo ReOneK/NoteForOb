@@ -59,4 +59,6 @@ curl -k https://masterIP:6443
 2. etcd clientv3 本身已经是通过 gRPC 方式访问 etcd 
 #### 问题
 **在 TLS 模式下访问 Etcd 时**，在**针对同一个资源进行并行的 LIST 请求且资源量较大时，这个问题依然存在，且会影响 k8s 的所有版本**
+#### 问题的根源
+go语言在1.19
 
