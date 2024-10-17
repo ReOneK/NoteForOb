@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "139b070df7c1d17e",
+        "id": "603a31c1cc1818d8",
         "type": "tabs",
         "children": [
           {
-            "id": "0def21bb1ed15668",
+            "id": "0355313e17f5b0af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/k8s/k8s组件.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "654282f84e4c3416",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Note/k8s/组件解析/apiserver.md",
+                "file": "Note/内存/基本概念.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -84,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "883699a2382e28d4",
@@ -101,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/k8s/组件解析/apiserver.md",
+                "file": "Note/内存/基本概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/k8s/组件解析/apiserver.md",
+                "file": "Note/内存/基本概念.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -141,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/k8s/组件解析/apiserver.md"
+                "file": "Note/内存/基本概念.md"
               }
             }
           },
@@ -184,11 +169,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "654282f84e4c3416",
+  "active": "0355313e17f5b0af",
   "lastOpenFiles": [
+    "Note/k8s/k8s组件.md",
     "Note/k8s/组件解析/apiserver.md",
     "Note/k8s/pod的生命周期管理.md",
-    "Note/k8s/k8s组件.md",
     "Note/network/容器网络/Cilium.md",
     "Note/network/linux网络/tcp三次握手.md",
     "Note/内存/场景.md",
