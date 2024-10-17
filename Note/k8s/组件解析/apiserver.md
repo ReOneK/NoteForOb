@@ -101,4 +101,4 @@ curl -k https://masterIP:6443
 2. 某种类型资源的数据量很大，kube-apiserver 配置的 timeout 参数太小，不足以支持完成一次 list 请求的情况下，Informer 会一直不断地尝试进行 list 操作，这种情况多发生在控制面组件，因为他们往往需要获取全量数据
 #### 实际问题
 
-too old resource version
+**too old resource version
