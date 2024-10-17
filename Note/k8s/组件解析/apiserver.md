@@ -93,3 +93,5 @@ curl -k https://masterIP:6443
 1. 缓存集群中（除去event,event为k8s资源类型）所有数据，并为每种资源缓存了历史的watchCacheEvent
 2. 客户端的请求，尤其是list请求（需要在内存中进行数据的深拷贝以及序列化的操作），list请求压力主要来自于informor，goland的GC没有办法完全回收
 
+#### list请求占用内存多的原因
+1. 没有制定resourceversion，直接从etcd获取数据ken en
