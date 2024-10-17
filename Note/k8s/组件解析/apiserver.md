@@ -91,4 +91,4 @@ curl -k https://masterIP:6443
 ### apiserver 的内存消耗
 #### 主要内存消耗来源
 1. 缓存集群中（除去event,event为k8s资源类型）所有数据，并为每种资源缓存了历史的watchCacheEvent
-2. 
+2. 客户端的请求
