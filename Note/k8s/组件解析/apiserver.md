@@ -89,4 +89,5 @@ curl -k https://masterIP:6443
 3. 对于apiserver来说，`MaxConcurrentStreams` **从 250 缩小到 100**，是为了降低服务端可能受到的影响，在受到攻击时关闭连接
 
 ### apiserver 的内存消耗
-#### 
+#### 主要内存消耗来源
+1. 缓存集群中（除去event,event为k8s资源li xi）
