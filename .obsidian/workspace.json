@@ -186,9 +186,9 @@
   },
   "active": "654282f84e4c3416",
   "lastOpenFiles": [
+    "Note/k8s/组件解析/apiserver.md",
     "Note/k8s/pod的生命周期管理.md",
     "Note/k8s/k8s组件.md",
-    "Note/k8s/组件解析/apiserver.md",
     "Note/network/容器网络/Cilium.md",
     "Note/network/linux网络/tcp三次握手.md",
     "Note/内存/场景.md",
