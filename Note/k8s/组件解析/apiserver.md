@@ -98,4 +98,5 @@ curl -k https://masterIP:6443
 
 #### 常见OOM的场景
 1. daemonset用到informer，在进行变更或者故障重启的时候，在集群规模大的时候很容易造成kube-apiserver的OOM,并且在OOM之后异常连接会转移到其它节点，引起雪崩
-2. 某种类型资源的数据量很大，kube-apiserver 配置的 timeout 参数太小，不足以支持完成一次 list 请求的情况下，Informer 会一直不断地尝试进行 list 操作，这种情况多发生在控制面组件，因为他们往往需要获取全量数据。
+2. 某种类型资源的数据量很大，kube-apiserver 配置的 timeout 参数太小，不足以支持完成一次 list 请求的情况下，Informer 会一直不断地尝试进行 list 操作，这种情况多发生在控制面组件，因为他们往往需要获取全量数据
+###
