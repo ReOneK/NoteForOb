@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/k8s/组件解析/apiserver.md",
+                "file": "Note/go/并发/Mutex.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "883699a2382e28d4",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/k8s/组件解析/apiserver.md",
+                "file": "Note/go/并发/Mutex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/k8s/组件解析/apiserver.md",
+                "file": "Note/go/并发/Mutex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/k8s/组件解析/apiserver.md"
+                "file": "Note/go/并发/Mutex.md"
               }
             }
           },
@@ -170,17 +169,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6e4ba0b0df50a3b1",
+  "active": "0355313e17f5b0af",
   "lastOpenFiles": [
-    "Note/grpc",
+    "Note/cpu/基础知识.md",
+    "Note/cpu/场景.md",
+    "Note/文件系统/场景.md",
     "Note/内存/基本概念.md",
+    "Note/内存/场景.md",
+    "Note/k8s/组件解析/apiserver.md",
+    "Note/grpc",
     "numa.md",
     "Note/k8s/k8s组件.md",
-    "Note/k8s/组件解析/apiserver.md",
     "Note/k8s/pod的生命周期管理.md",
     "Note/network/容器网络/Cilium.md",
     "Note/network/linux网络/tcp三次握手.md",
-    "Note/内存/场景.md",
     "Note/k8s/kubernetes性能优化.md",
     "Note/k8s/组件解析",
     "Note/leetcode/base know.md",
@@ -196,7 +198,6 @@
     "Book-Read/LeetCode 101 - A LeetCode Grinding Guide (C++ Version).pdf",
     "Book-Read/深入理解Linux网络： 修炼底层内功，掌握高性能原理.pdf",
     "Book-Read/码农翻身：用故事给技术加点料.pdf",
-    "Book-Read/数据密集型应用系统设计（中文版书）.pdf",
     "Book-Read/未命名.md",
     "Excalidraw/Drawing 2024-09-23 14.22.57.excalidraw.md",
     "pic/tcp三次握手.png",
@@ -208,11 +209,8 @@
     "知识库/network/Drawing 2024-09-11 16.49.48.excalidraw.md",
     "Excalidraw/Drawing 2024-09-18 16.02.16.excalidraw.md",
     "知识库/network/epoll.canvas",
-    "Note/cpu/基础知识.md",
     "study plan.md",
     "README.md",
-    "Note/cpu/场景.md",
-    "Note/文件系统/场景.md",
     "pic/sar.png",
     "pic/vwstat.png",
     "pic/lxcfs.png",
