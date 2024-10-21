@@ -169,8 +169,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0355313e17f5b0af",
+  "active": "6e4ba0b0df50a3b1",
   "lastOpenFiles": [
+    "Note/grpc",
     "Note/内存/基本概念.md",
     "numa.md",
     "Note/k8s/k8s组件.md",
@@ -218,7 +219,6 @@
     "Note/文件系统/基本概念.md",
     "Note/go/并发/Mutex.md",
     "Note/go/并发/sync.Map.md",
-    "Note/go/并发/sync.Pool.md",
     "pic/GMP调度流程.png",
     "图谱/os/硬盘.canvas",
     "未命名.canvas",
