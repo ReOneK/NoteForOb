@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/内存/基本概念.md",
+                "file": "Note/k8s/组件解析/apiserver.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/内存/基本概念.md",
+                "file": "Note/k8s/组件解析/apiserver.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/内存/基本概念.md",
+                "file": "Note/k8s/组件解析/apiserver.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/内存/基本概念.md"
+                "file": "Note/k8s/组件解析/apiserver.md"
               }
             }
           },
@@ -171,6 +171,8 @@
   },
   "active": "0355313e17f5b0af",
   "lastOpenFiles": [
+    "Note/内存/基本概念.md",
+    "numa.md",
     "Note/k8s/k8s组件.md",
     "Note/k8s/组件解析/apiserver.md",
     "Note/k8s/pod的生命周期管理.md",
@@ -214,11 +216,9 @@
     "pic/lxcfs.png",
     "pic/进程状态.png",
     "Note/文件系统/基本概念.md",
-    "Note/内存/基本概念.md",
     "Note/go/并发/Mutex.md",
     "Note/go/并发/sync.Map.md",
     "Note/go/并发/sync.Pool.md",
-    "Note/go/channel.md",
     "pic/GMP调度流程.png",
     "图谱/os/硬盘.canvas",
     "未命名.canvas",
