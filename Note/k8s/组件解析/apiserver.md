@@ -58,7 +58,7 @@ curl -k https://masterIP:6443
 1. 与etcd连接时，每种资源类型都会存在一个etcd Client实例
 2. etcd clientv3 本身已经是通过 gRPC 方式访问 etcd 
 #### 问题
-**在 TLS 模式下访问 Etcd 时**，在**针对同一个资源进行并行的 LIST 请求且资源量较大时，这个问题依然存在，且会影响 k8s 的所有版本**
+	在 TLS 模式下访问 Etcd 时**，在**针对同一个资源进行并行的 LIST 请求且资源量较大时，这个问题依然存在，且会影响 k8s 的所有版本
 #### 问题的根源
 	 golang 1.19 中入 PriorityWriteScheduler，PriorityWriteScheduler 可以支持基于流的优先级的写的能力，但是**当没有优先级的差异时**，就会退化为 LIFO 的模式，新创建的流会优先得到处理，而已经创建一段时间并且发送了很多数据的流会排在靠后的位置等待处理
 1. **高读响应负载**：
