@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/内存/基本概念.md",
+                "file": "Note/文件系统/基本概念.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/内存/基本概念.md",
+                "file": "Note/文件系统/基本概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/内存/基本概念.md",
+                "file": "Note/文件系统/基本概念.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/内存/基本概念.md"
+                "file": "Note/文件系统/基本概念.md"
               }
             }
           },
@@ -183,17 +183,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "44222dca1caffa19",
+  "active": "6e4ba0b0df50a3b1",
   "lastOpenFiles": [
+    "Note/文件系统/场景.md",
+    "Note/内存/基本概念.md",
     "Note/内存/场景.md",
     "numa\"陷阱\".md",
-    "Note/内存/基本概念.md",
     "pic/共享内存.png",
     "Note/go/GMP.md",
     "Note/go/并发/Mutex.md",
     "Note/cpu/基础知识.md",
     "Note/cpu/场景.md",
-    "Note/文件系统/场景.md",
     "Note/k8s/组件解析/apiserver.md",
     "Note/grpc",
     "numa.md",
