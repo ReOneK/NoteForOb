@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/go/并发/Mutex.md",
+                "file": "Note/go/GMP.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/go/并发/Mutex.md",
+                "file": "Note/go/GMP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/go/并发/Mutex.md",
+                "file": "Note/go/GMP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/go/并发/Mutex.md"
+                "file": "Note/go/GMP.md"
               }
             }
           },
@@ -171,6 +171,7 @@
   },
   "active": "0355313e17f5b0af",
   "lastOpenFiles": [
+    "Note/go/并发/Mutex.md",
     "Note/cpu/基础知识.md",
     "Note/cpu/场景.md",
     "Note/文件系统/场景.md",
@@ -216,7 +217,6 @@
     "pic/lxcfs.png",
     "pic/进程状态.png",
     "Note/文件系统/基本概念.md",
-    "Note/go/并发/Mutex.md",
     "Note/go/并发/sync.Map.md",
     "pic/GMP调度流程.png",
     "图谱/os/硬盘.canvas",
