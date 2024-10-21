@@ -94,7 +94,7 @@ curl -k https://masterIP:6443
 2. 客户端的请求，尤其是list请求（需要在内存中进行数据的深拷贝以及序列化的操作），list请求压力主要来自于informor，goland的GC没有办法完全回收
 
 #### list请求占用内存多的原因
-1. 没有制定resourceversion，直接从etcd获取数据可能需要大量内存，超过完整响应的大小数倍。
+1. 没有指定resourceversion，直接从etcd获取数据可能需要大量内存，超过完整响应的大小数倍。
 
 #### 常见OOM的场景
 1. daemonset用到informer，在进行变更或者故障重启的时候，在集群规模大的时候很容易造成kube-apiserver的OOM,并且在OOM之后异常连接会转移到其它节点，引起雪崩
