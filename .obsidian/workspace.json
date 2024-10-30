@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/内存/场景.md",
+                "file": "Note/内存/基本概念.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/内存/场景.md",
+                "file": "Note/内存/基本概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/内存/场景.md",
+                "file": "Note/内存/基本概念.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/内存/场景.md"
+                "file": "Note/内存/基本概念.md"
               }
             }
           },
@@ -171,13 +171,13 @@
   },
   "active": "0355313e17f5b0af",
   "lastOpenFiles": [
+    "Note/内存/场景.md",
     "pic/lxcfs.png",
     "Note/cpu/基础知识.md",
     "Note/cpu/场景.md",
     "Note/文件系统/基本概念.md",
     "Note/文件系统/场景.md",
     "Note/内存/基本概念.md",
-    "Note/内存/场景.md",
     "numa\"陷阱\".md",
     "pic/共享内存.png",
     "Note/go/GMP.md",
