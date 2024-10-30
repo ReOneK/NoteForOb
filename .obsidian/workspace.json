@@ -19,22 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "44222dca1caffa19",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Note/cpu/基础知识.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/cpu/基础知识.md",
+                "file": "Note/内存/场景.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/cpu/基础知识.md",
+                "file": "Note/内存/场景.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -140,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/cpu/基础知识.md"
+                "file": "Note/内存/场景.md"
               }
             }
           },
@@ -183,7 +169,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "44222dca1caffa19",
+  "active": "0355313e17f5b0af",
   "lastOpenFiles": [
     "pic/lxcfs.png",
     "Note/cpu/基础知识.md",
