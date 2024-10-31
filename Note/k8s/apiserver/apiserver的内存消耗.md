@@ -20,5 +20,5 @@
 - **客户端 Informer 遇到这个报错的话会退出 ListAndWatch，重新开始执行 LIstAndWatch，进而造成 kube-apiserver 内存增加甚至 OOM。**
 - **问题本质原因：RV 是全局的。场景的景本质区别在于场景 1 是在一种资源中做了筛选导致的，场景 2 是多种资源类型之间的 RV 差异较大导致的。**
 - 如何解决：
-    - cyclic buffer 长度有限 >>自适应窗口大小
-    - 客户端的informer持有的last RV过于陈旧 >> bookmark
+    - cyclic buffer 长度有限 >>>>>自适应窗口大小
+    - 客户端的informer持有的last RV过于陈旧 >>>>> bookmark标记
