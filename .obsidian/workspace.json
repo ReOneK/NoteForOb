@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/k8s/apiserver/未命名.md",
+                "file": "Note/k8s/apiserver/informer.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/k8s/apiserver/未命名.md",
+                "file": "Note/k8s/apiserver/informer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/k8s/apiserver/未命名.md",
+                "file": "Note/k8s/apiserver/informer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/k8s/apiserver/未命名.md"
+                "file": "Note/k8s/apiserver/informer.md"
               }
             }
           },
@@ -171,8 +171,10 @@
   },
   "active": "0355313e17f5b0af",
   "lastOpenFiles": [
+    "Note/k8s/apiserver/apiserver的内存消耗.md",
+    "Note/k8s/apiserver/与client-go的连接.md",
+    "Note/k8s/apiserver/与etcd的连接.md",
     "Note/k8s/apiserver/informer.md",
-    "Note/k8s/apiserver/未命名.md",
     "Note/k8s/apiserver/apiserver.md",
     "pic/Pasted image 20241031103924.png",
     "pic/Pasted image 20241031103911.png",
@@ -218,8 +220,6 @@
     "pic/kubelet.png",
     "pic/kubelet1.png",
     "Note/CV.md",
-    "知识库/network/Drawing 2024-09-11 16.49.48.excalidraw.md",
-    "Excalidraw/Drawing 2024-09-18 16.02.16.excalidraw.md",
     "知识库/network/epoll.canvas",
     "未命名.canvas",
     "知识图谱/网络.canvas",
