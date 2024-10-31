@@ -19,9 +19,7 @@
 4. 使用 NamespacedName 作为 key，有没有问题？
     
 	    一般索引都用 ID 表示
-    ![[Pasted image 20241031103629.png]]
-    
-      
+    ![[informer1.png]]
 ## client-go组件
 
 - **Reflector**
@@ -58,8 +56,8 @@
 2. reflector在拿到全部资源后然后全部放到Store中
     
     1. 通过Lister()的List/Get方法获取资源会直接从Store中拿数据
-    
-    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/f2062e5a-796f-4aa4-b4f5-622e1c9b1ca5/2e2d9808-ae96-4d05-8cb3-cd3c8c840daf/image.png)
+
+![[Pasted image 20241031103911.png]]
     
 3. 初始化完成之后，reflector会调用k8s的watch api监听资源的所有事件
     
@@ -69,4 +67,4 @@
     2. 接着会操作（更删改）Store的数据
     3. 最后Pop事件到Controller中
 5. Controller接受事件再触发Processor的回调函数
-    
+    ![[Pasted image 20241031103924.png]]
