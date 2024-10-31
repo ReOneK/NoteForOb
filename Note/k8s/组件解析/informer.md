@@ -18,11 +18,8 @@
     - 对于SharedInformer，则代表 **Queue（Reflector Store）里面的数据已经全部 Pop 出来，经过处理将对应的 Indexer 里面的数据分发给所有的 processorListener 了，但是否注册的所有的 event handler 已经都处理完了并不一定；**
 4. 使用 NamespacedName 作为 key，有没有问题？
     
-    一般索引都用 ID 表示
+	    一般索引都用 ID 表示
     
-
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/f2062e5a-796f-4aa4-b4f5-622e1c9b1ca5/46f0b006-c525-415e-87a0-00c429928847/image.png)
-
 ## client-go组件
 
 - **Reflector**
@@ -71,5 +68,3 @@
     3. 最后Pop事件到Controller中
 5. Controller接受事件再触发Processor的回调函数
     
-
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/f2062e5a-796f-4aa4-b4f5-622e1c9b1ca5/136212b9-1969-411f-bc23-f8ed9b40a70d/image.png)
