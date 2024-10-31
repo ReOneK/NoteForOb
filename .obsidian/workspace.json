@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/内存/基本概念.md",
+                "file": "Note/内存/场景.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/内存/基本概念.md",
+                "file": "Note/内存/场景.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/内存/基本概念.md",
+                "file": "Note/内存/场景.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/内存/基本概念.md"
+                "file": "Note/内存/场景.md"
               }
             }
           },
@@ -171,14 +171,17 @@
   },
   "active": "0355313e17f5b0af",
   "lastOpenFiles": [
+    "图谱/操作系统.canvas",
+    "图谱/k8s.canvas",
+    "图谱/os/硬盘.canvas",
+    "Note/文件系统/场景.md",
+    "numa\"陷阱\".md",
+    "Note/内存/基本概念.md",
     "Note/内存/场景.md",
     "pic/lxcfs.png",
     "Note/cpu/基础知识.md",
     "Note/cpu/场景.md",
     "Note/文件系统/基本概念.md",
-    "Note/文件系统/场景.md",
-    "Note/内存/基本概念.md",
-    "numa\"陷阱\".md",
     "pic/共享内存.png",
     "Note/go/GMP.md",
     "Note/go/并发/Mutex.md",
@@ -192,8 +195,6 @@
     "Note/k8s/kubernetes性能优化.md",
     "Note/k8s/组件解析",
     "Note/leetcode/base know.md",
-    "图谱/k8s.canvas",
-    "图谱/操作系统.canvas",
     "Book-Read/Learning-eBPF - Full book.pdf",
     "Note/k8s/Cgroup.md",
     "Book-Read/一些非必要的资料.zip",
@@ -219,7 +220,6 @@
     "pic/sar.png",
     "pic/vwstat.png",
     "pic/进程状态.png",
-    "图谱/os/硬盘.canvas",
     "未命名.canvas",
     "知识图谱/网络.canvas",
     "知识图谱/work note.canvas",
