@@ -11,9 +11,12 @@
             "id": "0355313e17f5b0af",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "pic/informer1.png"
+                "file": "Note/k8s/apiserver/informer.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -83,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pic/informer1.png",
+                "file": "Note/k8s/apiserver/informer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pic/informer1.png",
+                "file": "Note/k8s/apiserver/informer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -123,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pic/informer1.png"
+                "file": "Note/k8s/apiserver/informer.md"
               }
             }
           },
@@ -168,6 +171,7 @@
   },
   "active": "0355313e17f5b0af",
   "lastOpenFiles": [
+    "pic/informer1.png",
     "Note/k8s/apiserver/informer.md",
     "Note/k8s/apiserver/apiserver的内存消耗.md",
     "Note/k8s/apiserver/与client-go的连接.md",
@@ -175,7 +179,6 @@
     "Note/k8s/apiserver/apiserver.md",
     "pic/Pasted image 20241031103924.png",
     "pic/Pasted image 20241031103911.png",
-    "pic/informer1.png",
     "Note/内存/场景.md",
     "图谱/操作系统.canvas",
     "图谱/k8s.canvas",
@@ -216,7 +219,6 @@
     "pic/kubelet-cgroup.png",
     "pic/kubelet.png",
     "pic/kubelet1.png",
-    "Note/CV.md",
     "知识库/network/epoll.canvas",
     "未命名.canvas",
     "知识图谱/网络.canvas",
