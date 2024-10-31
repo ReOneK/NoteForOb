@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/k8s/apiserver/informer.md",
+                "file": "Note/k8s/apiserver/apiserver的内存消耗.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/k8s/apiserver/informer.md",
+                "file": "Note/k8s/apiserver/apiserver的内存消耗.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/k8s/apiserver/informer.md",
+                "file": "Note/k8s/apiserver/apiserver的内存消耗.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/k8s/apiserver/informer.md"
+                "file": "Note/k8s/apiserver/apiserver的内存消耗.md"
               }
             }
           },
@@ -171,10 +171,10 @@
   },
   "active": "0355313e17f5b0af",
   "lastOpenFiles": [
+    "Note/k8s/apiserver/informer.md",
     "Note/k8s/apiserver/apiserver的内存消耗.md",
     "Note/k8s/apiserver/与client-go的连接.md",
     "Note/k8s/apiserver/与etcd的连接.md",
-    "Note/k8s/apiserver/informer.md",
     "Note/k8s/apiserver/apiserver.md",
     "pic/Pasted image 20241031103924.png",
     "pic/Pasted image 20241031103911.png",
