@@ -19,7 +19,9 @@
 4. 使用 NamespacedName 作为 key，有没有问题？
     
 	    一般索引都用 ID 表示
+    ![[Pasted image 20241031103629.png]]
     
+      
 ## client-go组件
 
 - **Reflector**
