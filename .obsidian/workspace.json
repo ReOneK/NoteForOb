@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/k8s/组件解析/informer.md",
+                "file": "Note/k8s/apiserver/未命名.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/k8s/组件解析/informer.md",
+                "file": "Note/k8s/apiserver/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/k8s/组件解析/informer.md",
+                "file": "Note/k8s/apiserver/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/k8s/组件解析/informer.md"
+                "file": "Note/k8s/apiserver/未命名.md"
               }
             }
           },
@@ -171,10 +171,12 @@
   },
   "active": "0355313e17f5b0af",
   "lastOpenFiles": [
+    "Note/k8s/apiserver/informer.md",
+    "Note/k8s/apiserver/未命名.md",
+    "Note/k8s/apiserver/apiserver.md",
     "pic/Pasted image 20241031103924.png",
     "pic/Pasted image 20241031103911.png",
     "pic/informer1.png",
-    "Note/k8s/组件解析/informer.md",
     "Note/内存/场景.md",
     "图谱/操作系统.canvas",
     "图谱/k8s.canvas",
@@ -189,7 +191,6 @@
     "pic/共享内存.png",
     "Note/go/GMP.md",
     "Note/go/并发/Mutex.md",
-    "Note/k8s/组件解析/apiserver.md",
     "Note/grpc",
     "numa.md",
     "Note/k8s/k8s组件.md",
@@ -197,7 +198,7 @@
     "Note/network/容器网络/Cilium.md",
     "Note/network/linux网络/tcp三次握手.md",
     "Note/k8s/kubernetes性能优化.md",
-    "Note/k8s/组件解析",
+    "Note/k8s/apiserver",
     "Note/leetcode/base know.md",
     "Book-Read/Learning-eBPF - Full book.pdf",
     "Note/k8s/Cgroup.md",
@@ -220,7 +221,6 @@
     "知识库/network/Drawing 2024-09-11 16.49.48.excalidraw.md",
     "Excalidraw/Drawing 2024-09-18 16.02.16.excalidraw.md",
     "知识库/network/epoll.canvas",
-    "pic/sar.png",
     "未命名.canvas",
     "知识图谱/网络.canvas",
     "知识图谱/work note.canvas",
