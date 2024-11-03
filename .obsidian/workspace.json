@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/文件系统/bn.md",
+                "file": "Note/文件系统/write一个字节后何时发起写磁盘io.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/文件系统/bn.md",
+                "file": "Note/文件系统/write一个字节后何时发起写磁盘io.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/文件系统/bn.md",
+                "file": "Note/文件系统/write一个字节后何时发起写磁盘io.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/文件系统/bn.md"
+                "file": "Note/文件系统/write一个字节后何时发起写磁盘io.md"
               }
             }
           },
@@ -170,10 +170,12 @@
   },
   "active": "4cffaf4c3a615952",
   "lastOpenFiles": [
-    "Note/文件系统/读取一个字节的文件是否会导致磁盘io.md",
     "Note/文件系统/场景.md",
-    "Note/文件系统/压缩文件夹后为何传输速度变快.md",
+    "Note/文件系统/write一个字节后何时发起写磁盘io.md",
+    "Note/文件系统/如果发生磁盘io,磁盘io是多大.md",
     "Note/文件系统/bn.md",
+    "Note/文件系统/读取一个字节的文件是否会导致磁盘io.md",
+    "Note/文件系统/压缩文件夹后为何传输速度变快.md",
     "study plan.md",
     "Excalidraw/Drawing 2024-09-23 14.22.57.excalidraw.md",
     "Excalidraw/Drawing 2024-09-18 16.02.16.excalidraw.md",
@@ -203,8 +205,6 @@
     "Note/k8s/k8s组件.md",
     "Note/k8s/pod的生命周期管理.md",
     "Note/network/容器网络/Cilium.md",
-    "Note/network/linux网络/tcp三次握手.md",
-    "Note/k8s/kubernetes性能优化.md",
     "Note/k8s/apiserver",
     "Book-Read/Learning-eBPF - Full book.pdf",
     "Book-Read/一些非必要的资料.zip",
