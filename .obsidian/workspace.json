@@ -11,8 +11,13 @@
             "id": "4cffaf4c3a615952",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Note/k8s/apiserver/与client-go的连接.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -65,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "883699a2382e28d4",
@@ -82,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Note/k8s/apiserver/与client-go的连接.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Note/k8s/apiserver/与client-go的连接.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -119,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Note/k8s/apiserver/与client-go的连接.md"
+              }
             }
           },
           {
