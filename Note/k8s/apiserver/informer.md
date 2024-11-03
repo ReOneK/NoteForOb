@@ -8,10 +8,10 @@
     - **shared 的是 Reflector**；
 2. 什么场景需要开ReSync
     
-    **需要与外部（非 k8s）的组件或者基础设施交互时使用 SharedInformer**
-    
+    - **需要与外部（非 k8s）的组件或者基础设施交互时使用 SharedInformer**
     - SharedInformer 同步是将 Store 里面存储的对象重新放回 Queue 中，重新触发一次全量通知，**Resync 并不会触发重新去 kube-apiserver 获取数据**；
     - Informer 的 ReSync 不会执行任何操作，直接返回
+    - 
 3. HasSynced 返回 true，代表什么意思
     
     - 对于 Informer，HasSynced 返回 true 代表其所注册的 event handler 已经执行完了，
