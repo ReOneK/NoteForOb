@@ -11,8 +11,13 @@
             "id": "36590dcef8945520",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Note/文件系统/读取一个字节的文件是否会导致磁盘io.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Note/文件系统/读取一个字节的文件是否会导致磁盘io.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Note/文件系统/读取一个字节的文件是否会导致磁盘io.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Note/文件系统/读取一个字节的文件是否会导致磁盘io.md"
+              }
             }
           },
           {
