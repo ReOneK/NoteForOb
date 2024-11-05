@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "f8a7bd34ba468c87",
+        "id": "1ca601a7bb302543",
         "type": "tabs",
         "children": [
           {
-            "id": "4cffaf4c3a615952",
+            "id": "36590dcef8945520",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "leetcode/数组.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "leetcode/数组.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "leetcode/数组.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "leetcode/数组.md"
-              }
+              "state": {}
             }
           },
           {
@@ -168,8 +159,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4cffaf4c3a615952",
+  "active": "36590dcef8945520",
   "lastOpenFiles": [
+    "leetcode/数组.md",
     "Note/文件系统/读取一个字节的文件是否会导致磁盘io.md",
     "Note/文件系统/write一个字节后何时发起写磁盘io.md",
     "Note/文件系统/base know.md",
@@ -179,7 +171,6 @@
     "Note/文件系统/场景.md",
     "Excalidraw/Drawing 2024-09-23 14.22.57.excalidraw.md",
     "Excalidraw/Drawing 2024-09-18 16.02.16.excalidraw.md",
-    "leetcode/数组.md",
     "Note/k8s/apiserver/informer.md",
     "Note/k8s/apiserver/apiserver的内存消耗.md",
     "Note/k8s/apiserver/apiserver.md",
