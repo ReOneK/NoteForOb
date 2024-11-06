@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/network/linux网络/未命名.md",
+                "file": "Note/network/linux网络/deploy rolling update导致的no route to host.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/network/linux网络/未命名.md",
+                "file": "Note/network/linux网络/deploy rolling update导致的no route to host.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/network/linux网络/未命名.md",
+                "file": "Note/network/linux网络/deploy rolling update导致的no route to host.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -116,7 +116,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
             }
           },
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/network/linux网络/未命名.md"
+                "file": "Note/network/linux网络/deploy rolling update导致的no route to host.md"
               }
             }
           },
@@ -146,7 +146,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -168,10 +169,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "36590dcef8945520",
+  "active": "8383190209834359",
   "lastOpenFiles": [
     "Note/network/linux网络/tcp三次握手.md",
-    "Note/network/linux网络/未命名.md",
+    "Note/network/linux网络/deploy rolling update导致的no route to host.md",
     "study plan.md",
     "Note/文件系统/读取一个字节的文件是否会导致磁盘io.md",
     "leetcode/数组.md",
