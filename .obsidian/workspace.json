@@ -11,12 +11,19 @@
             "id": "36590dcef8945520",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "Note/文件系统/读取一个字节的文件是否会导致磁盘io.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "study plan.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "list",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
               }
             }
           }
@@ -86,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/文件系统/读取一个字节的文件是否会导致磁盘io.md",
+                "file": "study plan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/文件系统/读取一个字节的文件是否会导致磁盘io.md",
+                "file": "study plan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/文件系统/读取一个字节的文件是否会导致磁盘io.md"
+                "file": "study plan.md"
               }
             }
           },
@@ -170,8 +177,8 @@
   },
   "active": "36590dcef8945520",
   "lastOpenFiles": [
-    "leetcode/数组.md",
     "Note/文件系统/读取一个字节的文件是否会导致磁盘io.md",
+    "leetcode/数组.md",
     "Note/文件系统/write一个字节后何时发起写磁盘io.md",
     "Note/文件系统/base know.md",
     "Note/文件系统/压缩文件夹后为何传输速度变快.md",
