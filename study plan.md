@@ -37,6 +37,10 @@ kanban-plugin: list
 - [ ] 深入理解Linux网络
 
 
+## 架构与设计
+
+
+
 ## leetcode
 
 - [ ] 每日一题
@@ -50,6 +54,6 @@ kanban-plugin: list
 
 %% kanban:settings
 ```
-{"kanban-plugin":"list","list-collapse":[false,false,false,false,false,false],"show-checkboxes":true,"full-list-lane-width":true}
+{"kanban-plugin":"list","list-collapse":[false,false,false,false,false,false,false],"show-checkboxes":true,"full-list-lane-width":true}
 ```
 %%
