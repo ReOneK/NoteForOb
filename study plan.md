@@ -34,7 +34,7 @@ kanban-plugin: list
 
 ## 网络
 
-- [x] 深入理解Linux网络 ✅ 2024-11-06
+- [ ] 深入理解Linux网络
 
 
 ## leetcode
