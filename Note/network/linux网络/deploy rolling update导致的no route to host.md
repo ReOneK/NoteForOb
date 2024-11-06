@@ -1,5 +1,5 @@
 ---
-kind: network
+categroy: network
 tags:
   - ipvs
 ---

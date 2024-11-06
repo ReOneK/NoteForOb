@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Note/network/linux网络/deploy rolling update导致的no route to host.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -169,7 +169,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8383190209834359",
+  "active": "36590dcef8945520",
   "lastOpenFiles": [
     "Note/network/linux网络/tcp三次握手.md",
     "Note/network/linux网络/deploy rolling update导致的no route to host.md",
