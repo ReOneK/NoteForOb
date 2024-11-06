@@ -39,6 +39,7 @@ kanban-plugin: list
 
 ## 架构与设计
 
+- [ ] [周志明的架构课](https://learn.lianglianglee.com/%E4%B8%93%E6%A0%8F/%E5%91%A8%E5%BF%97%E6%98%8E%E7%9A%84%E6%9E%B6%E6%9E%84%E8%AF%BE)
 
 
 ## leetcode
