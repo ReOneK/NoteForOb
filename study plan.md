@@ -16,6 +16,7 @@ kanban-plugin: list
 - [ ] 《深入理解计算机系统》
 - [ ] 《linux程序设计》
 - [ ] 《性能之巅：洞悉系统，企业与云计算》
+- [ ] 深入理解linuxj进程与内存
 
 
 ## kubernetes
@@ -31,6 +32,10 @@ kanban-plugin: list
 - [ ] 《数据密集型应用系统设计》
 
 
+## 网络
+
+
+
 ## leetcode
 
 - [ ] 每日一题
@@ -44,6 +49,6 @@ kanban-plugin: list
 
 %% kanban:settings
 ```
-{"kanban-plugin":"list","list-collapse":[false,false,false,false,false],"show-checkboxes":true,"full-list-lane-width":true}
+{"kanban-plugin":"list","list-collapse":[false,false,false,false,false,false],"show-checkboxes":true,"full-list-lane-width":true}
 ```
 %%
