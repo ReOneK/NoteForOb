@@ -1,5 +1,5 @@
 ---
-关键字: ipvs
+kind: network
 tags:
   - ipvs
 ---
