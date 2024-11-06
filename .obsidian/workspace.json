@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/network/linux网络/tcp三次握手.md",
+                "file": "Note/network/linux网络/未命名.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/network/linux网络/tcp三次握手.md",
+                "file": "Note/network/linux网络/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/network/linux网络/tcp三次握手.md",
+                "file": "Note/network/linux网络/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/network/linux网络/tcp三次握手.md"
+                "file": "Note/network/linux网络/未命名.md"
               }
             }
           },
@@ -170,6 +170,8 @@
   },
   "active": "36590dcef8945520",
   "lastOpenFiles": [
+    "Note/network/linux网络/tcp三次握手.md",
+    "Note/network/linux网络/未命名.md",
     "study plan.md",
     "Note/文件系统/读取一个字节的文件是否会导致磁盘io.md",
     "leetcode/数组.md",
@@ -203,8 +205,6 @@
     "Note/grpc",
     "numa.md",
     "Note/k8s/k8s组件.md",
-    "Note/k8s/pod的生命周期管理.md",
-    "Note/network/容器网络/Cilium.md",
     "Note/k8s/apiserver",
     "Book-Read/Learning-eBPF - Full book.pdf",
     "Book-Read/一些非必要的资料.zip",
