@@ -11,12 +11,20 @@
             "id": "36590dcef8945520",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "Note/network/linux网络/deploy rolling update导致的no route to host.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "study plan.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "list",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
               }
             }
           }
@@ -86,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/network/linux网络/deploy rolling update导致的no route to host.md",
+                "file": "study plan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/network/linux网络/deploy rolling update导致的no route to host.md",
+                "file": "study plan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/network/linux网络/deploy rolling update导致的no route to host.md"
+                "file": "study plan.md"
               }
             }
           },
@@ -169,10 +177,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6e4ba0b0df50a3b1",
+  "active": "36590dcef8945520",
   "lastOpenFiles": [
-    "Note/network/linux网络/tcp三次握手.md",
     "Note/network/linux网络/deploy rolling update导致的no route to host.md",
+    "Note/network/linux网络/tcp三次握手.md",
     "study plan.md",
     "Note/文件系统/读取一个字节的文件是否会导致磁盘io.md",
     "leetcode/数组.md",
