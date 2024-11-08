@@ -11,21 +11,12 @@
             "id": "36590dcef8945520",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "study plan.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "list",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
+                "file": "Note/network/linux网络/no route to host.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -95,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study plan.md",
+                "file": "Note/network/linux网络/no route to host.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study plan.md",
+                "file": "Note/network/linux网络/no route to host.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -135,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study plan.md"
+                "file": "Note/network/linux网络/no route to host.md"
               }
             }
           },
@@ -180,9 +171,9 @@
   },
   "active": "36590dcef8945520",
   "lastOpenFiles": [
-    "Note/network/linux网络/deploy rolling update导致的no route to host.md",
-    "Note/network/linux网络/tcp三次握手.md",
     "study plan.md",
+    "Note/network/linux网络/no route to host.md",
+    "Note/network/linux网络/tcp三次握手.md",
     "Note/文件系统/读取一个字节的文件是否会导致磁盘io.md",
     "leetcode/数组.md",
     "Note/文件系统/write一个字节后何时发起写磁盘io.md",
