@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/内存/堆栈相关问题.md",
+                "file": "Note/内存/场景.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6d573ba2ee4692d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Note/内存/场景.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/内存/堆栈相关问题.md",
+                "file": "Note/内存/场景.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/内存/堆栈相关问题.md",
+                "file": "Note/内存/场景.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/内存/堆栈相关问题.md"
+                "file": "Note/内存/场景.md"
               }
             }
           },
@@ -169,12 +183,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "36590dcef8945520",
+  "active": "6d573ba2ee4692d9",
   "lastOpenFiles": [
+    "Note/内存/基本概念.md",
     "Note/内存/场景.md",
     "Note/内存/堆栈相关问题.md",
     "Note/内存/page cache.md",
-    "Note/内存/基本概念.md",
     "Note/network/linux网络/no route to host.md",
     "study plan.md",
     "Note/network/linux网络/tcp三次握手.md",
