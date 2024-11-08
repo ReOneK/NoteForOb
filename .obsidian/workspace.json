@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/内存/基本概念.md",
+                "file": "Note/内存/物理页的申请.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/内存/基本概念.md",
+                "file": "Note/内存/物理页的申请.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/内存/基本概念.md",
+                "file": "Note/内存/物理页的申请.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/内存/基本概念.md"
+                "file": "Note/内存/物理页的申请.md"
               }
             }
           },
@@ -187,7 +187,7 @@
   "lastOpenFiles": [
     "Note/内存/进程间如何传递数据.md",
     "Note/内存/堆栈.md",
-    "Note/内存/基本概念.md",
+    "Note/内存/物理页的申请.md",
     "Note/内存/numa.md",
     "Note/内存/场景.md",
     "Note/内存/page cache.md",
