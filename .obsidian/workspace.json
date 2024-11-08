@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/内存/场景.md",
+                "file": "Note/内存/进程间如何传递数据.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/内存/场景.md",
+                "file": "Note/内存/进程间如何传递数据.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/内存/场景.md",
+                "file": "Note/内存/进程间如何传递数据.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/内存/场景.md"
+                "file": "Note/内存/进程间如何传递数据.md"
               }
             }
           },
@@ -186,8 +186,9 @@
   "active": "6d573ba2ee4692d9",
   "lastOpenFiles": [
     "Note/内存/基本概念.md",
+    "Note/内存/进程间如何传递数据.md",
     "Note/内存/场景.md",
-    "Note/内存/堆栈相关问题.md",
+    "Note/内存/堆栈.md",
     "Note/内存/page cache.md",
     "Note/network/linux网络/no route to host.md",
     "study plan.md",
@@ -218,7 +219,6 @@
     "Note/cpu/场景.md",
     "pic/共享内存.png",
     "Note/go/GMP.md",
-    "Note/go/并发/Mutex.md",
     "Note/grpc",
     "Note/k8s/apiserver",
     "Book-Read/Learning-eBPF - Full book.pdf",
