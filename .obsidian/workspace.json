@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/内存/场景.md",
+                "file": "Note/内存/物理页的申请.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -188,8 +188,8 @@
     "Note/内存/进程间如何传递数据.md",
     "Note/内存/堆栈.md",
     "Note/内存/物理页的申请.md",
-    "Note/内存/numa.md",
     "Note/内存/场景.md",
+    "Note/内存/numa.md",
     "Note/内存/page cache.md",
     "Note/network/linux网络/no route to host.md",
     "study plan.md",
