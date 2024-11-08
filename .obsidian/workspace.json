@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/内存/基本概念.md",
+                "file": "Note/内存/未命名.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/内存/基本概念.md",
+                "file": "Note/内存/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/内存/基本概念.md",
+                "file": "Note/内存/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/内存/基本概念.md"
+                "file": "Note/内存/未命名.md"
               }
             }
           },
@@ -172,7 +172,9 @@
   "active": "36590dcef8945520",
   "lastOpenFiles": [
     "Note/内存/场景.md",
+    "Note/内存/未命名.md",
     "Note/内存/page cache.md",
+    "Note/内存/基本概念.md",
     "Note/network/linux网络/no route to host.md",
     "study plan.md",
     "Note/network/linux网络/tcp三次握手.md",
@@ -197,7 +199,6 @@
     "图谱/k8s.canvas",
     "图谱/os/硬盘.canvas",
     "numa\"陷阱\".md",
-    "Note/内存/基本概念.md",
     "pic/lxcfs.png",
     "Note/cpu/基础知识.md",
     "Note/cpu/场景.md",
@@ -205,7 +206,6 @@
     "Note/go/GMP.md",
     "Note/go/并发/Mutex.md",
     "Note/grpc",
-    "numa.md",
     "Note/k8s/apiserver",
     "Book-Read/Learning-eBPF - Full book.pdf",
     "Book-Read/一些非必要的资料.zip",
