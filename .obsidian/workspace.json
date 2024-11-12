@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/内存/page cache.md",
+                "file": "README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/内存/page cache.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/内存/page cache.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/内存/page cache.md"
+                "file": "README.md"
               }
             }
           },
@@ -185,12 +185,12 @@
   },
   "active": "6d573ba2ee4692d9",
   "lastOpenFiles": [
+    "Note/内存/page cache.md",
     "Note/内存/numa.md",
     "Note/内存/物理页的申请.md",
     "Note/内存/进程间如何传递数据.md",
     "Note/内存/堆栈.md",
     "Note/内存/场景.md",
-    "Note/内存/page cache.md",
     "Note/network/linux网络/no route to host.md",
     "study plan.md",
     "Note/network/linux网络/tcp三次握手.md",
