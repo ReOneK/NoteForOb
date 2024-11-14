@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/内存/page cache.md",
+                "file": "Note/内存/numa.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.5,
-    "collapsed": true
+    "width": 330.5
   },
   "right": {
     "id": "883699a2382e28d4",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/内存/page cache.md",
+                "file": "Note/内存/numa.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/内存/page cache.md",
+                "file": "Note/内存/numa.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/内存/page cache.md"
+                "file": "Note/内存/numa.md"
               }
             }
           },
@@ -173,8 +172,8 @@
   },
   "active": "964d9fcd162f69ee",
   "lastOpenFiles": [
-    "Note/内存/物理页的申请.md",
     "Note/内存/page cache.md",
+    "Note/内存/物理页的申请.md",
     "Note/内存/numa.md",
     "pic/page cache.png",
     "pic/swapswapcache.png",
