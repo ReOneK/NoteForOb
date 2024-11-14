@@ -2,5 +2,5 @@
   "minimumDepth": 2,
   "maximumDepth": 6,
   "listStyle": "number",
-  "useMarkdown": false
+  "useMarkdown": true
 }
