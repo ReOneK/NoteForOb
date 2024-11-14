@@ -4,7 +4,7 @@ tags:
   - pagecache
   - 内存
 ---
-
+![[Pasted image 20241114113247.png]]
 ```
 cat /proc/meminfo
 ```
