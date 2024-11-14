@@ -19,6 +19,16 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8f71fa5348935d5e",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "pic/pagecache-meminfo.png"
+              }
+            }
           }
         ]
       }
@@ -173,13 +183,14 @@
   },
   "active": "b45e87bd116abbc9",
   "lastOpenFiles": [
+    "pic/pagecache-meminfo.png",
+    "Note/内存/page cache.md",
     "Note/内存/物理页的申请.md",
     "Note/文件系统/压缩文件夹后为何传输速度变快.md",
     "Note/文件系统/base know.md",
     "Note/文件系统/读取一个字节的文件是否会导致磁盘io.md",
     "Note/内存/堆栈.md",
     "Note/内存/进程间如何传递数据.md",
-    "Note/内存/page cache.md",
     "README.md",
     "常用命令.md",
     "Note/内存/numa.md",
@@ -204,7 +215,6 @@
     "图谱/操作系统.canvas",
     "图谱/k8s.canvas",
     "图谱/os/硬盘.canvas",
-    "numa\"陷阱\".md",
     "pic/lxcfs.png",
     "pic/共享内存.png",
     "Note/grpc",
@@ -221,7 +231,6 @@
     "pic/linux IO栈.png",
     "pic/kubelet-cgroup.png",
     "pic/kubelet.png",
-    "pic/kubelet1.png",
     "知识库/network/epoll.canvas",
     "未命名.canvas",
     "知识图谱/网络.canvas",

@@ -8,3 +8,5 @@ tags:
 ```
 cat /proc/meminfo
 ```
+![[pagecache-meminfo.png]]
+
