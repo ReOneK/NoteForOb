@@ -13,4 +13,4 @@ cat /proc/meminfo
 ```
 Buffers + Cached + SwapCached = Active(file) + Inactive(file) + Shmem + SwapCached
 ```
-	两边都是page cache的组成，
+	两边都是page cache的组成，左边的Buffers其中右边为更具体的
