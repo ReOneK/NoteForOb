@@ -26,4 +26,6 @@ Buffers + Cached + SwapCached = Active(file) + Inactive(file) + Shmem + SwapCach
 - **Active(file)**: 活跃文件页缓存，表示最近被访问过的文件页缓存。这些缓存页是“热的”，意味着它们频繁被使用，因此内存管理系统更倾向于把这些数据保存在内存中，以便快速访问。
     
 - **Inactive(file)**: 不活跃文件页缓存，表示较长时间未被访问的文件页缓存。这些缓存页是“冷的”，意味着它们使用频率较低。当系统内存压力较大时，这些缓存页更有可能被释放或换出到交换空间。
-- 
+  
+- **Active(file) + Inactive(file)**代表
+  
