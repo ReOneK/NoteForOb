@@ -19,26 +19,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "2d583ef64d459c44",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "pic/swapswapcache.png"
-              }
-            }
-          },
-          {
-            "id": "8f71fa5348935d5e",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "pic/pagecache-meminfo.png"
-              }
-            }
           }
         ]
       }
@@ -193,9 +173,9 @@
   },
   "active": "b45e87bd116abbc9",
   "lastOpenFiles": [
-    "pic/Pasted image 20241114113247.png",
-    "pic/swapswapcache.png",
+    "pic/page cache.png",
     "Note/内存/page cache.md",
+    "pic/swapswapcache.png",
     "pic/pagecache-meminfo.png",
     "Note/内存/物理页的申请.md",
     "Note/文件系统/压缩文件夹后为何传输速度变快.md",
@@ -241,7 +221,6 @@
     "Book-Read/码农翻身：用故事给技术加点料.pdf",
     "pic/tcp三次握手.png",
     "pic/linux IO栈.png",
-    "pic/kubelet-cgroup.png",
     "知识库/network/epoll.canvas",
     "未命名.canvas",
     "知识图谱/网络.canvas",
