@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/文件系统/base know.md",
+                "file": "Note/文件系统/压缩文件夹后为何传输速度变快.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -84,7 +84,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.5
+    "width": 330.5,
+    "collapsed": true
   },
   "right": {
     "id": "883699a2382e28d4",
@@ -100,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/文件系统/base know.md",
+                "file": "Note/文件系统/压缩文件夹后为何传输速度变快.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/文件系统/base know.md",
+                "file": "Note/文件系统/压缩文件夹后为何传输速度变快.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -140,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/文件系统/base know.md"
+                "file": "Note/文件系统/压缩文件夹后为何传输速度变快.md"
               }
             }
           },
@@ -185,6 +186,7 @@
   },
   "active": "6d573ba2ee4692d9",
   "lastOpenFiles": [
+    "Note/文件系统/base know.md",
     "Note/文件系统/压缩文件夹后为何传输速度变快.md",
     "Note/文件系统/读取一个字节的文件是否会导致磁盘io.md",
     "Note/内存/堆栈.md",
@@ -200,7 +202,6 @@
     "Note/network/linux网络/tcp三次握手.md",
     "leetcode/数组.md",
     "Note/文件系统/write一个字节后何时发起写磁盘io.md",
-    "Note/文件系统/base know.md",
     "Note/文件系统/如果发生磁盘io,磁盘io是多大.md",
     "Note/文件系统/场景.md",
     "Excalidraw/Drawing 2024-09-23 14.22.57.excalidraw.md",
