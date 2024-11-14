@@ -29,5 +29,5 @@ Buffers + Cached + SwapCached = Active(file) + Inactive(file) + Shmem + SwapCach
   
 - Active(file) + Inactive(file)代表所有用于缓存文件内容的内存页面总和，不包含共享内存shmem以及Buffers（缓存块设备的io）
   
-- 平时用的==mmap()内存映射方式和buffered I/O==(指的是ch)来消耗的内存就属于这部分
+- 平时用的==mmap()内存映射方式和buffered I/O==(指的是常规的buffered io)来消耗的内存就属于这部分
   
