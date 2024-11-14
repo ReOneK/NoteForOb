@@ -33,4 +33,6 @@ Buffers + Cached + SwapCached = Active(file) + Inactive(file) + Shmem + SwapCach
 > - 平时用的==mmap()内存映射方式和buffered I/O==(指的是常规的buffered io，非块设备的buffer io)来消耗的内存就属于这部分
 
 ### SwapCached
+![[swapswapcache.png]]
+	SwapCached是在打开了Swap分区后，把Inactive(anon)+Active(anon)这两项里的匿名页给交换到磁盘（swap out），然后再读入到内存（swap in）后分配的内存。**由于读入到内存后原来的Swap File还在，所以SwapCached也可以认为是File-backed page，即属于Page Cache。**
 
