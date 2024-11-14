@@ -27,5 +27,5 @@ Buffers + Cached + SwapCached = Active(file) + Inactive(file) + Shmem + SwapCach
     
 - **Inactive(file)**: 不活跃文件页缓存，表示较长时间未被访问的文件页缓存。这些缓存页是“冷的”，意味着它们使用频率较低。当系统内存压力较大时，这些缓存页更有可能被释放或换出到交换空间。
   
-- **Active(file) + Inactive(file)**代表
+- **Active(file) + Inactive(file)**代表所有用于缓存文件内容的内存页面总和，不包含共享内存shmem以及Buffer（）
   
