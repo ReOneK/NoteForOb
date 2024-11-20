@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/内存/page cache.md",
+                "file": "Note/内存/物理页的申请.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/内存/page cache.md",
+                "file": "Note/内存/物理页的申请.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/内存/page cache.md",
+                "file": "Note/内存/物理页的申请.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/内存/page cache.md"
+                "file": "Note/内存/物理页的申请.md"
               }
             }
           },
@@ -172,6 +172,7 @@
   },
   "active": "9af362ef7904f25e",
   "lastOpenFiles": [
+    "Note/内存/page cache.md",
     "Note/内存/numa.md",
     "Note/文件系统/读取一个字节的文件是否会导致磁盘io.md",
     "Note/文件系统/压缩文件夹后为何传输速度变快.md",
@@ -179,7 +180,6 @@
     "Note/内存/物理页的申请.md",
     "Note/内存/进程间如何传递数据.md",
     "Note/内存/堆栈.md",
-    "Note/内存/page cache.md",
     "pic/page cache.png",
     "pic/swapswapcache.png",
     "pic/pagecache-meminfo.png",
