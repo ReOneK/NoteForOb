@@ -43,5 +43,6 @@ Buffers + Cached + SwapCached = Active(file) + Inactive(file) + Shmem + SwapCach
 ### Page Cache 的主要产生来源
 
 - Buffered I/O（标准I/O）；
+  
 - Memory-Mapped I/O（存储映射I/O）
 
