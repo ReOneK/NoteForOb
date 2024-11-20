@@ -4,10 +4,7 @@ tags:
   - pagecache
   - 内存
 ---
-- [[#相关概念|相关概念]]
-	- [[#相关概念#`Buffers`与`Cached`的区别|`Buffers`与`Cached`的区别]]
-	- [[#相关概念#Active(file)+Inactive(file)|Active(file)+Inactive(file)]]
-	- [[#相关概念#SwapCached|SwapCached]]
+
 
 
 ![[page cache.png]]
@@ -44,5 +41,7 @@ Buffers + Cached + SwapCached = Active(file) + Inactive(file) + Shmem + SwapCach
 	SwapCached是在打开了Swap分区后，把Inactive(anon)+Active(anon)这两项里的匿名页给交换到磁盘（swap out），然后再读入到内存（swap in）后分配的内存。**由于读入到内存后原来的Swap File还在，所以SwapCached也可以认为是File-backed page，即属于Page Cache。**
 
 ### Page Cache 的主要产生来源
-1. buffer-io：标准io
-2. 
+
+- Buffered I/O（标准I/O）；
+- Memory-Mapped I/O（存储映射I/O）
+
